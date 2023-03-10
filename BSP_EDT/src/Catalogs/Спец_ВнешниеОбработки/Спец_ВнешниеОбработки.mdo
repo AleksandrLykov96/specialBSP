@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e318f65d-b7ab-41c1-8e02-5c72947283a7">
+  <producedTypes>
+    <objectType typeId="f320d8e7-2e2b-4f4c-9400-4e1be4bef542" valueTypeId="08982e1f-47cb-4df6-9c1f-6c1b4b60a9ef"/>
+    <refType typeId="4f43d1c7-7c5e-45a2-a9a5-ebbd02e2b29c" valueTypeId="f78ca739-45db-4127-a5c3-05f2f95223b3"/>
+    <selectionType typeId="2c39ce02-8eb7-40e1-acdb-4d15dc0ebb82" valueTypeId="05758dd7-4bf1-41f3-98f7-1d79258b37d2"/>
+    <listType typeId="d0d9402e-6d58-40c7-a326-08f0c7347317" valueTypeId="5b6fbd2d-84a7-42be-a633-b0ad97f847b5"/>
+    <managerType typeId="aa86aa14-a83f-4752-88ba-79be00ad83b7" valueTypeId="23f28087-d62e-4e0c-802f-0ddb9e40fb1e"/>
+  </producedTypes>
+  <name>Спец_ВнешниеОбработки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Внешние обработки (спец)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Спец_ВнешниеОбработки.StandardAttribute.Description</inputByString>
+  <searchStringModeOnInputByString>AnyPart</searchStringModeOnInputByString>
+  <standardAttributes>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Parent</name>
+    <synonym>
+      <key>ru</key>
+      <value>Родитель</value>
+    </synonym>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.Спец_ВнешниеОбработки.EmptyRef</value>
+    </fillValue>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Внешняя обработка</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Внешняя обработка</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Внешние обработки</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Внешние обработки</value>
+  </extendedListPresentation>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>BothWays</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Спец_ВнешниеОбработки.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultFolderForm>Catalog.Спец_ВнешниеОбработки.Form.ФормаГруппы</defaultFolderForm>
+  <defaultListForm>Catalog.Спец_ВнешниеОбработки.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.Спец_ВнешниеОбработки.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="c98dc23b-c6a6-4da2-85ce-6e8c23e1151c">
+    <name>ХранилищеВнешнейОбработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хранилище внешней обработки</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <createOnInput>DontUse</createOnInput>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="1b4f82cc-05ad-4432-9e63-2797d5c4116f">
+    <name>ПоследняяДатаИзменения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Последняя дата изменения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="2e84876a-754a-4a42-b39c-f20079aa9318">
+    <name>ГУИД</name>
+    <synonym>
+      <key>ru</key>
+      <value>ГУИД</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+        <fixed>true</fixed>
+      </stringQualifiers>
+    </type>
+    <mask>hhhhhhhh-hhhh-hhhh-hhhh-hhhhhhhhhhhh</mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <createOnInput>DontUse</createOnInput>
+    <fillValue xsi:type="core:StringValue">
+      <value>                                    </value>
+    </fillValue>
+    <indexing>Index</indexing>
+    <use>ForFolderAndItem</use>
+  </attributes>
+  <forms uuid="53903dd7-f568-47ed-8cb6-187a948d3020">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="39b0fbde-916c-454c-a5de-b4e37fc4cd19">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="113b6a5d-10b6-4ae2-9fd8-5f8231a8a6ec">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7665ab7a-74b8-478d-a0b9-6b505e693e11">
+    <name>ФормаГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="cf9a2923-d03b-477a-9dbe-032552dde341">
+    <name>ЗагрузитьВнешнююОбработку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загрузить внешнюю обработку</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.Спец_ВнешниеОбработки</types>
+    </commandParameterType>
+    <modifiesData>true</modifiesData>
+    <representation>Picture</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.OpenFile</picture>
+    </picture>
+    <shortcut>Ctrl+O</shortcut>
+    <onMainServerUnavalableBehavior>MakeDisable</onMainServerUnavalableBehavior>
+  </commands>
+  <commands uuid="d83918cd-5f93-4471-9bb8-91b9d73a2512">
+    <name>СохранитьВнешнююОбработку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сохранить внешнюю обработку</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.Спец_ВнешниеОбработки</types>
+    </commandParameterType>
+    <modifiesData>true</modifiesData>
+    <representation>Picture</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.SaveFile</picture>
+    </picture>
+    <shortcut>Ctrl+S</shortcut>
+    <onMainServerUnavalableBehavior>MakeDisable</onMainServerUnavalableBehavior>
+  </commands>
+  <commands uuid="2d99e527-cb92-4d8f-bb6c-99d63cc76159">
+    <name>ЗапуститьВнешнююОбработку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запустить внешнюю обработку</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.Спец_ВнешниеОбработки</types>
+    </commandParameterType>
+    <representation>Picture</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.GenerateReport</picture>
+    </picture>
+    <shortcut>Ctrl+B</shortcut>
+  </commands>
+</mdclass:Catalog>

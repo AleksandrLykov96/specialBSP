@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9b5f2e50-ffe4-4e83-94a1-3d501d3e4bf9">
+  <producedTypes>
+    <refType typeId="e02894e0-57a7-42f2-9c07-66ee231c5d84" valueTypeId="4dc8b78b-c9b5-4407-8a7d-8031a733c56c"/>
+    <listType typeId="895fd497-40bc-4abe-8b17-679dbd59b228" valueTypeId="54313c03-6f5b-47f3-abe4-761eaea0b30b"/>
+    <managerType typeId="cc39f37b-c96d-4259-bd04-70bb4f8ec77b" valueTypeId="717a326b-d922-4469-afdf-e0f93853e8a2"/>
+  </producedTypes>
+  <name>Спец_ПериодыОбменаДляОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Периоды обмена для объектов (спец)</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Периоды обмена для объектов</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Периоды обмена для объектов</value>
+  </extendedListPresentation>
+  <enumValues uuid="5f81d9ba-c9ce-4a93-a8d2-91dccf2cd620">
+    <name>ПоследнийЧас</name>
+    <synonym>
+      <key>ru</key>
+      <value>Последний час</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8dd78354-3183-4853-9f38-29779fd51a5a">
+    <name>ПоследнийДень</name>
+    <synonym>
+      <key>ru</key>
+      <value>Последний день</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="91c3a47e-6c14-4299-a3a7-427b3c736beb">
+    <name>ПоследнююНеделю</name>
+    <synonym>
+      <key>ru</key>
+      <value>Последнюю неделю</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="99a09571-16c7-45b8-ae4c-e95794bd3b72">
+    <name>ПоследнийМесяц</name>
+    <synonym>
+      <key>ru</key>
+      <value>Последний месяц</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c6a1b606-16fb-4239-af93-50b778925632">
+    <name>ПоследнийГод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Последний год</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f2d7a46f-cc12-43cd-8812-32c43c6cc37e">
+    <name>ПринудительноНапрямую</name>
+    <synonym>
+      <key>ru</key>
+      <value>Принудительно напрямую</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fd8aab51-6245-4a24-8e5f-92a029503b6c">
+    <name>ЗаВсеВремя</name>
+    <synonym>
+      <key>ru</key>
+      <value>За всё время</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d0ff814b-b5e5-4abb-8f5f-ad780f8f71e7">
+    <name>НеЗапускать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не запускать</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="48f7774f-5b34-498c-bba2-c7c5121e73d1">
+  <producedTypes>
+    <refType typeId="2f59c6ad-b086-413e-b815-37f2a8a1e5f3" valueTypeId="ac330c2b-5653-48ce-b01d-73b3f43d33c4"/>
+    <listType typeId="7b457a18-c6fc-47f7-8517-2b29cfdf9fa1" valueTypeId="bc39630b-8f78-4484-9f1a-aaf0c0b96885"/>
+    <managerType typeId="a0f4813c-ecca-4014-844e-2b94f0dabd8a" valueTypeId="de69334b-574c-4b33-98d2-c18f76978bfd"/>
+  </producedTypes>
+  <name>Спец_ОперационныеСистемы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Операционные системы (спец)</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Операционные системы</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Операционные системы</value>
+  </extendedListPresentation>
+  <enumValues uuid="338d8bff-5201-4b09-87db-4f4a96083c69">
+    <name>UNIX</name>
+    <synonym>
+      <key>ru</key>
+      <value>*NIX</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cb3bb666-993d-4bcc-bb4b-ffb51c38a09a">
+    <name>Windows</name>
+    <synonym>
+      <key>ru</key>
+      <value>Windows</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ec31ab17-995d-41b4-bf03-d386fb33afbb">
+    <name>Wine</name>
+    <synonym>
+      <key>ru</key>
+      <value>Wine</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

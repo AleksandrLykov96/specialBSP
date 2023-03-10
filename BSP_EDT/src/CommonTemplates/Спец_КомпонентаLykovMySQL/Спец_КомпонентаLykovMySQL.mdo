@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d2259a65-a029-48c5-be92-ce9b43556ab5">
+  <name>Спец_КомпонентаLykovMySQL</name>
+  <synonym>
+    <key>ru</key>
+    <value>Компонента: Lykov (MySQL, спец)</value>
+  </synonym>
+  <templateType>AddIn</templateType>
+</mdclass:CommonTemplate>

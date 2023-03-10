@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9fa2df63-428f-4e4e-82fb-853d727ea536">
+  <name>Спец_НочнойРасчет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ночной расчёт</value>
+  </synonym>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonModule.Спец_МодульРегламентныхЗаданий</content>
+  <content>InformationRegister.Спец_НастройкиНочногоРасчета</content>
+  <content>ScheduledJob.Спец_НочнойРасчет</content>
+  <content>ScheduledJob.Спец_ОбновлениеИндексаПолнотекстовогоПоиска</content>
+  <parentSubsystem>Subsystem.Спец_БСП</parentSubsystem>
+</mdclass:Subsystem>

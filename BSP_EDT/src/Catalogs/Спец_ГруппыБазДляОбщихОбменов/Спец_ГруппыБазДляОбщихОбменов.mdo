@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="085dca80-64bb-41dc-923a-6d8c87304dce">
+  <producedTypes>
+    <objectType typeId="cfc5b25b-0c24-48bf-b36c-717b86934ce6" valueTypeId="1b25e5bb-e807-4c83-a454-d12bb259487d"/>
+    <refType typeId="04d86d1e-28e6-4d1e-999c-0f2e9a8622ca" valueTypeId="869cebd2-fc2d-4969-81e6-e59ee4b50777"/>
+    <selectionType typeId="be723864-78bf-41eb-ace7-b86ab18adb4f" valueTypeId="519b1459-0b77-457c-b438-35485c85517b"/>
+    <listType typeId="89c20410-e999-4577-b22a-5fb4752d1383" valueTypeId="cf160297-6d6e-4540-bc3e-b39711bd4c71"/>
+    <managerType typeId="02565161-4c14-40a0-81dc-7eaf757ed1e7" valueTypeId="e21af474-c80e-4638-b9d5-dc8909e735de"/>
+  </producedTypes>
+  <name>Спец_ГруппыБазДляОбщихОбменов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Группы баз для общих обменов (спец)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Спец_ГруппыБазДляОбщихОбменов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Спец_ГруппыБазДляОбщихОбменов.StandardAttribute.Code</inputByString>
+  <searchStringModeOnInputByString>AnyPart</searchStringModeOnInputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Группа баз для общих обменов</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Группа баз для общих обменов</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Группы баз для общих обменов</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Группы баз для общих обменов</value>
+  </extendedListPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>128</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>BothWays</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Спец_ГруппыБазДляОбщихОбменов.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Спец_ГруппыБазДляОбщихОбменов.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.Спец_ГруппыБазДляОбщихОбменов.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="ac9991ff-cb88-4f10-8cf2-eaae6471f70b">
+    <name>БазаДляОбщихПараметровОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>База для общих параметров обмена</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Спец_Базы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </attributes>
+  <attributes uuid="53d5f9c7-e3cd-489e-9020-fcdc5f9db5e4">
+    <name>ОбменВключен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обмен включен</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="98a444f1-2f4d-41eb-842b-189a17ab3d76">
+    <producedTypes>
+      <objectType typeId="45ccc278-1a06-4639-beb2-619e059f626e" valueTypeId="57fc0ea3-9b47-4f4c-a0a6-61e09b10b207"/>
+      <rowType typeId="38d5a253-a0b7-412a-be9a-d6eb8844c679" valueTypeId="aafe5907-379b-4e4f-bb69-1c73e79696fd"/>
+    </producedTypes>
+    <name>ОбщиеБазы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общие базы</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="1e23f757-d5c8-4da6-a040-6809bed25d01">
+      <name>База</name>
+      <synonym>
+        <key>ru</key>
+        <value>База</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Спец_Базы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <indexing>Index</indexing>
+    </attributes>
+  </tabularSections>
+  <forms uuid="86770ca3-a021-4348-8358-4252ba48f2d2">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3a023ef2-c5f3-40ba-8f60-a232d256b983">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1c8629cc-4cf8-4b86-b63f-58a8f07b0b95">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

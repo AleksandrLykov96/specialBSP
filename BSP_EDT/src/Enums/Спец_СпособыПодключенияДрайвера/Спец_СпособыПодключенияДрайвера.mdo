@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b3085070-c50d-40ab-ae16-3f489ad6e5e1">
+  <producedTypes>
+    <refType typeId="ac77b3fc-d95c-4013-a0c3-176407102772" valueTypeId="96f358cf-4748-472f-bd9d-b00357f5d5d8"/>
+    <listType typeId="b5bb3753-bf63-4db9-b366-77578bf7dbec" valueTypeId="0fe98736-f784-4025-bcd6-ef07bb33f0c6"/>
+    <managerType typeId="e874f806-a505-422b-9109-1393505d644a" valueTypeId="1be0f889-ce2d-4731-8139-1a4b0863fb77"/>
+  </producedTypes>
+  <name>Спец_СпособыПодключенияДрайвера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы подключения драйвера (спец)</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Способы подключения драйвера</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Способы подключения драйвера</value>
+  </extendedListPresentation>
+  <enumValues uuid="8cc4bc40-80eb-49d9-aeaa-1b21ce641689">
+    <name>ИзМакета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Драйвер подключается из макета</value>
+    </synonym>
+    <comment>Установка драйвера осуществляется из макета конфигурации</comment>
+  </enumValues>
+  <enumValues uuid="fa5b5546-3cc4-4b49-9c81-3acd3581ab85">
+    <name>ЛокальноПоИдентификатору</name>
+    <synonym>
+      <key>ru</key>
+      <value>Драйвер установлен на локальном компьютере</value>
+    </synonym>
+    <comment>Подключатся драйвер, установленный на локальном компьютере по ProgID</comment>
+  </enumValues>
+</mdclass:Enum>

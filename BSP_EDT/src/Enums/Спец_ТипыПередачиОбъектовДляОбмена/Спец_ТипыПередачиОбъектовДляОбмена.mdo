@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="94b0cdd3-dce7-407a-93ee-880eea1bdb22">
+  <producedTypes>
+    <refType typeId="8906aeaf-1fd6-4e02-a3b4-4da463283935" valueTypeId="6f6433f6-e619-4442-991d-25b2b7cac350"/>
+    <listType typeId="48a8b574-c1a3-46c5-9c0d-8eb1ac03d2ca" valueTypeId="ac03364f-a7f6-44bc-94c2-a26e6c087685"/>
+    <managerType typeId="07fdc5ac-48a9-49f0-b935-2cb0322730ef" valueTypeId="6f80fb94-6b53-426d-a576-b255f6af4508"/>
+  </producedTypes>
+  <name>Спец_ТипыПередачиОбъектовДляОбмена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы передачи объектов для обмена (спец)</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Типы передачи объектов для обмена</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Типы передачи объектов для обмена</value>
+  </extendedListPresentation>
+  <enumValues uuid="da1bbaff-ac39-4386-9702-4a05e4d2d4ac">
+    <name>ГУИД</name>
+    <synonym>
+      <key>ru</key>
+      <value>ГУИД</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="48a1e2ac-984f-4cfe-b31b-d33f7584b7a6">
+    <name>ПредставлениеОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Представление объекта (с получением ссылки)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="67758d24-5be0-4a5b-8eb5-ce4dcf12ff81">
+    <name>ПредставлениеОбъекта_БезПолученияСсылки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Представление объекта (без получения ссылки)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e39a6c1f-e0a3-4f39-a3d9-8a58bf0e1078">
+    <name>УникальныйИдентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уникальный идентификатор (с получением ссылки)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="27968434-4907-4661-b51e-11b59319b5c9">
+    <name>УникальныйИдентификатор_БезПолученияСсылки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уникальный идентификатор (без получения ссылки)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c36c2668-f9de-4895-b7c4-71f579211b3d">
+    <name>ЭтоПростойТип</name>
+    <synonym>
+      <key>ru</key>
+      <value>Это простой тип</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7b024b9c-1b36-4c55-8a84-94aeae483b38">
+  <name>Спец_ПодключаемоеОборудованиеЭквайринговыеТерминалы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подключаемое оборудование Эквайринговые терминалы (спец)</value>
+  </synonym>
+  <availabilityForChoice>true</availabilityForChoice>
+  <availabilityForAppearance>true</availabilityForAppearance>
+</mdclass:CommonPicture>

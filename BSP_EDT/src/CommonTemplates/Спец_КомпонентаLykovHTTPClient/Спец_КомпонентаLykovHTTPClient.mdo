@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eeaa5ce0-a66d-4487-a373-5af419b54afa">
+  <name>Спец_КомпонентаLykovHTTPClient</name>
+  <synonym>
+    <key>ru</key>
+    <value>Компонента: Lykov (HTTP client, спец)</value>
+  </synonym>
+  <templateType>AddIn</templateType>
+</mdclass:CommonTemplate>

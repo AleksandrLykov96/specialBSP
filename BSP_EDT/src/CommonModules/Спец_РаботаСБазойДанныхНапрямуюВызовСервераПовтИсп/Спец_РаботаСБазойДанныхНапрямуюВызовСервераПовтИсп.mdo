@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c945a7b4-5654-4724-9769-8db1e1421992">
+  <name>Спец_РаботаСБазойДанныхНапрямуюВызовСервераПовтИсп</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с базой данных напрямую (вызов сервера, повторное использование, спец)</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+  <returnValuesReuse>DuringSession</returnValuesReuse>
+</mdclass:CommonModule>

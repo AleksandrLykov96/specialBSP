@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4ad6bb34-acc0-4b90-b922-093aa1a400e1">
+  <name>Спец_РаботаСФоновымиЗаданиямиВызовСервера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с фоновыми заданиями (вызов сервера, спец)</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

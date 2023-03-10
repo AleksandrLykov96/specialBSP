@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b3194154-7bf7-4306-ba83-63fdb8f99f21">
+  <producedTypes>
+    <refType typeId="6e856af3-5628-48d4-92e9-0ce5d5ad9476" valueTypeId="8810070f-a2ba-4848-af50-39bde5cda32b"/>
+    <listType typeId="8c0ee54b-dbda-4fc5-87b0-000c4182d4a8" valueTypeId="fe73b96b-3dcd-488a-9410-e4831b784706"/>
+    <managerType typeId="dab1d6f4-3e48-48cc-9523-187512e3f00f" valueTypeId="4197304f-7fee-4384-9ce3-e8e2b10d4a0e"/>
+  </producedTypes>
+  <name>Спец_ТипыПодключаемогоОборудования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы подключаемого оборудования (спец)</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Типы подключаемого оборудования</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Типы подключаемого оборудования</value>
+  </extendedListPresentation>
+  <enumValues uuid="5dbd9b69-8d2e-476a-bfc2-078ffd3ea172">
+    <name>ККТ</name>
+    <synonym>
+      <key>ru</key>
+      <value>ККТ с передачей данных</value>
+    </synonym>
+    <comment>KKT</comment>
+  </enumValues>
+  <enumValues uuid="b9c926af-ba2c-4599-815c-171baa5c229b">
+    <name>СканерШтрихкода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сканеры штрихкода</value>
+    </synonym>
+    <comment>Scanner</comment>
+  </enumValues>
+  <enumValues uuid="cdfa8279-349d-4601-a4ba-3bf77f9593c5">
+    <name>ЭквайринговыйТерминал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Эквайринговые терминалы</value>
+    </synonym>
+    <comment>AcquiringTerminal</comment>
+  </enumValues>
+</mdclass:Enum>

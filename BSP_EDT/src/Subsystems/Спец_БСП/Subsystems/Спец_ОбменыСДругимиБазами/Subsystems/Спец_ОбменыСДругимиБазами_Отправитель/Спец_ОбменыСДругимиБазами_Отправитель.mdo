@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="24795a5b-cb6b-4e5c-a692-5194793e6c31">
+  <name>Спец_ОбменыСДругимиБазами_Отправитель</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмены с другими базами (база-отправитель)</value>
+  </synonym>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonModule.Спец_ОбменСДругимиБазами_Отправитель</content>
+  <content>InformationRegister.Спец_ПараметрыОбменовСДругимиБазами</content>
+  <content>InformationRegister.Спец_СоответствиеОбъектовДляОбмена</content>
+  <content>InformationRegister.Спец_СтруктураТаблицБДИзДругихБаз</content>
+  <content>ScheduledJob.Спец_ЗапускОбменовСДругимиБазами</content>
+  <content>InformationRegister.Спец_ГУИДыОбъектовДругихБаз</content>
+  <content>InformationRegister.Спец_ПривязкаКлючевыхОбъектовКБазам</content>
+  <content>Catalog.Спец_ГруппыБазДляОбщихОбменов</content>
+  <parentSubsystem>Subsystem.Спец_БСП.Subsystem.Спец_ОбменыСДругимиБазами</parentSubsystem>
+</mdclass:Subsystem>

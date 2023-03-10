@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e223a82f-8a48-4c32-a0e5-f85448072f7e">
+  <name>Спец_PostgreSQL</name>
+  <synonym>
+    <key>ru</key>
+    <value>PostgreSQL</value>
+  </synonym>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonModule.Спец_PostgreSQL</content>
+  <content>CommonModule.Спец_PostgreSQLВызовСервераПовтИсп</content>
+  <content>CommonModule.Спец_PostgreSQLКлиент</content>
+  <content>CommonModule.Спец_PostgreSQLКлиентСервер</content>
+  <content>CommonForm.Спец_ФормаВыполненияЗапросаPostgreSQL</content>
+  <content>CommonPicture.Спец_PostgreSQL</content>
+  <content>Enum.Спец_PostgreSQLТипыИндексов</content>
+  <parentSubsystem>Subsystem.Спец_БСП.Subsystem.Спец_ОсновныеОбъекты.Subsystem.Спец_РаботаСБазойДанных</parentSubsystem>
+</mdclass:Subsystem>

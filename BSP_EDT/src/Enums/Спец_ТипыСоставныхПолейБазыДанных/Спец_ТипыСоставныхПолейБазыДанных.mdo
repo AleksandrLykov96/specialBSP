@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b4f6929c-e5ac-4fd0-bc54-b7b9922266d5">
+  <producedTypes>
+    <refType typeId="9762f3bd-d0a4-4645-b41f-c829872740ca" valueTypeId="ac45f22d-bd09-47a8-af7f-f20b5f1c5322"/>
+    <listType typeId="641bec3a-a243-476e-8ce8-d6d2db54ecf2" valueTypeId="7b633bce-d5bf-4f73-a53e-ed02f5768642"/>
+    <managerType typeId="ee27166b-c3d2-4aa2-a59f-b0178afbee1d" valueTypeId="6a0afdce-257c-4960-9ef2-3ec279ab1829"/>
+  </producedTypes>
+  <name>Спец_ТипыСоставныхПолейБазыДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы составных полей базы данных (спец)</value>
+  </synonym>
+  <standardAttributes>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Типы составных полей базы данных</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Типы составных полей базы данных</value>
+  </extendedListPresentation>
+  <enumValues uuid="f8d8564c-fc90-4122-a38e-e08bbc56fe09">
+    <name>ТипТаблицы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип таблицы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="84b3da80-d588-4627-b765-e38d46a6add7">
+    <name>Булево</name>
+    <synonym>
+      <key>ru</key>
+      <value>Булево</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ddcd6cff-e906-4420-8926-ec025489190a">
+    <name>Число</name>
+    <synonym>
+      <key>ru</key>
+      <value>Число</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2401aa98-e98f-4753-aff7-e7c6769e9a4c">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ed356111-e43d-4f67-9cf2-8c558556d944">
+    <name>Строка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Строка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4d3aeb78-565c-494d-b024-aaddf78fce92">
+    <name>ДвоичныеДанные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Двоичные данные</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f2a2b9bf-f35a-4c41-b4df-baab61aaf4fd">
+    <name>НомерТаблицы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер таблицы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="48a3ee9f-9cf2-44a3-ad2e-8acbdfa80c00">
+    <name>ИдентификаторСсылки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор ссылки</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

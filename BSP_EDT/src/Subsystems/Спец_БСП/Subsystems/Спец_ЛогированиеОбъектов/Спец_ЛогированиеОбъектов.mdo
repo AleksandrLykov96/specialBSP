@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d9130b11-0f73-4043-b83a-d01b9667f451">
+  <name>Спец_ЛогированиеОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Логирование объектов</value>
+  </synonym>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>InformationRegister.Спец_ЛогиПоОбъектам</content>
+  <content>InformationRegister.Спец_ОбъектыДляЛогирования</content>
+  <content>CommonModule.Спец_ЛогированиеОбъектов</content>
+  <content>CommonModule.Спец_ЛогированиеОбъектовВызовСервераПовтИсп</content>
+  <content>CommonModule.Спец_ЛогированиеОбъектовКлиент</content>
+  <content>Enum.Спец_УровниЛогирования</content>
+  <content>CommonModule.Спец_ЛогированиеОбъектовКлиентСервер</content>
+  <content>CommonModule.Спец_ЛогированиеОбъектовВызовСервера</content>
+  <content>CommonModule.Спец_ЛогированиеОбъектовКлиентСерверПовтИсп</content>
+  <parentSubsystem>Subsystem.Спец_БСП</parentSubsystem>
+</mdclass:Subsystem>

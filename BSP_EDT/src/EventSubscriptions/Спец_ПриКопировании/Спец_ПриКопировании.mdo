@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="765be4ef-e0e1-47d8-9d51-3b7d8e13dcf2">
+  <name>Спец_ПриКопировании</name>
+  <synonym>
+    <key>ru</key>
+    <value>При копировании (спец)</value>
+  </synonym>
+  <source>
+    <types>BusinessProcessObject</types>
+    <types>ChartOfCalculationTypesObject</types>
+    <types>ChartOfAccountsObject</types>
+    <types>ChartOfCharacteristicTypesObject</types>
+    <types>ExchangePlanObject</types>
+    <types>CatalogObject</types>
+    <types>TaskObject</types>
+    <types>DocumentObject</types>
+  </source>
+  <event>OnCopy</event>
+  <handler>CommonModule.Спец_ОбработчикиПодписокНаСобытия.ПриКопировании</handler>
+</mdclass:EventSubscription>

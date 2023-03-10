@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ead851e2-3e0b-4e03-bbac-3b81c7dbc8a0">
+  <name>Спец_Взаимодействия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Взаимодействия</value>
+  </synonym>
+  <content>CommonModule.Спец_ВзаимодействияВызовСервераПовтИсп</content>
+  <content>CommonModule.Спец_ВзаимодействияКлиентСервер</content>
+  <parentSubsystem>Subsystem.Спец_БСП</parentSubsystem>
+</mdclass:Subsystem>

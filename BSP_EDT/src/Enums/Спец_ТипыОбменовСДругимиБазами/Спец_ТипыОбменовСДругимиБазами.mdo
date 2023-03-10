@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="761b2229-c72a-4c89-9ace-c867ace54a1d">
+  <producedTypes>
+    <refType typeId="a475575d-65a8-4dfd-b7d9-a5312f00b4b7" valueTypeId="a3e57fec-a7e9-48d0-929f-9a57bbb49222"/>
+    <listType typeId="088cd3f3-42ce-4924-ae6f-bd834496bb3c" valueTypeId="01b1da4b-94f5-4d2b-bbbb-86b43100701e"/>
+    <managerType typeId="6a69302e-7ff9-4ec3-afd2-a3d499527e12" valueTypeId="06b4aeb8-c589-4fb7-86b9-ae90ec22a515"/>
+  </producedTypes>
+  <name>Спец_ТипыОбменовСДругимиБазами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы обменов с другими базами (спец)</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Типы обменов с другими базами</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Типы обменов с другими базами</value>
+  </extendedListPresentation>
+  <enumValues uuid="3b939441-f052-4319-ba51-b0481a2f7820">
+    <name>ДвустороннийОбмен_ГлавнаяБазаОтправитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Двусторонний обмен (с приоритетом из базы-отправителя)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6e274d8c-6a0d-48c7-a2c2-04eff078d668">
+    <name>ДвустороннийОбмен_ГлавнаяБазаПолучатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Двусторонний обмен (с приоритетом из базы-получателя)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="23e44c4c-1e9a-4694-b134-f1f0b8008818">
+    <name>ОдностороннийОбмен_ГлавнаяБазаОтправитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Односторонний обмен (главная база-отправитель)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6ea1cd03-3668-406d-b322-2cfd219c3fe6">
+    <name>ОдностороннийОбмен_ГлавнаяБазаПолучатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Односторонний обмен (главная база-получатель)</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

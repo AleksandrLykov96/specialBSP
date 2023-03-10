@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d0d72559-2860-40bb-89ce-2dccb9141f21">
+  <name>Спец_ПриЗаписиРегистраБезРегистраРасчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>При записи регистра без регистра расчета (спец)</value>
+  </synonym>
+  <source>
+    <types>InformationRegisterRecordSet</types>
+    <types>AccountingRegisterRecordSet</types>
+    <types>AccumulationRegisterRecordSet</types>
+    <types>RecalculationRecordSet</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.Спец_ОбработчикиПодписокНаСобытия.ПриЗаписиРегистраБезРегистраРасчета</handler>
+</mdclass:EventSubscription>

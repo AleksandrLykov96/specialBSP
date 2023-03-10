@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="125bb29b-4e63-4886-9232-9d0851cd0318">
+  <producedTypes>
+    <selectionType typeId="4c2956f5-fbc5-419f-ab54-4f93fb51c2cd" valueTypeId="da4a516a-ed47-4feb-b50f-9d7c967874a7"/>
+    <listType typeId="2962ce95-6c4f-4fee-8451-ef209bf7afed" valueTypeId="942f8eaf-0ca6-4d38-8f66-222f1d38fdda"/>
+    <managerType typeId="4332fd0b-43f4-401c-ab91-63fdb238dfe1" valueTypeId="eac5981c-edc3-4d89-94eb-1d3bf62b1037"/>
+    <recordSetType typeId="73b1afd7-dc83-4a33-a637-2feb30ea8575" valueTypeId="ff0ee14c-d27d-4a95-a17c-69eb1ec3da4e"/>
+    <recordKeyType typeId="6268d909-66a2-4092-afe9-029e006dd9a2" valueTypeId="72557a64-b202-441b-bfbd-cd0ac97ad568"/>
+    <recordType typeId="8e4c2184-de54-476f-aef7-71ccdcb7cbe8" valueTypeId="20feee0e-2f2c-49a8-8815-a570bdfb5402"/>
+    <recordManagerType typeId="a0af1646-c650-4374-a72a-3f2aead986c2" valueTypeId="dd19cbf8-7061-4f7b-863a-863e5f601004"/>
+  </producedTypes>
+  <name>Спец_ХранимыеЗначенияКонстант</name>
+  <synonym>
+    <key>ru</key>
+    <value>Хранимые значения констант (спец)</value>
+  </synonym>
+  <editType>BothWays</editType>
+  <defaultRecordForm>InformationRegister.Спец_ХранимыеЗначенияКонстант.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.Спец_ХранимыеЗначенияКонстант.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Period</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата установки</value>
+    </synonym>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSliceLast>true</enableTotalsSliceLast>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Хранимое значение константы</value>
+  </recordPresentation>
+  <extendedRecordPresentation>
+    <key>ru</key>
+    <value>Хранимое значение константы</value>
+  </extendedRecordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Хранимые значения констант</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Хранимые значения констант</value>
+  </extendedListPresentation>
+  <resources uuid="e0706688-5dcf-4cbc-95e7-e8a7c55ffaab">
+    <name>ЗначениеКонстанты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение константы</value>
+    </synonym>
+    <type>
+      <types>Characteristic.Спец_Константы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <createOnInput>DontUse</createOnInput>
+    <linkByType>
+      <field>InformationRegister.Спец_ХранимыеЗначенияКонстант.Dimension.Константа</field>
+    </linkByType>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="108f6d2b-cd68-43ed-aa1d-77d3f464ed59">
+    <name>Константа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Константа</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.Спец_Константы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <createOnInput>DontUse</createOnInput>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="b3a649b0-3b5c-4027-8881-063999126cb3">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c64c4f1c-2701-4650-8c94-8115432667e0">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

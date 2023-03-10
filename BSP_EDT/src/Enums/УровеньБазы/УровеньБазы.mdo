@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2d6c329e-b270-45b9-bd29-1cadc98f8d04">
+  <producedTypes>
+    <refType typeId="c411bac9-2960-46e2-85b8-2c411ac3f73d" valueTypeId="e7f59f44-c226-4de3-a317-448386fe5110"/>
+    <listType typeId="d391444a-00ff-4e6f-8b3f-9ace6a2d77a1" valueTypeId="5c537429-5eb8-47d9-aad1-bd0f2ed2db8b"/>
+    <managerType typeId="bb701b35-dd71-4885-90a1-3d3766446e6b" valueTypeId="0f8d4f5f-3943-495c-a569-4c8e8d3e04ec"/>
+  </producedTypes>
+  <name>УровеньБазы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уровень базы</value>
+  </synonym>
+  <standardAttributes>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Уровни баз</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Уровни баз</value>
+  </extendedListPresentation>
+  <enumValues uuid="10ba3717-3576-4b1e-a442-54d775663d50">
+    <name>ГлавныйУзел</name>
+    <synonym>
+      <key>ru</key>
+      <value>Главный узел</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dd0637f0-dcf3-4133-a9a7-5c937d6ed984">
+    <name>БазаРайона1</name>
+    <synonym>
+      <key>ru</key>
+      <value>База района1</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9f11c1f8-a4cb-4feb-ac13-2d73d9024815">
+    <name>БазаРайона2</name>
+    <synonym>
+      <key>ru</key>
+      <value>База района2</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e8e1354d-4d18-4835-9cbf-a470a2e11d05">
+    <name>БазаАптеки</name>
+    <synonym>
+      <key>ru</key>
+      <value>База аптеки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3e83931f-0c9b-481b-8a46-bd553ea1b336">
+    <name>Сайт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сайт</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

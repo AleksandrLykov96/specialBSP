@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cba36077-43b1-44cf-a381-e9293096fae5">
+  <producedTypes>
+    <refType typeId="d39e9ef6-6d3a-44ba-ba18-031770d98b8d" valueTypeId="274d2b4a-2ace-4352-a017-973d2c1a0030"/>
+    <listType typeId="61708c18-bdae-4cc8-be5a-b5d6d26f17c5" valueTypeId="f5696a45-e267-457e-af4c-137862cafe42"/>
+    <managerType typeId="f903cc94-24a3-4ef7-9975-9c71f5bab4f7" valueTypeId="64f13bbb-f905-4f6f-ad9c-e923edacb43f"/>
+  </producedTypes>
+  <name>Спец_ТипыОбновленияТаблицыБазыДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы обновления таблицы базы данных (спец)</value>
+  </synonym>
+  <standardAttributes>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Типы обновления таблицы базы данных</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Типы обновления таблицы базы данных</value>
+  </extendedListPresentation>
+  <enumValues uuid="ebd26824-0d5d-429a-adbb-6ec312ff11db">
+    <name>НайтиНеОбновлятьНеСоздавать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Найти не обновлять не создавать</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b8644fe3-332f-4012-876d-f837edab60c8">
+    <name>НайтиНеОбновлятьСоздавать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Найти не обновлять создавать</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6f048b19-cc6c-40ae-ab09-489f6f11da01">
+    <name>НайтиОбновлятьНеСоздавать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Найти обновлять не создавать</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="21249183-a160-4f5f-a915-9fad5f374aed">
+    <name>НайтиОбновлятьСоздавать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Найти обновлять создавать</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

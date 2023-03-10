@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4849e24d-8eba-454e-89a9-6821e2050c42">
+  <producedTypes>
+    <objectType typeId="a441aebe-dc64-4ef7-9f3f-8f418f811457" valueTypeId="f9d5ccaa-fe5d-4e93-9a84-6ac5077612e3"/>
+    <managerType typeId="c16e41a9-2a6f-4039-b2d0-9662f7603ba0" valueTypeId="8efa9e5d-67f1-4c39-b935-356932da3eb8"/>
+  </producedTypes>
+  <name>Спец_ОбменСДругимиБазами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен с другими базами (спец)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.Спец_ОбменСДругимиБазами.Form.ФормаЗапускаОбменов</defaultForm>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Обмен с другими базами</value>
+  </extendedPresentation>
+  <attributes uuid="897d12c8-53ed-462b-9309-c3bfc6f95eaa">
+    <name>База</name>
+    <synonym>
+      <key>ru</key>
+      <value>База</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Спец_Базы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <forms uuid="06f24b99-53e8-4ebe-b89f-0a1678375069">
+    <name>ФормаЗапускаОбменов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запуск обменов</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="93beeaad-f99d-448d-b36b-be543ad9f5d9">
+    <name>ФормаНастройкиОбменов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка обменов</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="314b188d-8461-4ae4-a1f8-518981b54166">
+    <name>ФормаРаботыСОбменамиДляПолучателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Работа с обменами</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

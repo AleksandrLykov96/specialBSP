@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b11efdd0-e55b-4cbc-9ad4-e36b03a85fcf">
+  <name>Спец_ОбменыСДругимиБазами_Получатель</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмены с другими базами (база-получатель)</value>
+  </synonym>
+  <content>CommonModule.Спец_ОбменСДругимиБазами_Получатель</content>
+  <content>InformationRegister.Спец_ОбъектыДляРегистрацииДляОбменов</content>
+  <content>ScheduledJob.Спец_ПрочитатьИзмененияОтБазыОтправителя</content>
+  <parentSubsystem>Subsystem.Спец_БСП.Subsystem.Спец_ОбменыСДругимиБазами</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e8d23822-d456-4eda-a71d-55348378154f">
+  <name>Спец_PostgreSQLВызовСервераПовтИсп</name>
+  <synonym>
+    <key>ru</key>
+    <value>PostgreSQL (вызов сервера, повторное использование, спец)</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+  <returnValuesReuse>DuringSession</returnValuesReuse>
+</mdclass:CommonModule>

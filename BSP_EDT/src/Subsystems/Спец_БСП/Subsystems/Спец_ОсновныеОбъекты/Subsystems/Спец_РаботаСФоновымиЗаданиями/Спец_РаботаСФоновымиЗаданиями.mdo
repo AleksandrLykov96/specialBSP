@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3daf19ec-d1a5-4a3a-a2ee-5b309b7392a5">
+  <name>Спец_РаботаСФоновымиЗаданиями</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с фоновыми заданиями</value>
+  </synonym>
+  <content>CommonModule.Спец_РаботаСФоновымиЗаданиями</content>
+  <content>InformationRegister.Спец_КэшДляФоновыхЗаданий</content>
+  <content>CommonModule.Спец_РаботаСФоновымиЗаданиямиКлиентСервер</content>
+  <content>CommonForm.Спец_ФормаФоновогоЗадания</content>
+  <content>CommonModule.Спец_РаботаСФоновымиЗаданиямиВызовСервера</content>
+  <parentSubsystem>Subsystem.Спец_БСП.Subsystem.Спец_ОсновныеОбъекты</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8617d3a1-0e02-448e-887c-c0513650e321">
+  <producedTypes>
+    <objectType typeId="43dabcdc-c322-4b22-84ac-36871cb66fa7" valueTypeId="c0437376-2ebe-4b10-b0d5-380dc4921679"/>
+    <managerType typeId="5b012684-55b3-4b4b-927c-eaf1d60002f2" valueTypeId="bd848c4a-9fd8-4518-bbe1-fa0452935c7a"/>
+  </producedTypes>
+  <name>Спец_УправлениеСеансамиВКластере</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление сеансами в кластере (спец)</value>
+  </synonym>
+  <defaultForm>DataProcessor.Спец_УправлениеСеансамиВКластере.Form.Форма</defaultForm>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Управление сеансами в кластере</value>
+  </extendedPresentation>
+  <forms uuid="62a9b0b9-e9ed-4b11-a38c-72c9f3d73f20">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма управления сеансами в кластере</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="f174e546-ae9f-4924-81a1-f99cf2059e1e">
+    <name>УправлениеСеансамиВКластере</name>
+    <synonym>
+      <key>ru</key>
+      <value>Управление сеансами в кластере</value>
+    </synonym>
+    <group>ActionsPanelTools</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

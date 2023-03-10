@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="484119b8-7d87-4ce2-89ed-197fab30579a">
+  <name>Спец_ЛогированиеОбъектовКлиент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Логирование объектов (клиент, спец)</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

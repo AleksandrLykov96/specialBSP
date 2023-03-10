@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9c81e75a-618c-44e2-b611-70a7df24b0ce">
+  <producedTypes>
+    <selectionType typeId="2bfd936b-b558-490b-a1ef-c80183fd9e94" valueTypeId="7ddbd9ea-21f9-45b7-a76b-f0254b357c74"/>
+    <listType typeId="f8b7778c-0c50-40aa-b2c2-998355cfa0d8" valueTypeId="cd2b931b-fb7e-4e69-a627-270a99bfcb84"/>
+    <managerType typeId="d638ec95-1158-4fae-acd0-a3777299808e" valueTypeId="a7d954b7-7b9b-4ff0-bd0b-689e0c638deb"/>
+    <recordSetType typeId="dded8712-87ee-4fc1-b27a-e867712ec834" valueTypeId="35d5db88-669c-45b7-b7ef-5737dd9e2796"/>
+    <recordKeyType typeId="5f1b4676-31b2-4899-a745-5bd7ffd953b4" valueTypeId="4d2b12c7-7326-4014-a6b5-ddbea02aced9"/>
+    <recordType typeId="2537efe3-2fac-40de-8233-0a5547b1c1f2" valueTypeId="bf754712-f7c4-46bf-9c1f-a757ac575787"/>
+    <recordManagerType typeId="e7ddea80-7d26-44df-8be8-59c704f52ecb" valueTypeId="0f0a056c-269c-4c43-844c-c3c364ec3f0d"/>
+  </producedTypes>
+  <name>Спец_ОбъектыДляЛогирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Объекты для логирования (спец)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>BothWays</editType>
+  <defaultRecordForm>InformationRegister.Спец_ОбъектыДляЛогирования.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.Спец_ОбъектыДляЛогирования.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Объект для логирования</value>
+  </recordPresentation>
+  <extendedRecordPresentation>
+    <key>ru</key>
+    <value>Объект для логирования</value>
+  </extendedRecordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Объекты для логирования</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Объекты для логирования</value>
+  </extendedListPresentation>
+  <dimensions uuid="2b0e44ea-1952-4555-87ca-fc5f3f48695c">
+    <name>ИмяМетаданных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя метаданных (или имя пользователя)</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>256</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="b4dfbff5-5466-4916-823f-3b2bb8ac6a77">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="01d007ea-7f47-4c74-a7a4-d46392831007">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="945a2832-5b00-4e24-88bf-63b40fd9c7c2">
+    <name>ФормаНастройкиПараметровЛогирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настройки параметров логирования</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="609ad70f-2a21-4060-b3b8-726241261e22">
+    <name>ОткрытьПараметрыЛогирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Открыть параметры логирования</value>
+    </synonym>
+    <group>ActionsPanelTools</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:InformationRegister>

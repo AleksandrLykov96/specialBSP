@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="78ee0a30-1183-4abb-aff1-ec4833cdf4b2">
+  <producedTypes>
+    <selectionType typeId="84f285ed-ee7a-4747-aef4-5eb0cbb6e369" valueTypeId="d12b8e28-cee9-4874-8076-5347edd69c21"/>
+    <listType typeId="8d825fc9-ab2a-421f-943b-b3f761c09a0c" valueTypeId="5d2712bd-86a6-4811-ae45-04d59bbe2ec9"/>
+    <managerType typeId="7f20e53c-3878-43ba-baa3-b53c7ead8642" valueTypeId="78e1d6c6-91f1-448a-a9f5-a8f202feeb65"/>
+    <recordSetType typeId="ddb64da3-8783-4602-839f-36bd8613f7c0" valueTypeId="c3e6bd9f-a04e-43ae-b505-4080c3d04139"/>
+    <recordKeyType typeId="37479b50-af42-4a10-a8fe-c2591408bf46" valueTypeId="d6f63aca-bbb1-4d76-9470-b264d1f43196"/>
+    <recordType typeId="ade64983-79fe-443f-bd1d-e850ee1d579b" valueTypeId="d2a689bc-17a7-41fb-883e-8524d0ba4878"/>
+    <recordManagerType typeId="4ab80443-1348-4681-8584-3602670f80b3" valueTypeId="59e5ee05-32d9-437b-89f7-d5ab4271db58"/>
+  </producedTypes>
+  <name>Спец_УведомленияДляПользователей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уведомления для пользователей (спец)</value>
+  </synonym>
+  <editType>BothWays</editType>
+  <defaultRecordForm>InformationRegister.Спец_УведомленияДляПользователей.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.Спец_УведомленияДляПользователей.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Уведомление для пользователя</value>
+  </recordPresentation>
+  <extendedRecordPresentation>
+    <key>ru</key>
+    <value>Уведомление для пользователя</value>
+  </extendedRecordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Уведомления для пользователей</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Уведомления для пользователей</value>
+  </extendedListPresentation>
+  <resources uuid="b6333943-b566-490c-9d68-dd011917c250">
+    <name>Отправитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправитель</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>128</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <createOnInput>DontUse</createOnInput>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="f2efc8e3-e467-4b09-9ae7-cb499e269d82">
+    <name>ТекстСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст сообщения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <extendedEdit>true</extendedEdit>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <createOnInput>DontUse</createOnInput>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="f9501638-f9cf-4d35-a941-3192fdda7dff">
+    <name>ТипУведомления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип уведомления</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Спец_ТипыУведомленийПользователя</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <createOnInput>DontUse</createOnInput>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="e60991bf-432e-444f-9391-de60e4b0052d">
+    <name>ИмяПользователя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя пользователя</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>128</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <createOnInput>DontUse</createOnInput>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>Index</indexing>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="d5105355-3846-48ee-ad65-a108f7419327">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="41ae0584-c61f-464b-a527-cb6ff96d8b3f">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2f97c8ef-bff1-4a1e-804e-6bdbd36038b5">
+  <producedTypes>
+    <refType typeId="d8e2469a-7e48-4c34-aa85-e9557aff3ff9" valueTypeId="45749780-5ce6-4a7b-bc12-30508f4d4039"/>
+    <listType typeId="87285bc6-f04c-4df1-a90b-0a5ec584bcd2" valueTypeId="60b15f22-22c8-479e-b921-5159362d6a89"/>
+    <managerType typeId="90f69a0e-a314-47c7-8587-ceca277e4817" valueTypeId="67544ba4-628e-4af1-9803-2df3e26873a8"/>
+  </producedTypes>
+  <name>Спец_ТипыБазыДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы базы данных (спец)</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Типы базы данных</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Типы базы данных</value>
+  </extendedListPresentation>
+  <enumValues uuid="931fea6f-2578-4d66-ad54-003b65592348">
+    <name>IBMDB2</name>
+    <synonym>
+      <key>ru</key>
+      <value>IBM DB2</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="39a1d57b-9a88-4328-a9de-48ab83ba9d02">
+    <name>MSSQLServer</name>
+    <synonym>
+      <key>ru</key>
+      <value>MS SQL Server</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="19e0f38d-4127-4e5f-8905-7cb57022f4ee">
+    <name>MySQL</name>
+    <synonym>
+      <key>ru</key>
+      <value>My SQL</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e452aa6d-0617-4d0a-b4b2-3c148c38ba3e">
+    <name>OracleDatabase</name>
+    <synonym>
+      <key>ru</key>
+      <value>Oracle Database</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d6acd01b-22fc-445d-8186-eb0f7bde0acc">
+    <name>PostgreSQL</name>
+    <synonym>
+      <key>ru</key>
+      <value>PostgreSQL</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7b401867-d99b-478a-b910-45909ecfe84b">
+    <name>Неизвестный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Неизвестный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1f21f306-c8bb-4411-a14a-af9206224ae4">
+    <name>Файловая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файловая</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

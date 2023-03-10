@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dde351fa-b4d0-40eb-ac47-36f1f38a61f7">
+  <producedTypes>
+    <selectionType typeId="8db0b3a6-d32f-483f-89e9-223c18e27e71" valueTypeId="54adc7e5-dc3d-4d12-a5e2-7b59e9bc77fd"/>
+    <listType typeId="2101c7f2-f243-47b9-ab76-1add7ed38fec" valueTypeId="da9f4d76-93d0-4c63-a9f6-5e7b660d43b8"/>
+    <managerType typeId="44191b3c-8b5c-446d-baa2-917f337a14b2" valueTypeId="37b0e14a-a373-4701-96b7-21735402c8bd"/>
+    <recordSetType typeId="8d53649b-3e20-4bef-b877-a8d5d0bde625" valueTypeId="307fc8fe-e103-40f3-8306-185a748060c8"/>
+    <recordKeyType typeId="5b5ce65f-34c5-49a6-9b8f-2f749cd52c0a" valueTypeId="edb2f030-de97-44ad-83a2-b445e8e12fa8"/>
+    <recordType typeId="7f8d2e22-a37a-442a-961b-1152059ccc4c" valueTypeId="4cb1f5aa-bbb6-4653-8680-70a1397b694e"/>
+    <recordManagerType typeId="979284a4-39f4-4f5b-be18-f521f67b82eb" valueTypeId="000f9f53-4d32-4425-b4e8-c9282fb3797b"/>
+  </producedTypes>
+  <name>Спец_ПараметрыОбменовСДругимиБазами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры обменов с другими базами (спец)</value>
+  </synonym>
+  <editType>BothWays</editType>
+  <defaultRecordForm>InformationRegister.Спец_ПараметрыОбменовСДругимиБазами.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.Спец_ПараметрыОбменовСДругимиБазами.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Параметры обмена с другой базой</value>
+  </recordPresentation>
+  <extendedRecordPresentation>
+    <key>ru</key>
+    <value>Параметры обмена с другой базой</value>
+  </extendedRecordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Параметры обменов с другими базами</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Параметры обменов с другими базами</value>
+  </extendedListPresentation>
+  <resources uuid="95c5e1f4-d2b2-4a2f-9f62-2dff93e11e36">
+    <name>ОбменВключен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обмен включен</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f7cde03b-654d-4dbf-88d4-cba533912a57">
+    <name>ПолноеИмяОбъектаМетаданныхПриемник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полное имя объекта метаданных (приёмник)</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>256</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="3b5907cf-c934-4897-b455-20451c437cd1">
+    <name>ВызыватьЗаписьПринудительно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вызывать запись принудительно</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="14080856-bb63-46dd-8427-98995fb5a35e">
+    <name>ИмяРеквизитаДляПроверкиВКлючевыхОбъектах</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя реквизита для проверки в ключевых объектах</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>256</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="8a358c01-eb85-4051-af37-e3065d0b272b">
+    <name>ИскатьОбъектыБезУчетаПустогоГУИДа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Искать объекты без учёта пустого ГУИДа</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="4f735362-33e9-44c4-b477-0e06a4a82887">
+    <name>ИсправлятьГУИДыОбъектов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исправлять ГУИДы объектов</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="7928eb6d-a786-4131-9243-0fa02b172a94">
+    <name>ПериодОбменаДляПолногоОбновления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период обмена для полного обновления</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Спец_ПериодыОбменаДляОбъектов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="2fb84421-d0a1-4184-903a-2567d35da7bd">
+    <name>ПисатьНапрямуюВБД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Писать напрямую в БД</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="fdcc6cad-2b68-46de-b946-75cbfed5c7b6">
+    <name>ПропуститьРегистрациюУдаленныхОбъектов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пропустить регистрацию удалённых объектов</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="112be63b-960e-462b-8b19-1d0cc8287dcf">
+    <name>РегистрироватьСОбменомДанными</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрировать объекты с включенным обменом данными</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="97a0f59f-8eef-4335-9af5-22e9ffb073fc">
+    <name>ТипОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип обмена</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Спец_ТипыОбменовСДругимиБазами</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="fff88e56-8f56-43f1-8b52-f245a0bdd2ca">
+    <name>ТипПередачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип передачи</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Спец_ТипыПередачиОбъектовДляОбмена</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="c541e45c-46e8-4dda-8a05-36360e5f47d5">
+    <name>ТолькоПолучатьГУИД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Только получать ГУИД</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="36e801fc-420d-4234-a35e-a18951b08dab">
+    <name>ТолькоСоздаватьВБазе</name>
+    <synonym>
+      <key>ru</key>
+      <value>Только создавать в базе</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="ebdca335-552e-48dd-aa1b-a69d29d7d401">
+    <name>ЭтоБольшаяТаблица</name>
+    <synonym>
+      <key>ru</key>
+      <value>Это большая таблица</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="d479a733-5d69-4731-9c9d-84937ab7168f">
+    <name>ДатаПоследнегоПолногоОбновления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата последнего полного обновления</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="7b6e4c50-c394-46e2-a18a-cda78a832f9b">
+    <name>ДатаПоследнейПроверкиГУИДов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата последней проверки ГУИДов</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="843ff945-7029-4d25-9342-ac05d50becc1">
+    <name>ТекстЗапросаДляПолученияОбъектов_Отправитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст запроса для получения объектов (база-отправитель)</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <extendedEdit>true</extendedEdit>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="fa385582-23df-41de-9060-4d6a45e34fb9">
+    <name>ТекстЗапросаДляПолученияОбъектов_Получатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст запроса для получения объектов (база-получатель)</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <extendedEdit>true</extendedEdit>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="29b7cf23-f113-478d-97c3-83386b3bce51">
+    <name>ТекстЗапросаИсключения_Отправитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст запроса исключения (база-отправитель)</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1024</length>
+      </stringQualifiers>
+    </type>
+    <multiLine>true</multiLine>
+    <extendedEdit>true</extendedEdit>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="0a7b8057-e9ef-41d1-a7f9-982e75676a04">
+    <name>ТекстЗапросаИсключения_Получатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст запроса исключения (база-получатель)</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1024</length>
+      </stringQualifiers>
+    </type>
+    <multiLine>true</multiLine>
+    <extendedEdit>true</extendedEdit>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="a9a33026-d8a6-4af5-b1be-f20e955e048f">
+    <name>ТекстыЗапросовДляЗаписиНапрямую</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тексты запросов для записи напрямую (изменения только от отправителя)</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <extendedEdit>true</extendedEdit>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="a5ef4a54-9f04-48f2-9432-daaa80859854">
+    <name>ТекстыЗапросовДляПолногоОбновленияНапрямую</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тексты запросов для полного обновления напрямую</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <extendedEdit>true</extendedEdit>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="6d163f8d-3528-475a-ac44-1b7640b2dda9">
+    <name>ВремяПолногоСравнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время полного сравнения</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>21</precision>
+        <scale>9</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="aca69199-bf6c-4752-8f53-f0d13aa75a4d">
+    <name>База</name>
+    <synonym>
+      <key>ru</key>
+      <value>База</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Спец_Базы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="fe90e4a6-068e-4e20-b767-12ad4af1847b">
+    <name>ПолноеИмяОбъектаМетаданныхИсточник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полное имя объекта метаданных (источник)</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>256</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="0fd5c4b5-5dae-4d26-aab8-6857f81cb7fa">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4caad268-c09f-435b-bf07-f87f13795f7a">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

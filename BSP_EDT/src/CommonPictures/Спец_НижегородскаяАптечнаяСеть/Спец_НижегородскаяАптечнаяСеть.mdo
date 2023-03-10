@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b1e3c4b2-4331-41f3-9ea8-0cdd66997c2d">
+  <name>Спец_НижегородскаяАптечнаяСеть</name>
+  <synonym>
+    <key>ru</key>
+    <value>Нижегородская Аптечная Сеть (спец)</value>
+  </synonym>
+  <availabilityForChoice>true</availabilityForChoice>
+  <availabilityForAppearance>true</availabilityForAppearance>
+</mdclass:CommonPicture>

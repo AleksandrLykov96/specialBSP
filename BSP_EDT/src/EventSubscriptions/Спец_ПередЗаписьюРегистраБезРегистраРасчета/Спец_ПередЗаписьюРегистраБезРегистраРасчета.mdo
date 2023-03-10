@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="046beed2-8549-419c-9f80-d7b92d403bfd">
+  <name>Спец_ПередЗаписьюРегистраБезРегистраРасчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перед записью регистра без регистра расчета (спец)</value>
+  </synonym>
+  <source>
+    <types>InformationRegisterRecordSet</types>
+    <types>AccountingRegisterRecordSet</types>
+    <types>AccumulationRegisterRecordSet</types>
+    <types>RecalculationRecordSet</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.Спец_ОбработчикиПодписокНаСобытия.ПередЗаписьюРегистраБезРегистраРасчета</handler>
+</mdclass:EventSubscription>

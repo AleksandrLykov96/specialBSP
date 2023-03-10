@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0c5cf3ef-a825-4884-ad9e-fd3c324c0be1">
+  <producedTypes>
+    <objectType typeId="9568d777-1467-4401-b1c7-ff37739cb5e7" valueTypeId="3d017774-b4a4-4e4f-bcc6-8eb414b7a3e7"/>
+    <managerType typeId="d4551cc9-617a-4286-b96a-cc745705327c" valueTypeId="ebf990f8-2810-493c-958b-4f9a874b2c3b"/>
+  </producedTypes>
+  <name>Спец_ОтправкаУведомленийПользователям</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отправка уведомлений пользователям (спец)</value>
+  </synonym>
+  <defaultForm>DataProcessor.Спец_ОтправкаУведомленийПользователям.Form.Форма</defaultForm>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Отправка уведомлений пользователям</value>
+  </extendedPresentation>
+  <forms uuid="9171eaed-aaf7-4035-85e7-81faa1f3fdea">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="c58348a1-22af-4272-9f69-6e62142ddb18">
+    <name>ОтправкаУведомленийПользователям</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправка уведомлений пользователям</value>
+    </synonym>
+    <group>ActionsPanelTools</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

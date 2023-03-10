@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="557ecbed-6829-4b9a-93be-7500652213e7">
+  <name>Спец_БСП</name>
+  <synonym>
+    <key>ru</key>
+    <value>БСП (спец)</value>
+  </synonym>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Спец_НижегородскаяАптечнаяСеть</picture>
+  </picture>
+  <subsystems>Спец_Взаимодействия</subsystems>
+  <subsystems>Спец_ЛогированиеОбъектов</subsystems>
+  <subsystems>Спец_НочнойРасчет</subsystems>
+  <subsystems>Спец_ОбменыСДругимиБазами</subsystems>
+  <subsystems>Спец_ОсновныеОбъекты</subsystems>
+  <subsystems>Спец_ПодключаемоеОборудование</subsystems>
+</mdclass:Subsystem>

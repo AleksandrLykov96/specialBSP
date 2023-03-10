@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <subsystemsOrder>
+    <subsystems>Subsystem.Спец_БСП.Subsystem.Спец_ОсновныеОбъекты</subsystems>
+    <subsystems>Subsystem.Спец_БСП.Subsystem.Спец_НочнойРасчет</subsystems>
+    <subsystems>Subsystem.Спец_БСП.Subsystem.Спец_ОбменыСДругимиБазами</subsystems>
+    <subsystems>Subsystem.Спец_БСП.Subsystem.Спец_ЛогированиеОбъектов</subsystems>
+    <subsystems>Subsystem.Спец_БСП.Subsystem.Спец_ПодключаемоеОборудование</subsystems>
+  </subsystemsOrder>
+</cmi:CommandInterface>

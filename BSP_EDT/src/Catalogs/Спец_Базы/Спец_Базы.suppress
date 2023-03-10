@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suppress:SuppressGenericObject xmlns:suppress="http://g5.1c.ru/v8/dt/check/suppress/model" fqn="Catalog.Спец_Базы">
+  <containments fqn="tabularSections:HTTP">
+    <containments fqn="attributes:Пароль">
+      <suppressions key="com.e1c.v8codestyle.md:unsafe-password-ib-storage" value="true"/>
+    </containments>
+  </containments>
+</suppress:SuppressGenericObject>

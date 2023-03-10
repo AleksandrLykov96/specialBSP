@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4c4711ca-48ff-442a-96b8-be3683947d31">
+  <producedTypes>
+    <refType typeId="99c47319-f17b-4a00-9cea-6c61abfda38e" valueTypeId="4379be95-929e-4f2c-aa75-8058f178573f"/>
+    <listType typeId="d59c8c5b-d283-4870-a3e1-1362af656fe3" valueTypeId="0330203c-f117-4ce9-8cfd-396287c752cb"/>
+    <managerType typeId="5576967c-97ca-40a9-b7f2-14fee3086540" valueTypeId="ae7ab165-590e-4695-8b4b-da07e79d68b1"/>
+  </producedTypes>
+  <name>Спец_ТипыУведомленийПользователя</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы уведомлений пользователя (спец)</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Типы уведомлений пользователя</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Типы уведомлений пользователя</value>
+  </extendedListPresentation>
+  <enumValues uuid="0d4e8a36-089f-40a0-b912-1978c5cea29f">
+    <name>Оповещение1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оповещение 1С</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b1da5caf-750f-418b-8bd2-b32b2e67c2f0">
+    <name>ОшибкаОС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка ОС</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f31152e0-3096-4ae0-b129-bdba59bd8b19">
+    <name>Сообщение1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сообщение 1С</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e9f642d1-60ee-4f39-8825-8598d2ab0654">
+    <name>СообщениеОС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сообщение ОС</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8c0e4256-b3c2-4fef-ac38-d20fe7368ced">
+    <name>УведомлениеОС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уведомление ОС</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

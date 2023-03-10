@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="501b436e-3485-4ad7-ba3f-89e117364d4b">
+  <name>Спец_Exchange</name>
+  <synonym>
+    <key>ru</key>
+    <value>Exchange (спец)</value>
+  </synonym>
+  <rootURL>specialExchange</rootURL>
+  <urlTemplates uuid="835b524e-25d4-4bf9-b182-9017ba555c74">
+    <name>changes</name>
+    <synonym>
+      <key>ru</key>
+      <value>Changes</value>
+    </synonym>
+    <comment>Обработка изменений объектов</comment>
+    <template>/changes</template>
+    <methods uuid="67edf878-4495-4060-9730-b65e2176024f">
+      <name>POST_ОбработатьИзмененияЗарегистрированныхОбъектов</name>
+      <synonym>
+        <key>ru</key>
+        <value>Обработать изменения зарегистрированных объектов (POST)</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>changesPOST_ОбработатьИзмененияЗарегистрированныхОбъектов</handler>
+    </methods>
+    <methods uuid="f6cad358-3c67-4fe2-aa8a-b5e813e6f4bd">
+      <name>PATCH_ИнициализацияЧтенияФайлойИзFTP</name>
+      <synonym>
+        <key>ru</key>
+        <value>Инициализация чтения файлой из FTP (PATCH)</value>
+      </synonym>
+      <httpMethod>PATCH</httpMethod>
+      <handler>changesPATCH_ИнициализацияЧтенияФайлойИзFTP</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="6aee83e2-017e-4d6b-ad0c-5f6b6f548f1b">
+    <name>changesRegister</name>
+    <synonym>
+      <key>ru</key>
+      <value>Changes register</value>
+    </synonym>
+    <template>/changes/register/{tableName}</template>
+    <methods uuid="9cd7c9ab-7c41-4f5a-bb47-ee310337e5f9">
+      <name>POST_ЗарегистрироватьВсеОбъектыПоТаблице</name>
+      <synonym>
+        <key>ru</key>
+        <value>Зарегистрировать все объекты по таблице (POST)</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>changesRegisterPOST_ЗарегистрироватьВсеОбъектыПоТаблице</handler>
+    </methods>
+    <methods uuid="05de7ca6-04ea-4623-932f-bc8d2749ba0e">
+      <name>PATCH_ПонизитьПриоритетВсехЗарегистрированных</name>
+      <synonym>
+        <key>ru</key>
+        <value>Понизить приоритет всех зарегистрированных (PATCH)</value>
+      </synonym>
+      <httpMethod>PATCH</httpMethod>
+      <handler>changesRegisterPATCH_ПонизитьПриоритетВсехЗарегистрированных</handler>
+    </methods>
+    <methods uuid="53d44cb4-34a8-496f-b868-5b3d5636c320">
+      <name>DELETE_СнятьСРегистрацииВсеЗарегистрированные</name>
+      <synonym>
+        <key>ru</key>
+        <value>Снять с регистрации все зарегистрированные (DELETE)</value>
+      </synonym>
+      <httpMethod>DELETE</httpMethod>
+      <handler>changesRegisterDELETE_СнятьСРегистрацииВсеЗарегистрированные</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="7e25c546-b5b5-4c07-a890-628292ba29a8">
+    <name>correctUID</name>
+    <synonym>
+      <key>ru</key>
+      <value>Correct UID</value>
+    </synonym>
+    <template>/fullTable/uid/{name1C}</template>
+    <methods uuid="6d85c861-39ad-4481-980a-f388492c24f8">
+      <name>PATCH_ИсправитьГУИДыОбъектов</name>
+      <synonym>
+        <key>ru</key>
+        <value>Исправить ГУИДы объектов (PATCH)</value>
+      </synonym>
+      <httpMethod>PATCH</httpMethod>
+      <handler>correctUIDPATCH_ИсправитьГУИДыОбъектов</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="0c8713fa-f94f-4c2b-b138-a7f17a43da57">
+    <name>errors</name>
+    <synonym>
+      <key>ru</key>
+      <value>Errors</value>
+    </synonym>
+    <template>/errors</template>
+    <methods uuid="5222bfcf-5dbe-4393-b8ac-9367d852d0f2">
+      <name>PUT_ДобавитьОшибку</name>
+      <synonym>
+        <key>ru</key>
+        <value>Добавить ошибку (PUT)</value>
+      </synonym>
+      <httpMethod>PUT</httpMethod>
+      <handler>errorsPUT_ДобавитьОшибку</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="9b565179-4295-46d8-9925-adc78d3fda18">
+    <name>exceptionsQueryBuilder</name>
+    <synonym>
+      <key>ru</key>
+      <value>Exceptions: Query builder</value>
+    </synonym>
+    <template>/exceptions/queryBuilder</template>
+    <methods uuid="1865dc12-a9b6-43da-9b27-e76c3288553b">
+      <name>POST_ПолучитьХранилищеЗначенияДляПостроителяОтчета</name>
+      <synonym>
+        <key>ru</key>
+        <value>Получить хранилище значения для построителя отчета (POST)</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>exceptionsQueryBuilderPOST_ПолучитьХранилищеЗначенияДляПостроителяОтчета</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="d3d02954-20be-4158-9c11-c0271ee95076">
+    <name>fullComparison</name>
+    <synonym>
+      <key>ru</key>
+      <value>Full comparison</value>
+    </synonym>
+    <template>/fullTable/comparsion</template>
+    <methods uuid="bf4c2544-6656-4998-830a-23fae239ca8f">
+      <name>POST_ПолучитьПолнуюТаблицуПоОбъекту</name>
+      <synonym>
+        <key>ru</key>
+        <value>Получить полную таблицу по объекту (POST)</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>fullComparisonPOST_ПолучитьПолнуюТаблицуПоОбъекту</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="2822dbd1-6886-493c-8099-853e4f0d031b">
+    <name>getNewChanges</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get new changes</value>
+    </synonym>
+    <comment>Изменения со стороны базы-получателя</comment>
+    <template>/changes/getNew</template>
+    <methods uuid="41813ba7-697c-49d4-a731-c07fc4861836">
+      <name>POST_ПолучитьИзмененияИзДругойБазы</name>
+      <synonym>
+        <key>ru</key>
+        <value>Получить изменения из другой базы (POST)</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>getNewChangesPOST_ПолучитьИзмененияИзДругойБазы</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="76603b68-4392-4e1d-b45e-e712c71077b6">
+    <name>getNewChangesToView</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get new changes to view</value>
+    </synonym>
+    <comment>Изменения со стороны базы-получателя (для просмотра)</comment>
+    <template>/changes/getNewToView</template>
+    <methods uuid="0e94c03e-632c-4cfe-9ad0-cfff9c8d0c08">
+      <name>POST_ПолучитьИзмененияИзДругойБазы</name>
+      <synonym>
+        <key>ru</key>
+        <value>Получить изменения из другой базы (POST)</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>getNewChangesToViewPOST_ПолучитьИзмененияИзДругойБазы</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="d085e94a-be37-4adc-a2b4-e9e410206aeb">
+    <name>metadata</name>
+    <synonym>
+      <key>ru</key>
+      <value>Metadata</value>
+    </synonym>
+    <template>/metadata/{name1C}</template>
+    <methods uuid="4d7d4a53-8d26-49e5-8168-affc990bec74">
+      <name>GET_ПолучитьНаименованияМетаданных</name>
+      <synonym>
+        <key>ru</key>
+        <value>Получить наименования метаданных (GET)</value>
+      </synonym>
+      <handler>metadataGET_ПолучитьНаименованияМетаданных</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="627a243d-a511-4fa4-954d-68625e4f61f7">
+    <name>metadataBD</name>
+    <synonym>
+      <key>ru</key>
+      <value>Metadata (BD)</value>
+    </synonym>
+    <template>/metadata/BD</template>
+    <methods uuid="1c9f85ad-8ab6-4467-aa37-6ac45de911c4">
+      <name>GET_ПолучитьНаименованияМетаданныхБД</name>
+      <synonym>
+        <key>ru</key>
+        <value>Получить наименования метаданных БД (GET)</value>
+      </synonym>
+      <handler>metadataBDGET_ПолучитьНаименованияМетаданныхБД</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="4974e018-c472-417f-9f36-c3a59aaeff3e">
+    <name>parameters</name>
+    <synonym>
+      <key>ru</key>
+      <value>Parameters</value>
+    </synonym>
+    <template>/parameters</template>
+    <methods uuid="f37b0ff6-94b8-4f90-b4a0-a12a99dbe083">
+      <name>POST_ЗаписатьПараметрыОбменов</name>
+      <synonym>
+        <key>ru</key>
+        <value>Записать параметры обменов (POST)</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>parametersPOST_ЗаписатьПараметрыОбменов</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="a840493f-a174-4496-aa0a-52ea8e308bff">
+    <name>ping</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ping</value>
+    </synonym>
+    <template>/ping</template>
+    <methods uuid="e38e69b6-1c65-4e18-bb7f-8ccaabfe3f96">
+      <name>Любой_ping</name>
+      <synonym>
+        <key>ru</key>
+        <value>ping (любой)</value>
+      </synonym>
+      <httpMethod>Any</httpMethod>
+      <handler>pingЛюбой</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="b129d27e-588f-47b1-99a0-c97a52ae9977">
+    <name>predefinedData</name>
+    <synonym>
+      <key>ru</key>
+      <value>Predefined data</value>
+    </synonym>
+    <comment>Для обмена предопределенными данными</comment>
+    <template>/predefinedData/{fullName}</template>
+    <methods uuid="7411213b-0e8e-433e-9a85-4260ab204c3d">
+      <name>GET_ПолучитьУникальныйИдентификаторПредопределенногоЭлемента</name>
+      <synonym>
+        <key>ru</key>
+        <value>Получить уникальный идентификатор предопределенного элемента (GET)</value>
+      </synonym>
+      <handler>predefinedDataGET_ПолучитьУникальныйИдентификаторПредопределенногоЭлемента</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="f39fefc5-7ac6-49c3-9926-e97922528288">
+    <name>writeNewChanges</name>
+    <synonym>
+      <key>ru</key>
+      <value>Write new changes</value>
+    </synonym>
+    <comment>Изменения со стороны базы-отправителя</comment>
+    <template>/changes/writeNew</template>
+    <methods uuid="8fab930b-9e75-4071-ac10-04ce85e245ff">
+      <name>POST_ЗаписатьИзмененияОтБазыОтправителя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Записать изменения от базы отправителя (POST)</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>writeNewChangesPOST_ЗаписатьИзмененияОтБазыОтправителя</handler>
+    </methods>
+    <methods uuid="9e4c77d2-25ab-45cc-b920-acad06cc8915">
+      <name>PATCH_ПерезаписатьОбъекты</name>
+      <synonym>
+        <key>ru</key>
+        <value>Перезаписать объекты (PATCH)</value>
+      </synonym>
+      <httpMethod>PATCH</httpMethod>
+      <handler>writeNewChangesPATCH_ПерезаписатьОбъекты</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

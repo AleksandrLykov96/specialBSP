@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c633bda2-4b5a-4315-81a6-45cb02800104">
+  <name>Спец_КомпонентаДополнительныеФункции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Компонента дополнительные функции</value>
+  </synonym>
+  <content>CommonModule.Спец_КомпонентаДополнительныеФункцииКлиентСервер</content>
+  <content>CommonModule.Спец_КомпонентаДополнительныеФункцииКлиентСерверПовтИсп</content>
+  <content>CommonModule.Спец_КомпонентаДополнительныеФункцииВызовСервера</content>
+  <content>CommonModule.Спец_КомпонентаДополнительныеФункцииКлиент</content>
+  <content>CommonTemplate.Спец_КомпонентаLykovExtFunctions</content>
+  <content>CommonTemplate.Спец_КомпонентаLykovHTTPClient</content>
+  <content>CommonTemplate.Спец_КомпонентаLykovMySQL</content>
+  <content>CommonTemplate.Спец_КомпонентаLykovPostgreSQL</content>
+  <parentSubsystem>Subsystem.Спец_БСП.Subsystem.Спец_ОсновныеОбъекты</parentSubsystem>
+</mdclass:Subsystem>

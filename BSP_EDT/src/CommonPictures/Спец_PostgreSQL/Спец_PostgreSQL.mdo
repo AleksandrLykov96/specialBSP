@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bad5a79d-2444-4920-9f00-42f0cb6af83f">
+  <name>Спец_PostgreSQL</name>
+  <synonym>
+    <key>ru</key>
+    <value>PostgreSQL (спец)</value>
+  </synonym>
+  <availabilityForChoice>true</availabilityForChoice>
+  <availabilityForAppearance>true</availabilityForAppearance>
+</mdclass:CommonPicture>

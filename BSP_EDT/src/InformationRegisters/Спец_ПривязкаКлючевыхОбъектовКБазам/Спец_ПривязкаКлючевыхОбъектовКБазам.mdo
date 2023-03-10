@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="88efdf40-e7b8-4888-90a0-784f82b99b77">
+  <producedTypes>
+    <selectionType typeId="a97e44f4-d07c-4ada-a529-41fb9108f3fd" valueTypeId="4f495c15-b33e-4369-bf0c-62985ad9bdd6"/>
+    <listType typeId="7ca0accf-005e-471a-a919-894cffd1028c" valueTypeId="a1dd7367-d258-4f37-9a49-22ad0844ac29"/>
+    <managerType typeId="ba080150-0f8b-4d96-8ef5-214b8b3cbbb7" valueTypeId="cf275c93-e8ab-4693-9c89-b3e9d0e5375e"/>
+    <recordSetType typeId="5c1d49fa-0255-457f-aab0-0b6d2c99c596" valueTypeId="e42fe1ef-8cd3-451b-84bc-294b52cf187b"/>
+    <recordKeyType typeId="cc461d73-73c2-4bb3-bb77-b15188009459" valueTypeId="4b5d6f68-5824-4b0d-a5c0-c452021e503e"/>
+    <recordType typeId="2adbb756-702e-42f4-abf3-583864dd1d80" valueTypeId="3369040e-d824-4491-9dc2-755f2b92c9bd"/>
+    <recordManagerType typeId="b5c4b431-3411-44cd-9f29-76f0b7710766" valueTypeId="21d19d6d-4fcc-4dea-a7f8-5428aec10c66"/>
+  </producedTypes>
+  <name>Спец_ПривязкаКлючевыхОбъектовКБазам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Привязка ключевых объектов к базам (спец)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>BothWays</editType>
+  <defaultRecordForm>InformationRegister.Спец_ПривязкаКлючевыхОбъектовКБазам.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.Спец_ПривязкаКлючевыхОбъектовКБазам.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Привязка ключевого объекта к базе</value>
+  </recordPresentation>
+  <extendedRecordPresentation>
+    <key>ru</key>
+    <value>Привязка ключевого объекта к базе</value>
+  </extendedRecordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Привязка ключевых объектов к базам</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Привязка ключевых объектов к базам</value>
+  </extendedListPresentation>
+  <dimensions uuid="ce04f06f-ec38-44f9-ba47-ee6b6cd895a8">
+    <name>База</name>
+    <synonym>
+      <key>ru</key>
+      <value>База</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Спец_Базы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="46948261-6c26-41f9-bf81-9fa972c6efde">
+    <name>КлючевойОбъект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключевой объект</value>
+    </synonym>
+    <type>
+      <types>AnyRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="75d701cb-0725-4aa7-a5a4-f0ee4c70d243">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="53891f52-057e-4f1f-8183-b9b3219ae06f">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

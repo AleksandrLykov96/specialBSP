@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9559af01-4838-4d2e-8228-2c7ffef378bf">
+  <name>Спец_ВыполнитьОбработкуОбновленияКонфигурации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выполнить обработку обновления конфигурации</value>
+  </synonym>
+  <group>ActionsPanelTools</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

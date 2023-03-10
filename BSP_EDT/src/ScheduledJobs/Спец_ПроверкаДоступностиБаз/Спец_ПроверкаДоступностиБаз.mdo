@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b117a461-801c-4260-85a4-9834158d5009">
+  <name>Спец_ПроверкаДоступностиБаз</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверка доступности баз (спец)</value>
+  </synonym>
+  <methodName>CommonModule.Спец_ОбменСДругимиБазами.ПроверитьДоступностьБаз</methodName>
+  <key>Спец_ПроверкаДоступностиБаз</key>
+  <predefined>true</predefined>
+</mdclass:ScheduledJob>

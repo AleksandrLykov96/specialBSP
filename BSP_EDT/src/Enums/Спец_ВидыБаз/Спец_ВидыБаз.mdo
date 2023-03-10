@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="72df287f-c04c-4c76-a8a4-2694030623cf">
+  <producedTypes>
+    <refType typeId="abb1b06d-12c6-489c-863c-0052ba68daf4" valueTypeId="b2261d82-a3a8-4333-b717-5126fcb55fd9"/>
+    <listType typeId="0e4b0ff7-1bfb-43e7-a588-461f15f77c62" valueTypeId="00221619-1351-4587-b196-1771574133a7"/>
+    <managerType typeId="c968e85c-fbd3-4218-b437-c408a2a6307b" valueTypeId="af6177d7-1979-4e25-9418-7bf02eaf6bb5"/>
+  </producedTypes>
+  <name>Спец_ВидыБаз</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды баз (спец)</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Виды баз</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Виды баз</value>
+  </extendedListPresentation>
+  <enumValues uuid="19b8ca2b-e4d8-4245-b12f-5c716cdc4a98">
+    <name>Аптека</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аптека</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="09e5293b-dbf7-4022-9c7c-4fa3a022e5e3">
+    <name>Бухгалтерия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бухгалтерия</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="88afad23-63e4-4743-bf0c-09ccac44d531">
+    <name>Заказы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="91da9d09-8db9-4432-8361-76203b20e055">
+    <name>ЗиУП</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЗиУП</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9922a119-3075-40a1-b3d2-403caba470f8">
+    <name>Карты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Карты</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="eb7190b8-1af7-463a-b7b4-47830c11fedc">
+    <name>МДЛП</name>
+    <synonym>
+      <key>ru</key>
+      <value>МДЛП</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="527a72eb-657e-4e16-9523-20b69d391d66">
+    <name>ГлавноеУправление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Главное управление</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="63e050b0-5fe1-4cc0-8c65-a4a84414c28c">
+    <name>Оптика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оптика</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9ebf430a-e735-447c-ad40-94333412c600">
+    <name>Остальное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Остальное</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

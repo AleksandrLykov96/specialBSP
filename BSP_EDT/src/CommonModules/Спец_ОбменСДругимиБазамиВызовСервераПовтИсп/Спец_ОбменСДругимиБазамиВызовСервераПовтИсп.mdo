@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7835986e-4f10-45e4-8e1c-912952f15be7">
+  <name>Спец_ОбменСДругимиБазамиВызовСервераПовтИсп</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен с другими базами (вызов сервера, повторное использование, спец)</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+  <returnValuesReuse>DuringSession</returnValuesReuse>
+</mdclass:CommonModule>

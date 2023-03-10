@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c256c72b-bd59-48d7-91ce-2356fe46b270">
+  <producedTypes>
+    <refType typeId="1ac295ec-3119-4c47-8fd8-fb5385dbae87" valueTypeId="fb167a9e-46ac-43a8-a367-1b54adb48b13"/>
+    <listType typeId="0dcdf58b-7322-4ff9-bb72-41b272329c1b" valueTypeId="3f8a2006-a50a-42e8-ab07-c812bbdfad2b"/>
+    <managerType typeId="ec7b01ad-00c3-485f-ab0e-014bd762dbb9" valueTypeId="c6da99c2-2c75-478a-ba3a-892f1d4b39af"/>
+  </producedTypes>
+  <name>Спец_РежимыОсновногоОкна</name>
+  <synonym>
+    <key>ru</key>
+    <value>Режимы основного окна (спец)</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Режимы основного окна</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Режимы основного окна</value>
+  </extendedListPresentation>
+  <enumValues uuid="f0574c55-e1ac-4d48-ae81-a39c1f02a4d8">
+    <name>ВстроенноеРабочееМесто</name>
+    <synonym>
+      <key>ru</key>
+      <value>Встроенное рабочее место</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="311ec43a-6e8d-4292-9f42-43de6826f278">
+    <name>Киоск</name>
+    <synonym>
+      <key>ru</key>
+      <value>Киоск</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="32a72061-1740-43f0-a1e5-6f55dfdd6894">
+    <name>Обычный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обычный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bbec2893-2d64-4bd7-9349-872b1628b7e7">
+    <name>ПолноэкранноеРабочееМесто</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полноэкранное рабочее место</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1d8e982f-15d3-4257-9f81-010d6ae1590b">
+    <name>РабочееМесто</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочее место</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0add4393-9a99-46e0-ac5d-49da3a1b9cbd">
+  <name>Спец_РаботаСБазойДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с базой данных</value>
+  </synonym>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Спец_СтруктураТаблицБазыДанных</content>
+  <content>Enum.Спец_ТипыДанныхБазыДанных</content>
+  <content>Enum.Спец_ТипыОбновленияТаблицыБазыДанных</content>
+  <content>Enum.Спец_ТипыСоставныхПолейБазыДанных</content>
+  <content>CommonModule.Спец_РаботаСБазойДанныхНапрямуюКлиентСервер</content>
+  <content>CommonModule.Спец_РаботаСБазойДанныхНапрямуюВызовСервераПовтИсп</content>
+  <content>CommonModule.Спец_РаботаСБазойДанныхНапрямую</content>
+  <content>CommonModule.Спец_РаботаСБазойДанныхНапрямуюВызовСервера</content>
+  <subsystems>Спец_PostgreSQL</subsystems>
+  <parentSubsystem>Subsystem.Спец_БСП.Subsystem.Спец_ОсновныеОбъекты</parentSubsystem>
+</mdclass:Subsystem>

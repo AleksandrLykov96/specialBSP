@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dd9bc82a-6d49-4f4b-af48-f744a242c5b0">
+  <name>Спец_ЗапускОбменовСДругимиБазами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запуск обменов с другими базами (спец)</value>
+  </synonym>
+  <methodName>CommonModule.Спец_ОбменСДругимиБазами_Отправитель.ЗапуститьОбмены</methodName>
+  <description>Запуск обменов с другими базами (спец)</description>
+  <key>Спец_ЗапускОбменовСДругимиБазами</key>
+</mdclass:ScheduledJob>

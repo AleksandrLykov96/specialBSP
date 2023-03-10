@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5303f420-0cf0-49f4-90db-f19f3d309faf">
+  <producedTypes>
+    <objectType typeId="648b5f16-2126-4d68-8143-ac3bbdfd013c" valueTypeId="ae365d66-656a-4750-829f-724f414c45a1"/>
+    <managerType typeId="d272bb47-7451-48fd-b0f5-69f3ec2f5399" valueTypeId="39f62a0c-4c06-4fbf-a35a-bd46a8db27b5"/>
+  </producedTypes>
+  <name>Спец_ОчисткаЛюбойТаблицы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Очистка любой таблицы (спец)</value>
+  </synonym>
+  <defaultForm>DataProcessor.Спец_ОчисткаЛюбойТаблицы.Form.Форма</defaultForm>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Очистка любой таблицы</value>
+  </extendedPresentation>
+  <forms uuid="1b5ac8e1-1aef-4da8-a865-f4dfaad9ed6d">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="a76e9f95-7323-4d48-93fd-20bffc51b206">
+    <name>ОчисткаЛюбойТаблицы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Очистка любой таблицы (через БД)</value>
+    </synonym>
+    <group>ActionsPanelTools</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

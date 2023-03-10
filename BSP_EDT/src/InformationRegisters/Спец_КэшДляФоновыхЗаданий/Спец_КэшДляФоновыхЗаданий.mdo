@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="37157a06-5405-426b-b200-410ed5a8ea52">
+  <producedTypes>
+    <selectionType typeId="120ab193-53f4-4456-8a51-bba07f0b7588" valueTypeId="56ac25f5-6f6f-4b0e-ae3c-1d95b9f45963"/>
+    <listType typeId="958f1f67-ef71-44e7-9232-6ede4edbeecd" valueTypeId="db6aee78-1ece-48b1-9c1a-c8da6881f8a6"/>
+    <managerType typeId="552b3dab-be72-48f0-a1a5-9005ee600c95" valueTypeId="5e6a8d3f-fbbb-4d82-96a9-b2194eb8669c"/>
+    <recordSetType typeId="7b42320b-f5e6-4451-aea1-032a6dedd910" valueTypeId="ceb8739c-70b3-4bbc-89ce-65779b38eb37"/>
+    <recordKeyType typeId="5706855e-c6f3-4055-a82c-904a70ad0908" valueTypeId="ce906ab4-d5cf-48a8-bcc8-c7f0675cc3e9"/>
+    <recordType typeId="dce840f2-c26b-40fc-90f8-9da89b0f2c4c" valueTypeId="8238a8af-05f2-4cea-85bb-a2837bc2baaf"/>
+    <recordManagerType typeId="1e4874ca-827c-4fcb-a341-b4ee2e55d358" valueTypeId="0307ca0a-bb50-4c96-8cdf-a4cac20a1668"/>
+  </producedTypes>
+  <name>Спец_КэшДляФоновыхЗаданий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кэш для фоновых заданий (спец)</value>
+  </synonym>
+  <editType>BothWays</editType>
+  <defaultRecordForm>InformationRegister.Спец_КэшДляФоновыхЗаданий.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.Спец_КэшДляФоновыхЗаданий.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <createOnInput>DontUse</createOnInput>
+  </standardAttributes>
+  <standardAttributes>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <createOnInput>DontUse</createOnInput>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <createOnInput>DontUse</createOnInput>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <createOnInput>DontUse</createOnInput>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Кэш для фонового задания</value>
+  </recordPresentation>
+  <extendedRecordPresentation>
+    <key>ru</key>
+    <value>Кэш для фонового задания</value>
+  </extendedRecordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Кэш для фоновых заданий</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Кэш для фоновых заданий</value>
+  </extendedListPresentation>
+  <resources uuid="4e345f6e-2cb1-436d-bfd6-73145666f118">
+    <name>ВходныеДанные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Входные данные</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <createOnInput>DontUse</createOnInput>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="82c8a470-d90d-4294-a7b1-07f9b5e43a95">
+    <name>ВыходныеДанные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выходные данные</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <createOnInput>DontUse</createOnInput>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="bccc2f58-8229-402c-a169-39212ed1d460">
+    <name>Выполнено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнено</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <createOnInput>DontUse</createOnInput>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="244aebe2-5a2f-4f76-af27-0a404696fc15">
+    <name>ИмяВыполняемогоФоновогоЗадания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя выполняемого фонового задания</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>512</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <createOnInput>DontUse</createOnInput>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="bbfd92d9-0390-4885-80a6-436afd433ea1">
+    <name>Прогресс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прогресс</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <createOnInput>DontUse</createOnInput>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="725ce63a-8574-475d-9796-baa68774c37b">
+    <name>СообщениеСтатусВыполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сообщение статус выполнения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>128</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <createOnInput>DontUse</createOnInput>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <dimensions uuid="acbc6221-7884-41b0-add2-25f713311dd1">
+    <name>ИдентификаторЗадания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор задания</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>128</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <createOnInput>DontUse</createOnInput>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>Index</indexing>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:StringValue">
+      <value>                                    </value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="53511822-aede-483d-bf64-6b6171da0bfe">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0f71175b-696c-40b5-b4bb-546650099e8f">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

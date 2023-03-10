@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f304bf19-ff80-4efa-b348-5ea9fbb02787">
+  <producedTypes>
+    <selectionType typeId="3a63e94d-f969-4d23-be0a-fb1036355871" valueTypeId="5114dc38-ac74-4c58-b211-4501c24d75af"/>
+    <listType typeId="04cb048c-14a9-4ffe-a242-38846a234c64" valueTypeId="a4e95b93-f7c2-4f4d-8378-5397e560a23e"/>
+    <managerType typeId="32064706-e36f-4ad5-b06d-717d869d9d65" valueTypeId="72745276-57aa-4a96-9e98-d7cf5ff3363a"/>
+    <recordSetType typeId="370c5b93-2d08-4af5-86b0-79a4fa762eb4" valueTypeId="7c4115ce-4f9c-4fc6-8761-8b47a0c022ef"/>
+    <recordKeyType typeId="2dc1671d-249a-4788-bec7-8ae6fa36d469" valueTypeId="c3a253da-d3a4-4128-8863-192a4170fc4a"/>
+    <recordType typeId="6ab83587-e538-4074-a1e2-15a76a3f6fad" valueTypeId="cc15d9f7-1d8e-4a57-950b-16a788a72c8a"/>
+    <recordManagerType typeId="3506ae8b-2b31-44c3-94a2-4015690e845c" valueTypeId="262b9aa5-3132-437a-9522-fd8c8874835a"/>
+  </producedTypes>
+  <name>Спец_РегистрОшибок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистр ошибок (спец)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>BothWays</editType>
+  <defaultRecordForm>InformationRegister.Спец_РегистрОшибок.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.Спец_РегистрОшибок.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <createOnInput>DontUse</createOnInput>
+  </standardAttributes>
+  <standardAttributes>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <createOnInput>DontUse</createOnInput>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <createOnInput>DontUse</createOnInput>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <createOnInput>DontUse</createOnInput>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Ошибка</value>
+  </recordPresentation>
+  <extendedRecordPresentation>
+    <key>ru</key>
+    <value>Ошибка</value>
+  </extendedRecordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Регистр ошибок</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Регистр ошибок</value>
+  </extendedListPresentation>
+  <resources uuid="2595df6a-20f6-4fd3-8fb3-bb372be64f40">
+    <name>УровеньБазы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уровень базы</value>
+    </synonym>
+    <type>
+      <types>EnumRef.УровеньБазы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <createOnInput>DontUse</createOnInput>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="0b695503-b584-4b8d-a820-de6eeff45448">
+    <name>ТекстОшибки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст ошибки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <extendedEdit>true</extendedEdit>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <createOnInput>DontUse</createOnInput>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <attributes uuid="cd394f70-df59-42ab-933a-f7649187605d">
+    <name>Скриншот</name>
+    <synonym>
+      <key>ru</key>
+      <value>Скриншот</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="8882975b-d270-471b-80bb-8d79a615f49f">
+    <name>Источник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Источник</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>128</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <createOnInput>DontUse</createOnInput>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>Index</indexing>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="fc7fd3c5-fd38-4d51-97f5-3fc748b135f0">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="fcc2d487-3bc2-4f46-bd47-2482f043a2ab">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

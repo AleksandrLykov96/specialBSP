@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3ded3ece-eb0b-42ae-ba84-cd69c2065c0d">
+  <name>Спец_КомпонентаLykovExtFunctions</name>
+  <synonym>
+    <key>ru</key>
+    <value>Компонента: Lykov (extension functions, спец)</value>
+  </synonym>
+  <templateType>AddIn</templateType>
+</mdclass:CommonTemplate>

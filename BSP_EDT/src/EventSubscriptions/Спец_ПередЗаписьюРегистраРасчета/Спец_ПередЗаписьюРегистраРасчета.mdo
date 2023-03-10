@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0069f349-cf9d-4eaf-a950-323380f45b00">
+  <name>Спец_ПередЗаписьюРегистраРасчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перед записью регистра расчета (спец)</value>
+  </synonym>
+  <source>
+    <types>CalculationRegisterRecordSet</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.Спец_ОбработчикиПодписокНаСобытия.ПередЗаписьюРегистраРасчета</handler>
+</mdclass:EventSubscription>

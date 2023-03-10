@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ef12b1cf-b5e2-4b79-ad88-b1bb26e91b51">
+  <producedTypes>
+    <objectType typeId="ecb9293b-cdb9-4f7f-ac73-cd8a36656e95" valueTypeId="1ce9a487-8c62-4f22-b3f7-5f87abf343e8"/>
+    <refType typeId="78d12eb2-1e84-4bdc-9a53-b052bc0c6ad4" valueTypeId="d2c5b362-50c8-49e0-af0f-b499e35bca49"/>
+    <selectionType typeId="347d695e-7520-4d50-aa3b-0d414b986e49" valueTypeId="1cb14ee4-28cb-41ac-9b0a-87eea5d06e89"/>
+    <listType typeId="863fd3e0-0e02-4e7d-8392-730074412980" valueTypeId="6940a9df-1c4c-460b-958a-98a1aaa79257"/>
+    <managerType typeId="e155d041-35b1-4f5a-8c03-16363b6fb9e0" valueTypeId="121c8a17-4e09-4886-b6a9-2dada534e7c4"/>
+  </producedTypes>
+  <name>Спец_МассивЗначенийКонстант</name>
+  <synonym>
+    <key>ru</key>
+    <value>Массив значений констант (спец)</value>
+  </synonym>
+  <inputByString>Catalog.Спец_МассивЗначенийКонстант.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Спец_МассивЗначенийКонстант.StandardAttribute.Code</inputByString>
+  <searchStringModeOnInputByString>AnyPart</searchStringModeOnInputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Owner</name>
+    <synonym>
+      <key>ru</key>
+      <value>Константа (ПВХ)</value>
+    </synonym>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Массив значений константы</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Массив значений константы</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Массив значений констант</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Массив значений констант</value>
+  </extendedListPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>ChartOfCharacteristicTypes.Спец_Константы</owners>
+  <codeLength>20</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>BothWays</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Спец_МассивЗначенийКонстант.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Спец_МассивЗначенийКонстант.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.Спец_МассивЗначенийКонстант.Form.ФормаВыбора</defaultChoiceForm>
+  <tabularSections uuid="2a08ea0b-a67c-418a-ac8b-0445c1fdde0f">
+    <producedTypes>
+      <objectType typeId="e945059b-e158-4993-84a4-947cf9508a15" valueTypeId="526ce573-0416-42e2-b104-1b0fa7c11030"/>
+      <rowType typeId="29dedc28-f667-47af-8162-2b30f9fa1e9e" valueTypeId="a7c6cb3d-060c-40b8-98b0-6fbc84da2c7e"/>
+    </producedTypes>
+    <name>ЗначенияКонстанты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значения константы</value>
+    </synonym>
+    <fillChecking>ShowError</fillChecking>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="820701ed-e863-4302-8655-622dcb759e65">
+      <name>Значение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение</value>
+      </synonym>
+      <type>
+        <types>Characteristic.Спец_Константы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <createOnInput>DontUse</createOnInput>
+    </attributes>
+  </tabularSections>
+  <forms uuid="a89da310-88bf-45b1-a517-02d8c15b6383">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="bcddf697-0854-4ec8-ab26-5845a2ea6555">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1a27dc50-50c5-4581-ab17-058c7bc44141">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

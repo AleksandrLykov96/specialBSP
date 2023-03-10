@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bcad3d07-8290-4402-97d2-3527fb4f4656">
+  <producedTypes>
+    <selectionType typeId="c4826df5-9c22-497f-a4a4-8d79cdaef370" valueTypeId="0cce5820-4f28-401f-8cd1-ce07bc8375f6"/>
+    <listType typeId="7f136bf9-f266-4a25-b651-7ada0262d14d" valueTypeId="b390d8b0-42b6-41d0-8274-831cffe032d5"/>
+    <managerType typeId="2358f90d-2941-4b3e-b108-5b42fe6ce695" valueTypeId="d5563f21-c77f-4fc9-86a1-b9ec42ec932a"/>
+    <recordSetType typeId="e4d834b3-808c-4a0c-bcc4-67a55ed7095a" valueTypeId="c50eea67-060d-4dc7-83e4-9fb3bf18930b"/>
+    <recordKeyType typeId="da31f95d-52bb-4e5a-bc90-e428e4e7fb20" valueTypeId="cff000b2-7871-4df2-81fb-1da802cb3957"/>
+    <recordType typeId="b077a757-4a73-476c-8cd7-08cb8670b159" valueTypeId="b8c276ff-3024-447f-b3ec-c536a14a5fdb"/>
+    <recordManagerType typeId="d89ab7f7-a8ff-4e43-8cb3-742a251de4c7" valueTypeId="d3d98392-84f9-4ef7-9cbd-f89a51e885b3"/>
+  </producedTypes>
+  <name>Спец_НастройкиНочногоРасчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки ночного расчета (спец)</value>
+  </synonym>
+  <editType>BothWays</editType>
+  <defaultRecordForm>InformationRegister.Спец_НастройкиНочногоРасчета.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.Спец_НастройкиНочногоРасчета.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <createOnInput>DontUse</createOnInput>
+  </standardAttributes>
+  <standardAttributes>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <createOnInput>DontUse</createOnInput>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <createOnInput>DontUse</createOnInput>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <createOnInput>DontUse</createOnInput>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Настройка ночного расчета</value>
+  </recordPresentation>
+  <extendedRecordPresentation>
+    <key>ru</key>
+    <value>Настройка ночного расчета</value>
+  </extendedRecordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Настройки ночного расчета</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Настройки ночного расчета</value>
+  </extendedListPresentation>
+  <resources uuid="e1d41b17-c2da-4b37-90ea-546e62509ae1">
+    <name>Запускать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запускать</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <createOnInput>DontUse</createOnInput>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="5450ba09-04b4-4a26-8a7c-64f563bb17cf">
+    <name>ПорядокВыполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок выполнения</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <createOnInput>DontUse</createOnInput>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="2f010ab2-028c-48ea-800c-b880cc19dfa9">
+    <name>ВходныеПараметры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Входные параметры</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <createOnInput>DontUse</createOnInput>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="838a6c4b-2843-4200-aaae-8d19a770e277">
+    <name>Ручной</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ручной</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <createOnInput>DontUse</createOnInput>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="474685ce-2516-4771-9aec-2475f09bc484">
+    <name>ИмяПроцедурыВыполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя процедуры выполнения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>256</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <createOnInput>DontUse</createOnInput>
+    <indexing>Index</indexing>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="8250f179-4c44-4d83-b47f-8d380ffeaca2">
+    <name>ИмяМетаданныхРегламента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя метаданных регламента</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>256</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <createOnInput>DontUse</createOnInput>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="02781098-7d0e-4488-af98-f7ce53cc2f92">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="af2789a5-e1b2-40d6-a4d0-5484f95faa95">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ad4887e9-ad18-428c-a757-132bc3c4241c">
+    <name>ФормаНастройкиНочногоРасчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки ночного расчёта</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="dc02563c-b67d-4bd9-af4a-c1b6f42042b4">
+    <name>НастройкаНочногоРасчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка ночного расчёта</value>
+    </synonym>
+    <group>ActionsPanelTools</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:InformationRegister>

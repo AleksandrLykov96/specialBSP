@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e7b90489-f693-4008-8e68-6ccd008da614">
+  <name>Спец_ПрочитатьИзмененияОтБазыОтправителя</name>
+  <synonym>
+    <key>ru</key>
+    <value>Прочитать изменения от базы отправителя (спец)</value>
+  </synonym>
+  <methodName>CommonModule.Спец_ОбменСДругимиБазами_Получатель.ПрочитатьИзмененияОтБазыОтправителя</methodName>
+  <description>Прочитать изменения от базы отправителя (спец)</description>
+  <key>Спец_ПрочитатьИзмененияОтБазыОтправителя</key>
+</mdclass:ScheduledJob>

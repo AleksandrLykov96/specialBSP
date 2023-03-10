@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="257ebc39-90ab-4406-93b4-00cfc7ef46fb">
+  <producedTypes>
+    <selectionType typeId="640687ac-2d3d-46c4-a96c-63ca7c65f429" valueTypeId="6ace53d2-82c0-40f5-9228-d5d407c553f9"/>
+    <listType typeId="b917908e-7d85-46fd-9ad5-d010752051af" valueTypeId="c4152d04-8cb0-4fef-964b-49fd1165b5d6"/>
+    <managerType typeId="6500b765-ed91-4cdf-82e0-b3fe056e0462" valueTypeId="b994c780-a967-4e77-8a54-f31af09ac7c4"/>
+    <recordSetType typeId="f00bb40b-bc57-4ef6-8b3b-c253f8dd74ce" valueTypeId="7c7d6b89-e248-426d-b549-06b636d61715"/>
+    <recordKeyType typeId="d9724233-570a-49df-94f2-f3306fbf66e6" valueTypeId="decb5aad-c281-4e24-b2d5-b2dbc924c396"/>
+    <recordType typeId="f12c66ec-8297-4771-acfe-8f225a4881ae" valueTypeId="2e3fa8e4-b226-48ed-961c-10f3a779e74e"/>
+    <recordManagerType typeId="a940e4a8-0c18-4451-975a-24e3836c13ca" valueTypeId="f8d479b6-284a-489f-a94b-5ad69bba263d"/>
+  </producedTypes>
+  <name>Спец_ОбъектыДляРегистрацииДляОбменов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Объекты для регистрации для обменов (спец)</value>
+  </synonym>
+  <editType>BothWays</editType>
+  <defaultRecordForm>InformationRegister.Спец_ОбъектыДляРегистрацииДляОбменов.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.Спец_ОбъектыДляРегистрацииДляОбменов.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Объект для регистрации для обмена</value>
+  </recordPresentation>
+  <extendedRecordPresentation>
+    <key>ru</key>
+    <value>Объект для регистрации для обмена</value>
+  </extendedRecordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Объекты для регистрации для обменов</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Объекты для регистрации для обменов</value>
+  </extendedListPresentation>
+  <resources uuid="6b17a42c-4135-440f-8f71-581937028f1f">
+    <name>ТекстЗапросаИсключения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст запроса исключения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1024</length>
+      </stringQualifiers>
+    </type>
+    <multiLine>true</multiLine>
+    <extendedEdit>true</extendedEdit>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="e917f265-a7cf-4b87-9c7a-28de66c76846">
+    <name>ПоляДляИзменения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поля для изменения</value>
+    </synonym>
+    <comment>В формате JSON</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <extendedEdit>true</extendedEdit>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <attributes uuid="526f5242-78b5-4ff6-bc31-785601cc3e61">
+    <name>ГУИДыСовпадают</name>
+    <synonym>
+      <key>ru</key>
+      <value>ГУИДы совпадают</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="07b1d054-18cb-4241-8e46-b33646954ffc">
+    <name>База</name>
+    <synonym>
+      <key>ru</key>
+      <value>База</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Спец_Базы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="79f16eab-eb10-4a93-b932-3739c3f84c6e">
+    <name>ПолноеИмяОбъектаМетаданных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полное имя объекта метаданных</value>
+    </synonym>
+    <comment>Полное имя объекта метаданных</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>256</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>Index</indexing>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="3de5caa1-035c-4004-9901-e9a3ca52c226">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e782a087-3915-42ab-b767-c1a9b9822e92">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

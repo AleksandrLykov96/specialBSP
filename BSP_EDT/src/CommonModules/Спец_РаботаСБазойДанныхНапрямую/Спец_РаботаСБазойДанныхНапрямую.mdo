@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9e301964-eabf-4328-b22d-d50031287b8b">
+  <name>Спец_РаботаСБазойДанныхНапрямую</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с базой данных напрямую (спец)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

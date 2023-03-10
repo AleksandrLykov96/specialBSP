@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suppress:SuppressGenericObject xmlns:suppress="http://g5.1c.ru/v8/dt/check/suppress/model" suppressed="true" fqn="DataProcessor.Спец_РегистрацияИзмененийДляОбменаДанными.Form.Форма.Form">
+  <suppressions key="com.e1c.dt.check.form:form-data-path" value="true"/>
+  <suppressions key="com.e1c.v8codestyle.form:form-list-ref-user-visibility-enabled" value="true"/>
+  <containments fqn="items:СписокСсылокСсылкаПредставление">
+    <suppressions key="com.e1c.v8codestyle.form:form-dynamic-list-item-title" value="true"/>
+  </containments>
+</suppress:SuppressGenericObject>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suppress:SuppressGenericObject xmlns:suppress="http://g5.1c.ru/v8/dt/check/suppress/model" fqn="CommonModule.Спец_КлиентСерверГлобальный">
+  <suppressions key="com.e1c.v8codestyle.md:common-module-type" value="true"/>
+  <suppressions key="com.e1c.v8codestyle.md:common-module-name-global-client" value="true"/>
+</suppress:SuppressGenericObject>

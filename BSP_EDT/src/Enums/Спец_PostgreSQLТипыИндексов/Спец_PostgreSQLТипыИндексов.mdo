@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4a084e84-9673-4cda-94d2-9088098ed9c8">
+  <producedTypes>
+    <refType typeId="70e16f67-2a19-4273-ac62-dc2ba9579cc6" valueTypeId="a9ba4552-e83d-424a-95fd-5e4df6b82772"/>
+    <listType typeId="05cf23e9-9f5e-4c3b-94f5-41b6cfda6615" valueTypeId="9e2c6612-e16b-4bfa-9141-bd7410df629a"/>
+    <managerType typeId="30f68685-fef4-4505-8d04-f73db79bae54" valueTypeId="1ada082a-e3bb-47c1-9469-de2810f810fe"/>
+  </producedTypes>
+  <name>Спец_PostgreSQLТипыИндексов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы индексов PostgreSQL (спец)</value>
+  </synonym>
+  <standardAttributes>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Типы индексов PostgreSQL</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Типы индексов PostgreSQL</value>
+  </extendedListPresentation>
+  <enumValues uuid="ec050fa4-6965-4314-bfde-823b7be27e3b">
+    <name>heap</name>
+    <synonym>
+      <key>ru</key>
+      <value>Heap</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="32aaff88-cf98-4195-bd1c-f47fa47cbb0a">
+    <name>btree</name>
+    <synonym>
+      <key>ru</key>
+      <value>Btree</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1835d294-e732-403f-925c-fb8f14ea4cb0">
+    <name>hash</name>
+    <synonym>
+      <key>ru</key>
+      <value>Hash</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e3c028df-306e-4f78-9074-f9c9a2b1eda1">
+    <name>gist</name>
+    <synonym>
+      <key>ru</key>
+      <value>Gist</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="404da483-3de7-442f-a0a5-472ff3e678fd">
+    <name>gin</name>
+    <synonym>
+      <key>ru</key>
+      <value>Gin</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6aa5c426-d1eb-4e71-af0e-81f1d127b880">
+    <name>spgist</name>
+    <synonym>
+      <key>ru</key>
+      <value>Spgist</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5a22431c-a83b-485e-ae0d-4d5aef4239fd">
+    <name>brin</name>
+    <synonym>
+      <key>ru</key>
+      <value>Brin</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
