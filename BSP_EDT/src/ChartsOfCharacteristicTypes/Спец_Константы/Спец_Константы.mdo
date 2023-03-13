@@ -572,6 +572,18 @@
             </numberQualifiers>
           </type>
         </content>
+        <content id="2a5a7a57-4bbd-425e-946d-a15427a93f5c">
+          <name>СрокХраненияОшибок</name>
+          <description>Срок хранения ошибок (дней)</description>
+          <code>СрокХраненияОшибок</code>
+          <type>
+            <types>Number</types>
+            <numberQualifiers>
+              <precision>10</precision>
+              <nonNegative>true</nonNegative>
+            </numberQualifiers>
+          </type>
+        </content>
       </content>
       <content id="c11af22b-66df-4579-879c-02f86c2df3bc">
         <name>ПараметрыФоновыхЗаданий</name>

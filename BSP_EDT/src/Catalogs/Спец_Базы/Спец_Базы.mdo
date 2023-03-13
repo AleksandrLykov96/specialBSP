@@ -181,6 +181,13 @@
         <value>nomen</value>
       </code>
     </items>
+    <items id="bfb418b1-17e3-47aa-aa0e-418dc4740ca7">
+      <name>ЕМИАС</name>
+      <description>ЕМИАС</description>
+      <code xsi:type="core:StringValue">
+        <value>ЕМИАС</value>
+      </code>
+    </items>
   </predefined>
   <editType>BothWays</editType>
   <choiceMode>BothWays</choiceMode>

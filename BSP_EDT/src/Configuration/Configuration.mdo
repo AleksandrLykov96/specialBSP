@@ -44,7 +44,7 @@
     <value>LYKOV</value>
   </configurationInformationAddress>
   <dataLockControlMode>Managed</dataLockControlMode>
-  <compatibilityMode>8.3.22</compatibilityMode>
+  <compatibilityMode>8.3.21</compatibilityMode>
   <defaultReportAppearanceTemplate>Arctic</defaultReportAppearanceTemplate>
   <languages uuid="e09d2861-0500-4260-b4ee-cb8d50a8a592">
     <name>Русский</name>
