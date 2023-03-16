@@ -109,6 +109,7 @@
   <commonModules>CommonModule.Спец_ОбменСДругимиБазамиВызовСервераПовтИсп</commonModules>
   <commonModules>CommonModule.Спец_ОбменСДругимиБазамиКлиент</commonModules>
   <commonModules>CommonModule.Спец_ОбменСДругимиБазамиКлиентСервер</commonModules>
+  <commonModules>CommonModule.Спец_ОбменСДругимиБазамиНаВремяВызоваПовтИсп</commonModules>
   <commonModules>CommonModule.Спец_ОбменСДругимиБазамиПереопределеяемый</commonModules>
   <commonModules>CommonModule.Спец_ОбработчикиПодписокНаСобытия</commonModules>
   <commonModules>CommonModule.Спец_ОбщегоНазначения</commonModules>

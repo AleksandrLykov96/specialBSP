@@ -19,6 +19,7 @@
   <content>HTTPService.Спец_Exchange</content>
   <content>DataProcessor.Спец_ОбменСДругимиБазами</content>
   <content>CommonModule.Спец_ОбменСДругимиБазамиВызовСервера</content>
+  <content>CommonModule.Спец_ОбменСДругимиБазамиНаВремяВызоваПовтИсп</content>
   <subsystems>Спец_ОбменыСДругимиБазами_Отправитель</subsystems>
   <subsystems>Спец_ОбменыСДругимиБазами_Получатель</subsystems>
   <subsystems>Спец_ПроверкаДоступностиБаз</subsystems>

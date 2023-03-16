@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form" xmlns:schema="http://g5.1c.ru/v8/dt/data-composition-system/schema">
   <items xsi:type="form:FormGroup">
     <name>СписокКомпоновщикНастроекПользовательскиеНастройки</name>
     <id>1</id>
@@ -499,6 +499,10 @@
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>ПриСозданииНаСервере</name>
+  </handlers>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
@@ -536,15 +540,84 @@
 	РегистрСведенийСпец_ЗарегистрированныеОбъектыДляОбмена_Регистры.Объект_4 КАК Объект_4,
 	РегистрСведенийСпец_ЗарегистрированныеОбъектыДляОбмена_Регистры.Объект_5 КАК Объект_5,
 	РегистрСведенийСпец_ЗарегистрированныеОбъектыДляОбмена_Регистры.UnixTimestamp КАК UnixTimestamp,
-	РегистрСведенийСпец_ЗарегистрированныеОбъектыДляОбмена_Регистры.ПолноеИмяОбъектаМетаданных КАК ПолноеИмяОбъектаМетаданных,
+	РегистрСведенийСпец_ЗарегистрированныеОбъектыДляОбмена_Регистры.ПолноеИмяОбъектаМетаданных КАК
+		ПолноеИмяОбъектаМетаданных,
 	РегистрСведенийСпец_ЗарегистрированныеОбъектыДляОбмена_Регистры.Приоритет КАК Приоритет,
-	ДАТАВРЕМЯ(1, 1, 1, 0, 0, 0) КАК ДатаРегистрации
+	ДОБАВИТЬКДАТЕ(ДАТАВРЕМЯ(1970, 1, 1), СЕКУНДА,
+		РегистрСведенийСпец_ЗарегистрированныеОбъектыДляОбмена_Регистры.UnixTimestamp + &amp;СмещениеЧасовогоПояса) КАК
+		ДатаРегистрации
 ИЗ
-	РегистрСведений.Спец_ЗарегистрированныеОбъектыДляОбмена_Регистры КАК РегистрСведенийСпец_ЗарегистрированныеОбъектыДляОбмена_Регистры</queryText>
+	РегистрСведений.Спец_ЗарегистрированныеОбъектыДляОбмена_Регистры КАК
+		РегистрСведенийСпец_ЗарегистрированныеОбъектыДляОбмена_Регистры</queryText>
       <mainTable>InformationRegister.Спец_ЗарегистрированныеОбъектыДляОбмена_Регистры</mainTable>
       <autoFillAvailableFields>true</autoFillAvailableFields>
       <customQuery>true</customQuery>
       <autoSaveUserSettings>true</autoSaveUserSettings>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>База</dataPath>
+        <field>База</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Объект_1</dataPath>
+        <field>Объект_1</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Объект_2</dataPath>
+        <field>Объект_2</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Объект_3</dataPath>
+        <field>Объект_3</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Объект_4</dataPath>
+        <field>Объект_4</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Объект_5</dataPath>
+        <field>Объект_5</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>UnixTimestamp</dataPath>
+        <field>UnixTimestamp</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ПолноеИмяОбъектаМетаданных</dataPath>
+        <field>ПолноеИмяОбъектаМетаданных</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Приоритет</dataPath>
+        <field>Приоритет</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ДатаРегистрации</dataPath>
+        <field>ДатаРегистрации</field>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Дата регистрации</value>
+            </content>
+          </localValue>
+        </title>
+      </fields>
+      <parameters>
+        <name>СмещениеЧасовогоПояса</name>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Смещение часового пояса</value>
+            </content>
+          </localValue>
+        </title>
+        <valueType>
+          <types>Number</types>
+          <numberQualifiers/>
+        </valueType>
+        <useRestriction>true</useRestriction>
+        <expression>СмещениеСтандартногоВремени()</expression>
+      </parameters>
     </extInfo>
   </attributes>
   <commandInterface>

@@ -492,6 +492,10 @@
           </localValue>
         </title>
       </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Скриншот</dataPath>
+        <field>Скриншот</field>
+      </fields>
     </extInfo>
   </attributes>
   <commandInterface>

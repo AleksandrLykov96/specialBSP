@@ -3,6 +3,25 @@
 	<filter>
 		<item xsi:type="FilterItemComparison">
 			<use>false</use>
+			<left xsi:type="dcscor:Field">Источник</left>
+			<comparisonType>BeginsWith</comparisonType>
+			<right xsi:type="xs:string">Пользовательская ошибка: </right>
+			<presentation xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Только пользовательские ошибки</v8:content>
+				</v8:item>
+			</presentation>
+			<userSettingID>73301cf2-3b26-42dd-b013-f18a3145088c</userSettingID>
+			<userSettingPresentation xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Только пользовательские ошибки</v8:content>
+				</v8:item>
+			</userSettingPresentation>
+		</item>
+		<item xsi:type="FilterItemComparison">
+			<use>false</use>
 			<left xsi:type="dcscor:Field">Период</left>
 			<comparisonType>LessOrEqual</comparisonType>
 			<right xsi:type="v8:StandardBeginningDate">

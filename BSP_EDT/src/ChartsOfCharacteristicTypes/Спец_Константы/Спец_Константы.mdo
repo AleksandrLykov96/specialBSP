@@ -584,6 +584,17 @@
             </numberQualifiers>
           </type>
         </content>
+        <content id="1c71c9f0-2182-48d7-9321-be733a888bec">
+          <name>ДатаПоследнегоПересчетаИтогов</name>
+          <description>Дата последнего пересчёта итогов</description>
+          <code>ДатаПоследнегоПересчетаИтогов</code>
+          <type>
+            <types>Date</types>
+            <dateQualifiers>
+              <dateFractions>Date</dateFractions>
+            </dateQualifiers>
+          </type>
+        </content>
       </content>
       <content id="c11af22b-66df-4579-879c-02f86c2df3bc">
         <name>ПараметрыФоновыхЗаданий</name>

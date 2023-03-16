@@ -231,6 +231,10 @@
       <showInFooter>true</showInFooter>
       <extInfo xsi:type="form:LabelFieldExtInfo">
         <autoMaxHeight>true</autoMaxHeight>
+        <format>
+          <key>ru</key>
+          <value>ЧН=</value>
+        </format>
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
