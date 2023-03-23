@@ -11,7 +11,6 @@
   <content>CommonModule.Спец_ЛогированиеОбъектов</content>
   <content>CommonModule.Спец_ЛогированиеОбъектовВызовСервераПовтИсп</content>
   <content>CommonModule.Спец_ЛогированиеОбъектовКлиент</content>
-  <content>Enum.Спец_УровниЛогирования</content>
   <content>CommonModule.Спец_ЛогированиеОбъектовКлиентСервер</content>
   <content>CommonModule.Спец_ЛогированиеОбъектовВызовСервера</content>
   <content>CommonModule.Спец_ЛогированиеОбъектовКлиентСерверПовтИсп</content>

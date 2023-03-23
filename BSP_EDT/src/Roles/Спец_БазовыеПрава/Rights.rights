@@ -631,4 +631,11 @@
 			<value>true</value>
 		</right>
 	</object>
+	<object>
+		<name>Subsystem.Спец_БСП.Subsystem.Спец_ОсновныеОбъекты</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
 </Rights>

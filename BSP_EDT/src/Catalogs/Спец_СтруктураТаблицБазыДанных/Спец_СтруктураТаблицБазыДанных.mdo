@@ -887,6 +887,7 @@
         <types>ChartOfCharacteristicTypesRef</types>
         <types>ChartOfCalculationTypesRef</types>
         <types>ChartOfAccountsRef</types>
+        <types>ExchangePlanRef</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>

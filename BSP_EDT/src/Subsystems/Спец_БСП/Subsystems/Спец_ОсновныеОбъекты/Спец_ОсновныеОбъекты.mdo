@@ -61,6 +61,7 @@
   <content>CommonModule.Спец_ОбщегоНазначенияКлиентПовтИсп</content>
   <content>CommonModule.Спец_ОбщегоНазначенияКлиентСерверПовтИсп</content>
   <content>DataProcessor.Спец_ГрупповоеИзменениеРеквизитов</content>
+  <content>Enum.Спец_УровниЛогирования</content>
   <subsystems>Спец_КомпонентаДополнительныеФункции</subsystems>
   <subsystems>Спец_РаботаСБазойДанных</subsystems>
   <subsystems>Спец_РаботаСФоновымиЗаданиями</subsystems>
