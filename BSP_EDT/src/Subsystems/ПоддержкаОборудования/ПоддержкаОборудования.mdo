@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c7e08cdf-ff48-4587-81e5-38991973c58b">
+  <name>ПоддержкаОборудования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поддержка оборудования</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <explanation>
+    <key>ru</key>
+    <value>Подсистема поддержки оборудования</value>
+  </explanation>
+  <content>Enum.ТипыПлатежныхОпераций</content>
+  <content>Catalog.РабочиеМеста</content>
+  <content>DefinedType.ТорговыйОбъектБПО</content>
+  <content>DefinedType.ОрганизацияБПО</content>
+  <content>Enum.ПериодХраненияИсторииПлатежныхОпераций</content>
+  <content>DefinedType.ПользовательБПО</content>
+  <content>CommonModule.ОбновлениеИнформационнойБазыБПО</content>
+  <content>SessionParameter.РабочееМестоКлиента</content>
+  <content>DefinedType.ДенежнаяСуммаНеотрицательная</content>
+  <content>DefinedType.ДенежнаяСуммаЛюбогоЗнака</content>
+  <content>InformationRegister.ПлатежныеОперации</content>
+  <content>DataProcessor.ПанельАдминистрированияБПО</content>
+  <content>ScheduledJob.ОчисткаИсторииПлатежныхОпераций</content>
+  <subsystems>ПодключаемоеОборудование</subsystems>
+</mdclass:Subsystem>

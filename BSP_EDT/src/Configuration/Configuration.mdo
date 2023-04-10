@@ -54,28 +54,62 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.ПоддержкаОборудования</subsystems>
   <subsystems>Subsystem.Спец_БСП</subsystems>
+  <subsystems>Subsystem.Спец_РаботаСТорговымОборудованием</subsystems>
   <styleItems>StyleItem.Спец_СтильПодсказкиОшибки</styleItems>
   <styleItems>StyleItem.Спец_ШрифтВыделениеЖирным</styleItems>
   <commonPictures>CommonPicture.Спец_PostgreSQL</commonPictures>
   <commonPictures>CommonPicture.Спец_ДлительнаяОперация</commonPictures>
   <commonPictures>CommonPicture.Спец_НижегородскаяАптечнаяСеть</commonPictures>
-  <commonPictures>CommonPicture.Спец_ПодключаемоеОборудованиеККТ</commonPictures>
-  <commonPictures>CommonPicture.Спец_ПодключаемоеОборудованиеСканерШтрихкода</commonPictures>
-  <commonPictures>CommonPicture.Спец_ПодключаемоеОборудованиеЭквайринговыеТерминалы</commonPictures>
+  <commonPictures>CommonPicture.Спец_РаботаСТорговымОборудованием</commonPictures>
+  <sessionParameters>SessionParameter.РабочееМестоКлиента</sessionParameters>
   <sessionParameters>SessionParameter.Спец_ОбщиеЗначения</sessionParameters>
-  <sessionParameters>SessionParameter.Спец_РабочееМестоКлиента</sessionParameters>
   <sessionParameters>SessionParameter.Спец_ТекущаяБаза</sessionParameters>
   <sessionParameters>SessionParameter.Спец_ТекущийПользователь</sessionParameters>
   <roles>Role.ПолныеПрава</roles>
   <roles>Role.Спец_БазовыеПрава</roles>
-  <commonTemplates>CommonTemplate.Спец_Драйвер1СУстройстваВводаNative</commonTemplates>
-  <commonTemplates>CommonTemplate.Спец_Драйвер1СЭквайринговыеТерминалыСбербанк</commonTemplates>
+  <commonTemplates>CommonTemplate.Драйвер1СУстройстваВводаNative</commonTemplates>
+  <commonTemplates>CommonTemplate.Драйвер1СЭквайринговыеТерминалыСбербанк2х</commonTemplates>
+  <commonTemplates>CommonTemplate.ДрайверАТОЛККТ54ФЗ10XФФД12</commonTemplates>
+  <commonTemplates>CommonTemplate.ДрайверШтрихМККТ54ФЗ4ФФД12_517</commonTemplates>
   <commonTemplates>CommonTemplate.Спец_КомпонентаLykovExtFunctions</commonTemplates>
   <commonTemplates>CommonTemplate.Спец_КомпонентаLykovHTTPClient</commonTemplates>
   <commonTemplates>CommonTemplate.Спец_КомпонентаLykovMySQL</commonTemplates>
   <commonTemplates>CommonTemplate.Спец_КомпонентаLykovPostgreSQL</commonTemplates>
   <commonTemplates>CommonTemplate.Спец_КомпонентаПечатиШтрихкодов</commonTemplates>
+  <commonModules>CommonModule.КассовыеСменыВызовСервера</commonModules>
+  <commonModules>CommonModule.КассовыеСменыКлиентПереопределяемый</commonModules>
+  <commonModules>CommonModule.КассовыеСменыПереопределяемый</commonModules>
+  <commonModules>CommonModule.МенеджерОборудования</commonModules>
+  <commonModules>CommonModule.МенеджерОборудованияВызовСервера</commonModules>
+  <commonModules>CommonModule.МенеджерОборудованияВызовСервераПереопределяемый</commonModules>
+  <commonModules>CommonModule.МенеджерОборудованияКлиент</commonModules>
+  <commonModules>CommonModule.МенеджерОборудованияКлиентПереопределяемый</commonModules>
+  <commonModules>CommonModule.МенеджерОборудованияКлиентПовтИсп</commonModules>
+  <commonModules>CommonModule.МенеджерОборудованияКлиентСервер</commonModules>
+  <commonModules>CommonModule.МенеджерОборудованияКлиентСерверПереопределяемый</commonModules>
+  <commonModules>CommonModule.МенеджерОборудованияМаркировкаВызовСервера</commonModules>
+  <commonModules>CommonModule.МенеджерОборудованияМаркировкаКлиентСервер</commonModules>
+  <commonModules>CommonModule.МенеджерОборудованияМаркировкаКлиентСерверПовтИсп</commonModules>
+  <commonModules>CommonModule.МенеджерОборудованияПовтИсп</commonModules>
+  <commonModules>CommonModule.ОбновлениеИнформационнойБазыБПО</commonModules>
+  <commonModules>CommonModule.ОборудованиеПлатежныеСистемыВызовСервера</commonModules>
+  <commonModules>CommonModule.ОборудованиеПлатежныеСистемыКлиент</commonModules>
+  <commonModules>CommonModule.ОборудованиеПлатежныеСистемыКлиентСервер</commonModules>
+  <commonModules>CommonModule.ОборудованиеПлатежныеСистемыОбновление</commonModules>
+  <commonModules>CommonModule.ОборудованиеУстройстваВводаВызовСервера</commonModules>
+  <commonModules>CommonModule.ОборудованиеУстройстваВводаКлиент</commonModules>
+  <commonModules>CommonModule.ОборудованиеУстройстваВводаОбновление</commonModules>
+  <commonModules>CommonModule.ОборудованиеЧекопечатающиеАвтономныеУстройстваКлиент</commonModules>
+  <commonModules>CommonModule.ОборудованиеЧекопечатающиеАвтономныеУстройстваКлиентПереопределяемый</commonModules>
+  <commonModules>CommonModule.ОборудованиеЧекопечатающиеУстройстваВызовСервера</commonModules>
+  <commonModules>CommonModule.ОборудованиеЧекопечатающиеУстройстваКлиент</commonModules>
+  <commonModules>CommonModule.ОборудованиеЧекопечатающиеУстройстваКлиентЛокализация</commonModules>
+  <commonModules>CommonModule.ОборудованиеЧекопечатающиеУстройстваКлиентСервер</commonModules>
+  <commonModules>CommonModule.ОборудованиеЧекопечатающиеУстройстваОбновление</commonModules>
+  <commonModules>CommonModule.ПодключаемоеОборудованиеДрайверКлиент</commonModules>
+  <commonModules>CommonModule.ПодключаемоеОборудованиеДрайверСинхронноКлиент</commonModules>
   <commonModules>CommonModule.Спец_PostgreSQL</commonModules>
   <commonModules>CommonModule.Спец_PostgreSQLВызовСервераПовтИсп</commonModules>
   <commonModules>CommonModule.Спец_PostgreSQLКлиент</commonModules>
@@ -96,11 +130,6 @@
   <commonModules>CommonModule.Спец_ЛогированиеОбъектовКлиент</commonModules>
   <commonModules>CommonModule.Спец_ЛогированиеОбъектовКлиентСервер</commonModules>
   <commonModules>CommonModule.Спец_ЛогированиеОбъектовКлиентСерверПовтИсп</commonModules>
-  <commonModules>CommonModule.Спец_МенеджерОборудования</commonModules>
-  <commonModules>CommonModule.Спец_МенеджерОборудованияВызовСервера</commonModules>
-  <commonModules>CommonModule.Спец_МенеджерОборудованияКлиент</commonModules>
-  <commonModules>CommonModule.Спец_МенеджерОборудованияКлиентСервер</commonModules>
-  <commonModules>CommonModule.Спец_МенеджерОборудованияРаботаСДрайверомКлиент</commonModules>
   <commonModules>CommonModule.Спец_МодульРегламентныхЗаданий</commonModules>
   <commonModules>CommonModule.Спец_ОбменСДругимиБазами</commonModules>
   <commonModules>CommonModule.Спец_ОбменСДругимиБазами_Отправитель</commonModules>
@@ -142,39 +171,97 @@
   <eventSubscriptions>EventSubscription.Спец_ПриЗаписиРегистраРасчета</eventSubscriptions>
   <eventSubscriptions>EventSubscription.Спец_ПриЗаписиСсылочногоОбъекта</eventSubscriptions>
   <eventSubscriptions>EventSubscription.Спец_ПриКопировании</eventSubscriptions>
+  <scheduledJobs>ScheduledJob.ОчисткаИсторииОперацийОчередиЧеков</scheduledJobs>
+  <scheduledJobs>ScheduledJob.ОчисткаИсторииПлатежныхОпераций</scheduledJobs>
+  <scheduledJobs>ScheduledJob.ОчисткаИсторииФискальныхОпераций</scheduledJobs>
   <scheduledJobs>ScheduledJob.Спец_ЗапускОбменовСДругимиБазами</scheduledJobs>
   <scheduledJobs>ScheduledJob.Спец_НочнойРасчет</scheduledJobs>
   <scheduledJobs>ScheduledJob.Спец_ОбновлениеИндексаПолнотекстовогоПоиска</scheduledJobs>
   <scheduledJobs>ScheduledJob.Спец_ПроверкаДоступностиБаз</scheduledJobs>
   <scheduledJobs>ScheduledJob.Спец_ПрочитатьИзмененияОтБазыОтправителя</scheduledJobs>
+  <definedTypes>DefinedType.ДенежнаяСуммаЛюбогоЗнака</definedTypes>
+  <definedTypes>DefinedType.ДенежнаяСуммаНеотрицательная</definedTypes>
+  <definedTypes>DefinedType.КассаБПО</definedTypes>
+  <definedTypes>DefinedType.ОрганизацияБПО</definedTypes>
+  <definedTypes>DefinedType.ОснованиеФискальнойОперацииБПО</definedTypes>
+  <definedTypes>DefinedType.ПользовательБПО</definedTypes>
+  <definedTypes>DefinedType.СубъектПерсональныхДанныхБПО</definedTypes>
+  <definedTypes>DefinedType.ТорговыйОбъектБПО</definedTypes>
+  <commonCommands>CommonCommand.ВыбратьРМТекущегоСеанса</commonCommands>
+  <commonCommands>CommonCommand.ОчередьЧековККТ</commonCommands>
+  <commonCommands>CommonCommand.РегистрПлатежныхОпераций</commonCommands>
+  <commonCommands>CommonCommand.РегистрФискальныхОпераций</commonCommands>
+  <commonCommands>CommonCommand.СверкаИтоговПоКартам</commonCommands>
   <commonCommands>CommonCommand.Спец_ВыполнитьОбработкуОбновленияКонфигурации</commonCommands>
+  <commonCommands>CommonCommand.УправлениеФискальнымУстройством</commonCommands>
+  <commonCommands>CommonCommand.УправлениеЭквайринговымТерминалом</commonCommands>
+  <constants>Constant.ИдентификаторОбсужденияФискализации</constants>
+  <constants>Constant.СрокХраненияОперацийОчередиЧеков</constants>
+  <constants>Constant.СрокХраненияПлатежныхОпераций</constants>
+  <constants>Constant.СрокХраненияФискальныхОпераций</constants>
+  <commonForms>CommonForm.КодВидаНоменклатурнойКлассификации</commonForms>
+  <commonForms>CommonForm.НастройкаРегистрацииККТ</commonForms>
   <commonForms>CommonForm.Спец_ФормаВыполненияЗапросаPostgreSQL</commonForms>
   <commonForms>CommonForm.Спец_ФормаФоновогоЗадания</commonForms>
+  <commonForms>CommonForm.УправлениеФискальнымУстройством</commonForms>
+  <commonForms>CommonForm.УправлениеЭквайринговымТерминалом</commonForms>
+  <catalogs>Catalog.ДрайверыОборудования</catalogs>
+  <catalogs>Catalog.ПодключаемоеОборудование</catalogs>
+  <catalogs>Catalog.РабочиеМеста</catalogs>
   <catalogs>Catalog.Спец_Базы</catalogs>
   <catalogs>Catalog.Спец_ВнешниеОбработки</catalogs>
   <catalogs>Catalog.Спец_ГруппыБазДляОбщихОбменов</catalogs>
-  <catalogs>Catalog.Спец_ДрайверыОборудования</catalogs>
   <catalogs>Catalog.Спец_МассивЗначенийКонстант</catalogs>
-  <catalogs>Catalog.Спец_ПодключаемоеОборудование</catalogs>
   <catalogs>Catalog.Спец_Пользователи</catalogs>
-  <catalogs>Catalog.Спец_РабочиеМеста</catalogs>
   <catalogs>Catalog.Спец_СтруктураТаблицБазыДанных</catalogs>
+  <documents>Document.КассоваяСмена</documents>
+  <enums>Enum.ВидДокументаУдостоверяющегоЛичностьККТ</enums>
+  <enums>Enum.ВидыОперацийИзмененияСостоянияФН</enums>
+  <enums>Enum.МераКоличестваПредметаРасчетаККТ</enums>
+  <enums>Enum.ОбработчикиДрайверовПодключаемогоОборудования</enums>
+  <enums>Enum.ОтветОИСМОСтатусеТовара</enums>
+  <enums>Enum.ПериодХраненияИсторииПлатежныхОпераций</enums>
+  <enums>Enum.ПланируемыйСтатусМаркируемогоТовара</enums>
+  <enums>Enum.ПоляШаблоновМагнитныхКарт</enums>
+  <enums>Enum.ПризнакиАгента</enums>
+  <enums>Enum.ПризнакиПредметаРасчета</enums>
+  <enums>Enum.ПризнакиСпособаРасчета</enums>
+  <enums>Enum.ПричиныИзмененияСведенийККТ</enums>
+  <enums>Enum.ПричиныПеререгистрацииФН</enums>
   <enums>Enum.Спец_PostgreSQLТипыИндексов</enums>
   <enums>Enum.Спец_ВидыБаз</enums>
   <enums>Enum.Спец_ОперационныеСистемы</enums>
   <enums>Enum.Спец_ПериодыОбменаДляОбъектов</enums>
   <enums>Enum.Спец_РежимыОсновногоОкна</enums>
-  <enums>Enum.Спец_СпособыПодключенияДрайвера</enums>
   <enums>Enum.Спец_ТипыБазыДанных</enums>
   <enums>Enum.Спец_ТипыДанныхБазыДанных</enums>
   <enums>Enum.Спец_ТипыОбменовСДругимиБазами</enums>
   <enums>Enum.Спец_ТипыОбновленияТаблицыБазыДанных</enums>
   <enums>Enum.Спец_ТипыПередачиОбъектовДляОбмена</enums>
-  <enums>Enum.Спец_ТипыПодключаемогоОборудования</enums>
   <enums>Enum.Спец_ТипыСоставныхПолейБазыДанных</enums>
   <enums>Enum.Спец_ТипыУведомленийПользователя</enums>
   <enums>Enum.Спец_УровниЛогирования</enums>
+  <enums>Enum.СпособПодключенияДрайвера</enums>
+  <enums>Enum.СпособыФорматноЛогическогоКонтроля</enums>
+  <enums>Enum.СтатусОбработкиЗапросаКМ</enums>
+  <enums>Enum.СтатусРезультатаЗапросаКМ</enums>
+  <enums>Enum.СтатусЧекаККТВОчереди</enums>
+  <enums>Enum.СтатусыКассовойСмены</enums>
+  <enums>Enum.ТипыИдентификаторовТовараККТ</enums>
+  <enums>Enum.ТипыМаркировкиККТ</enums>
+  <enums>Enum.ТипыОплатыККТ</enums>
+  <enums>Enum.ТипыПакетнойОперацииВОчередиЧеков</enums>
+  <enums>Enum.ТипыПерсональныхДанныхККТ</enums>
+  <enums>Enum.ТипыПлатежнойСистемыККТ</enums>
+  <enums>Enum.ТипыПлатежныхОпераций</enums>
+  <enums>Enum.ТипыПодключаемогоОборудования</enums>
+  <enums>Enum.ТипыПодключенияОборудования</enums>
+  <enums>Enum.ТипыРасчетаДенежнымиСредствами</enums>
+  <enums>Enum.ТипыСистемНалогообложенияККТ</enums>
+  <enums>Enum.ТипыФискальныхДокументовККТ</enums>
+  <enums>Enum.ТипыЧековКоррекции</enums>
   <enums>Enum.УровеньБазы</enums>
+  <dataProcessors>DataProcessor.ПанельАдминистрированияБПО</dataProcessors>
   <dataProcessors>DataProcessor.Спец_ГрупповоеИзменениеРеквизитов</dataProcessors>
   <dataProcessors>DataProcessor.Спец_КонсольЗаданий</dataProcessors>
   <dataProcessors>DataProcessor.Спец_КонсольЗапросов</dataProcessors>
@@ -182,7 +269,11 @@
   <dataProcessors>DataProcessor.Спец_ОтправкаУведомленийПользователям</dataProcessors>
   <dataProcessors>DataProcessor.Спец_ОчисткаЛюбойТаблицы</dataProcessors>
   <dataProcessors>DataProcessor.Спец_РегистрацияИзмененийДляОбменаДанными</dataProcessors>
+  <dataProcessors>DataProcessor.Спец_ТестированиеПодключаемогоОборудования</dataProcessors>
   <dataProcessors>DataProcessor.Спец_УправлениеСеансамиВКластере</dataProcessors>
+  <informationRegisters>InformationRegister.НумерацияЧековККТ</informationRegisters>
+  <informationRegisters>InformationRegister.ОчередьЧековККТ</informationRegisters>
+  <informationRegisters>InformationRegister.ПлатежныеОперации</informationRegisters>
   <informationRegisters>InformationRegister.Спец_ГУИДыОбъектовДругихБаз</informationRegisters>
   <informationRegisters>InformationRegister.Спец_ЗарегистрированныеОбъектыДляОбмена_Регистры</informationRegisters>
   <informationRegisters>InformationRegister.Спец_ЗарегистрированныеОбъектыДляОбмена_Ссылки</informationRegisters>
@@ -198,5 +289,6 @@
   <informationRegisters>InformationRegister.Спец_СтруктураТаблицБДИзДругихБаз</informationRegisters>
   <informationRegisters>InformationRegister.Спец_УведомленияДляПользователей</informationRegisters>
   <informationRegisters>InformationRegister.Спец_ХранимыеЗначенияКонстант</informationRegisters>
+  <informationRegisters>InformationRegister.ФискальныеОперации</informationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.Спец_Константы</chartsOfCharacteristicTypes>
 </mdclass:Configuration>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0993618c-4be8-4db9-83f9-e6fa20c7bcb1">
+  <producedTypes>
+    <objectType typeId="fff01675-19ca-4e5c-9ccc-2d8e7521bf3b" valueTypeId="e50d7339-9291-4206-86ea-fffdd3bd29c4"/>
+    <managerType typeId="a8109346-7038-4d99-8035-10a43d7b19f9" valueTypeId="b82afd1e-0933-4e45-86af-db55690a1611"/>
+  </producedTypes>
+  <name>Спец_ТестированиеПодключаемогоОборудования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тестирование подключаемого оборудования (спец)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.Спец_ТестированиеПодключаемогоОборудования.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="acb98edc-0f78-42d7-83f5-771cb193118f">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тестирование подключаемого оборудования</value>
+    </synonym>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c8a6dafa-bc9f-4260-9e42-bd8495767ae9">
+    <name>ФормаВопросПользователюПриОшибкеОплаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма вопрос пользователю при ошибке оплаты</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="66e7006d-3650-47ba-b84d-cce324e4efe8">
+    <name>МакетЧеков</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет чеков</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <commands uuid="9d4e3e11-93f1-4fa1-85ef-f42a873d57de">
+    <name>ТестированиеПодключаемогоОборудования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тестирование подключаемого оборудования</value>
+    </synonym>
+    <group>NavigationPanelImportant</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

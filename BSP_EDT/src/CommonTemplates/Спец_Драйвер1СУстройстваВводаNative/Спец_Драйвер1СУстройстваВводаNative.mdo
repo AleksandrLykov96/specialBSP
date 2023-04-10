@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ddfc2c9f-cb65-4674-b0be-f54e2cf7c5bb">
-  <name>Спец_Драйвер1СУстройстваВводаNative</name>
-  <synonym>
-    <key>ru</key>
-    <value>Драйвер &quot;1С: Устройства ввода (NativeApi)&quot; (типовая, спец)</value>
-  </synonym>
-  <templateType>AddIn</templateType>
-</mdclass:CommonTemplate>

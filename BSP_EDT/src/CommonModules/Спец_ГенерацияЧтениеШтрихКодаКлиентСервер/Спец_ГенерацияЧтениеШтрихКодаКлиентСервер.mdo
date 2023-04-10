@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cbb4e176-dc0e-44e2-9edc-fc81bb8a47b9">
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="548d0ff7-d08d-47f1-b3e4-d2f8576eb316">
   <name>Спец_ГенерацияЧтениеШтрихКодаКлиентСервер</name>
   <synonym>
     <key>ru</key>

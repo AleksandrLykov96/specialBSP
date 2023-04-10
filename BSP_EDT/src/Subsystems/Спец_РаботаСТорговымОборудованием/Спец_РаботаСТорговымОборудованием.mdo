@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7dfb2836-d4dc-4b3a-8f8b-7a2ff262dc46">
+  <name>Спец_РаботаСТорговымОборудованием</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с торговым оборудованием (спец)</value>
+  </synonym>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Спец_РаботаСТорговымОборудованием</picture>
+  </picture>
+  <content>CommonPicture.Спец_РаботаСТорговымОборудованием</content>
+  <content>DataProcessor.ПанельАдминистрированияБПО</content>
+  <content>ScheduledJob.ОчисткаИсторииОперацийОчередиЧеков</content>
+  <content>ScheduledJob.ОчисткаИсторииФискальныхОпераций</content>
+  <content>Constant.СрокХраненияОперацийОчередиЧеков</content>
+  <content>Constant.СрокХраненияПлатежныхОпераций</content>
+  <content>Constant.СрокХраненияФискальныхОпераций</content>
+  <content>DataProcessor.Спец_ТестированиеПодключаемогоОборудования</content>
+  <subsystems>Спец_ГенерацияШтрихКода</subsystems>
+</mdclass:Subsystem>

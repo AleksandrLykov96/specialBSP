@@ -5,6 +5,5 @@
     <subsystems>Subsystem.Спец_БСП.Subsystem.Спец_НочнойРасчет</subsystems>
     <subsystems>Subsystem.Спец_БСП.Subsystem.Спец_ОбменыСДругимиБазами</subsystems>
     <subsystems>Subsystem.Спец_БСП.Subsystem.Спец_ЛогированиеОбъектов</subsystems>
-    <subsystems>Subsystem.Спец_БСП.Subsystem.Спец_ПодключаемоеОборудование</subsystems>
   </subsystemsOrder>
 </cmi:CommandInterface>

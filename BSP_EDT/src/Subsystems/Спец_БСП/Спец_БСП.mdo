@@ -14,5 +14,4 @@
   <subsystems>Спец_НочнойРасчет</subsystems>
   <subsystems>Спец_ОбменыСДругимиБазами</subsystems>
   <subsystems>Спец_ОсновныеОбъекты</subsystems>
-  <subsystems>Спец_ПодключаемоеОборудование</subsystems>
 </mdclass:Subsystem>

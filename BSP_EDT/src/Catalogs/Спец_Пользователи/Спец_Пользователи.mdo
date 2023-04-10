@@ -109,20 +109,6 @@
   <defaultObjectForm>Catalog.Спец_Пользователи.Form.ФормаЭлемента</defaultObjectForm>
   <defaultListForm>Catalog.Спец_Пользователи.Form.ФормаСписка</defaultListForm>
   <defaultChoiceForm>Catalog.Спец_Пользователи.Form.ФормаВыбора</defaultChoiceForm>
-  <attributes uuid="45d524de-eab7-4368-a0a5-3573e2a04f3d">
-    <name>ПереустановитьКомпоненту</name>
-    <synonym>
-      <key>ru</key>
-      <value>Переустановить компоненту</value>
-    </synonym>
-    <type>
-      <types>Boolean</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <createOnInput>DontUse</createOnInput>
-    <fillValue xsi:type="core:UndefinedValue"/>
-  </attributes>
   <attributes uuid="4783efd7-9913-4d78-abc7-064134d96f17">
     <name>РежимЗапуска</name>
     <synonym>
@@ -140,6 +126,76 @@
       <value>Enum.Спец_РежимыОсновногоОкна.EnumValue.Обычный</value>
     </fillValue>
   </attributes>
+  <tabularSections uuid="78965b0c-5280-4208-a1bc-ca3378694a36">
+    <producedTypes>
+      <objectType typeId="33b762fe-622d-4d87-a649-2956ade56c67" valueTypeId="b3bdb175-7317-4e3e-b812-fd4fe49299b0"/>
+      <rowType typeId="d67d12b5-c22d-49ee-aa52-9681e185425a" valueTypeId="0adb1742-83c6-4f05-b575-9cdc829519b6"/>
+    </producedTypes>
+    <name>ПараметрыРаботыСКомпонентами</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры работы с компонентами</value>
+    </synonym>
+    <attributes uuid="b14e70b2-53f5-4f04-bb9a-c3a12a518b23">
+      <name>НаименованиеКомпоненты</name>
+      <synonym>
+        <key>ru</key>
+        <value>Наименование компоненты</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>256</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="c2b1f84c-0e11-4d98-860f-493013b11228">
+      <name>ИмяКомпьютераКлиента</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя компьютера клиента</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>256</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0a567b95-a7e7-4f3e-9376-b0d730ded4dd">
+      <name>КомпонентаНеРаботает</name>
+      <synonym>
+        <key>ru</key>
+        <value>Компонента не работает</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="970e424c-9f05-471d-a5ee-baa9cfc76cf1">
+      <name>НомерПоследнейУстановленнойВерсии</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер последней установленной версии</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>64</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
   <forms uuid="b56ddf81-9958-4255-a37c-d5d945bc458d">
     <name>ФормаЭлемента</name>
     <synonym>

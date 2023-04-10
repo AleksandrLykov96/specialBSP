@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d02aaf4d-4e30-4b5b-bb1a-5331e0ef4083">
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="faf5abcf-a527-453f-a4a3-4e90f6ee82c6">
   <name>Спец_КомпонентаПечатиШтрихкодов</name>
   <synonym>
     <key>ru</key>

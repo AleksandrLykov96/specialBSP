@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ade544ae-423e-44fa-9465-ead6d4d38201">
+  <name>Спец_РаботаСТорговымОборудованием</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с торговым оборудованием (спец)</value>
+  </synonym>
+</mdclass:CommonPicture>

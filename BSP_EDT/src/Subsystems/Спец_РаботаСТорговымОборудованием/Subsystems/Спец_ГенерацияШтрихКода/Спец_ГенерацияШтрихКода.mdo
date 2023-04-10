@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="54b78aaf-6c89-423c-8247-0f3d44ad35ae">
+  <name>Спец_ГенерацияШтрихКода</name>
+  <synonym>
+    <key>ru</key>
+    <value>Генерация штрих-кода</value>
+  </synonym>
+  <content>CommonModule.Спец_ГенерацияЧтениеШтрихКодаКлиентСервер</content>
+  <content>CommonModule.Спец_ГенерацияЧтениеШтрихКодаКлиентСерверПовтИсп</content>
+  <content>CommonTemplate.Спец_КомпонентаПечатиШтрихкодов</content>
+  <content>CommonModule.МенеджерОборудованияМаркировкаКлиентСервер</content>
+  <content>CommonModule.МенеджерОборудованияМаркировкаКлиентСерверПовтИсп</content>
+  <content>CommonModule.МенеджерОборудованияМаркировкаВызовСервера</content>
+  <content>Enum.ТипыИдентификаторовТовараККТ</content>
+  <parentSubsystem>Subsystem.Спец_РаботаСТорговымОборудованием</parentSubsystem>
+</mdclass:Subsystem>
