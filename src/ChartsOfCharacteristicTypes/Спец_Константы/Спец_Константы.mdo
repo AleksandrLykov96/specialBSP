@@ -282,6 +282,7 @@
         <description>HTTP запросы</description>
         <isFolder>true</isFolder>
         <code>HTTPЗапросы</code>
+        <type/>
         <content id="4a0f425d-f7eb-4935-be00-3d4f290da9a8">
           <name>ЧисловойУровеньБазы</name>
           <description>Числовой уровень базы</description>
@@ -464,6 +465,7 @@
         <description>Параметры записи объектов</description>
         <isFolder>true</isFolder>
         <code>ПараметрыЗаписиОбъектов</code>
+        <type/>
         <content id="70a75684-21e4-410a-96b7-649f9f548d1b">
           <name>ОбъектыДляКоторыхНеПроверятьМодифицированность</name>
           <description>Объекты, для которых не проверять модифицированность (приоритет 2)</description>
@@ -486,6 +488,7 @@
         <description>Параметры запуска приложения</description>
         <isFolder>true</isFolder>
         <code>ПараметрыЗапускаПриложения</code>
+        <type/>
         <content id="11bc3a3d-f5ad-40fa-89a4-326a20588132">
           <name>ВключитьУведомленияПользователей</name>
           <description>Включить уведомления пользователей</description>
@@ -536,6 +539,7 @@
         <description>Параметры удаления старых данных</description>
         <isFolder>true</isFolder>
         <code>ПараметрыУдаленияСтарыхДанных</code>
+        <type/>
         <content id="59f39ec1-f289-41da-9b5c-c6134bd7d761">
           <name>КоличествоЧасовДляЧисткиTMP</name>
           <description>Количество часов для чистки TMP</description>

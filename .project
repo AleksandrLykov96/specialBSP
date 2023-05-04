@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>BSP_EDT</name>
-	<comment></comment>
+	<name>SPEC_BSP</name>
+	<comment>БСП (для быстрой разработки)</comment>
 	<projects>
 	</projects>
 	<buildSpec>

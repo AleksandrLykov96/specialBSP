@@ -73,6 +73,7 @@
   <commonTemplates>CommonTemplate.Драйвер1СЭквайринговыеТерминалыСбербанк2х</commonTemplates>
   <commonTemplates>CommonTemplate.ДрайверАТОЛККТ54ФЗ10XФФД12</commonTemplates>
   <commonTemplates>CommonTemplate.ДрайверШтрихМККТ54ФЗ4ФФД12_517</commonTemplates>
+  <commonTemplates>CommonTemplate.Спец_ДрайверККТШтрихМ</commonTemplates>
   <commonTemplates>CommonTemplate.Спец_КомпонентаLykovExtFunctions</commonTemplates>
   <commonTemplates>CommonTemplate.Спец_КомпонентаLykovHTTPClient</commonTemplates>
   <commonTemplates>CommonTemplate.Спец_КомпонентаLykovMySQL</commonTemplates>
@@ -193,6 +194,7 @@
   <commonCommands>CommonCommand.РегистрФискальныхОпераций</commonCommands>
   <commonCommands>CommonCommand.СверкаИтоговПоКартам</commonCommands>
   <commonCommands>CommonCommand.Спец_ВыполнитьОбработкуОбновленияКонфигурации</commonCommands>
+  <commonCommands>CommonCommand.Спец_ОбновитьПодключаемоеОборудование</commonCommands>
   <commonCommands>CommonCommand.УправлениеФискальнымУстройством</commonCommands>
   <commonCommands>CommonCommand.УправлениеЭквайринговымТерминалом</commonCommands>
   <constants>Constant.ИдентификаторОбсужденияФискализации</constants>

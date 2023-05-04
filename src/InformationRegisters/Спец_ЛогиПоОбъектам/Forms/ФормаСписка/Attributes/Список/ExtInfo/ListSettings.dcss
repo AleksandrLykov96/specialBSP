@@ -18,7 +18,6 @@
 			<use>false</use>
 			<left xsi:type="dcscor:Field">УровеньЛога</left>
 			<comparisonType>Equal</comparisonType>
-			<right xsi:nil="true"/>
 			<userSettingID>6696745a-75d1-4c30-8785-dcc9244a6f68</userSettingID>
 		</item>
 		<viewMode>Normal</viewMode>

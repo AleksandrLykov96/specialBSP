@@ -17,5 +17,7 @@
   <content>Constant.СрокХраненияПлатежныхОпераций</content>
   <content>Constant.СрокХраненияФискальныхОпераций</content>
   <content>DataProcessor.Спец_ТестированиеПодключаемогоОборудования</content>
+  <content>CommonCommand.Спец_ОбновитьПодключаемоеОборудование</content>
+  <content>CommonTemplate.Спец_ДрайверККТШтрихМ</content>
   <subsystems>Спец_ГенерацияШтрихКода</subsystems>
 </mdclass:Subsystem>

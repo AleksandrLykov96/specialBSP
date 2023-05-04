@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2775b3a7-db70-4a0f-b3bd-3c4da66473b3">
+  <name>Спец_ДрайверККТШтрихМ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Драйвер для Штрих-М для ККТ</value>
+  </synonym>
+  <comment>https://github.com/shtrih-m/fr_drv_ng</comment>
+  <templateType>AddIn</templateType>
+</mdclass:CommonTemplate>

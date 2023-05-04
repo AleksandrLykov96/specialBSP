@@ -687,6 +687,7 @@
         <valueType>
           <types>CatalogRef.Спец_Базы</types>
         </valueType>
+        <values xsi:type="core:UndefinedValue"/>
         <useRestriction>true</useRestriction>
         <expression>Спец_ОбщегоНазначенияПовтИсп.ЗначениеПараметраСеанса(&quot;Спец_ТекущаяБаза&quot;)</expression>
       </parameters>

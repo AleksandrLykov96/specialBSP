@@ -882,12 +882,12 @@
         <value>Элемент ссылка</value>
       </synonym>
       <type>
-        <types>CatalogRef</types>
-        <types>EnumRef</types>
-        <types>ChartOfCharacteristicTypesRef</types>
-        <types>ChartOfCalculationTypesRef</types>
-        <types>ChartOfAccountsRef</types>
         <types>ExchangePlanRef</types>
+        <types>EnumRef</types>
+        <types>ChartOfCalculationTypesRef</types>
+        <types>ChartOfCharacteristicTypesRef</types>
+        <types>ChartOfAccountsRef</types>
+        <types>CatalogRef</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>

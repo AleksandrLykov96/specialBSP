@@ -253,23 +253,14 @@
     <commandBar>
       <cmiFragmentRecord>
         <command>Catalog.Спец_ВнешниеОбработки.Command.ЗагрузитьВнешнююОбработку</command>
-        <commandParameter xsi:type="form:DataPath">
-          <segments>Объект.Ref</segments>
-        </commandParameter>
         <userVisible/>
       </cmiFragmentRecord>
       <cmiFragmentRecord>
         <command>Catalog.Спец_ВнешниеОбработки.Command.ЗапуститьВнешнююОбработку</command>
-        <commandParameter xsi:type="form:DataPath">
-          <segments>Объект.Ref</segments>
-        </commandParameter>
         <userVisible/>
       </cmiFragmentRecord>
       <cmiFragmentRecord>
         <command>Catalog.Спец_ВнешниеОбработки.Command.СохранитьВнешнююОбработку</command>
-        <commandParameter xsi:type="form:DataPath">
-          <segments>Объект.Ref</segments>
-        </commandParameter>
         <userVisible/>
       </cmiFragmentRecord>
     </commandBar>
