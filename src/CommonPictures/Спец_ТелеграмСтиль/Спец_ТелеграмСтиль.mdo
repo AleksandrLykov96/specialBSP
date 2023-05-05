@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="45d71124-f6f1-4431-af66-386413fb9b24">
+  <name>Спец_ТелеграмСтиль</name>
+  <synonym>
+    <key>ru</key>
+    <value>Телеграм</value>
+  </synonym>
+  <availabilityForChoice>false</availabilityForChoice>
+  <availabilityForAppearance>false</availabilityForAppearance>
+</mdclass:CommonPicture>

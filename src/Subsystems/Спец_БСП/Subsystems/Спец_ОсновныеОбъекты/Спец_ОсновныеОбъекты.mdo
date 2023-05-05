@@ -62,6 +62,36 @@
   <content>CommonModule.Спец_ОбщегоНазначенияКлиентСерверПовтИсп</content>
   <content>DataProcessor.Спец_ГрупповоеИзменениеРеквизитов</content>
   <content>Enum.Спец_УровниЛогирования</content>
+  <content>CommonPicture.Спец_ОсновнойСтиль</content>
+  <content>Style.Спец_Античный</content>
+  <content>Style.Спец_Белый</content>
+  <content>Style.Спец_Зеленый</content>
+  <content>Style.Спец_Инфостарт</content>
+  <content>Style.Спец_Красный</content>
+  <content>Style.Спец_Малиновый</content>
+  <content>Style.Спец_Молодежный</content>
+  <content>Style.Спец_Нежный</content>
+  <content>Style.Спец_Розовый</content>
+  <content>Style.Спец_Серый</content>
+  <content>Style.Спец_Синий</content>
+  <content>Style.Спец_Телеграм</content>
+  <content>Style.Спец_Фиолетовый</content>
+  <content>Style.Спец_Черный</content>
+  <content>CommonPicture.Спец_АнтичныйСтиль</content>
+  <content>CommonPicture.Спец_БелыйСтиль</content>
+  <content>CommonPicture.Спец_ЗеленыйСтиль</content>
+  <content>CommonPicture.Спец_ИнфостартСтиль</content>
+  <content>CommonPicture.Спец_КрасныйСтиль</content>
+  <content>CommonPicture.Спец_МалиновыйСтиль</content>
+  <content>CommonPicture.Спец_МолодежныйСтиль</content>
+  <content>CommonPicture.Спец_НежныйСтиль</content>
+  <content>CommonPicture.Спец_ОсновнойСтиль</content>
+  <content>CommonPicture.Спец_РозовыйСтиль</content>
+  <content>CommonPicture.Спец_СерыйСтиль</content>
+  <content>CommonPicture.Спец_СинийСтиль</content>
+  <content>CommonPicture.Спец_ТелеграмСтиль</content>
+  <content>CommonPicture.Спец_ФиолетовыйСтиль</content>
+  <content>CommonPicture.Спец_ЧерныйСтиль</content>
   <subsystems>Спец_КомпонентаДополнительныеФункции</subsystems>
   <subsystems>Спец_РаботаСБазойДанных</subsystems>
   <subsystems>Спец_РаботаСФоновымиЗаданиями</subsystems>

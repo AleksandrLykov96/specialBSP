@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0da13f24-5000-4a90-b292-971ebc4cbf6b">
+  <name>Спец_ЧерныйСтиль</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чёрный</value>
+  </synonym>
+  <availabilityForChoice>false</availabilityForChoice>
+  <availabilityForAppearance>false</availabilityForAppearance>
+</mdclass:CommonPicture>

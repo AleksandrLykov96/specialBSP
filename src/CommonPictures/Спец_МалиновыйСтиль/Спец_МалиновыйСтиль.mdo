@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ddf5f4e4-b152-4aa6-ac93-87e3ff2ce785">
+  <name>Спец_МалиновыйСтиль</name>
+  <synonym>
+    <key>ru</key>
+    <value>Малиновый</value>
+  </synonym>
+</mdclass:CommonPicture>

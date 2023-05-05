@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Style xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1875c994-7325-427b-8f7c-8f412f31c41d">
+  <name>Спец_Красный</name>
+  <synonym>
+    <key>ru</key>
+    <value>Красный</value>
+  </synonym>
+</mdclass:Style>

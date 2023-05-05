@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Style xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e71dcf14-d244-4ec3-8d5c-f2a9e42f8d51">
+  <name>Спец_Малиновый</name>
+  <synonym>
+    <key>ru</key>
+    <value>Малиновый</value>
+  </synonym>
+</mdclass:Style>

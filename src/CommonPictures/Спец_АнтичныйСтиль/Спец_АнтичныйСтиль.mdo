@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3ddac0d7-423f-494c-9f2e-86704d557da1">
+  <name>Спец_АнтичныйСтиль</name>
+  <synonym>
+    <key>ru</key>
+    <value>Античный</value>
+  </synonym>
+</mdclass:CommonPicture>

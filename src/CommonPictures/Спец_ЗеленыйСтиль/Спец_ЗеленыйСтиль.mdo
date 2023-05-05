@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9896ef2b-efc4-4776-a818-0d581424fdd6">
+  <name>Спец_ЗеленыйСтиль</name>
+  <synonym>
+    <key>ru</key>
+    <value>Зелёный</value>
+  </synonym>
+</mdclass:CommonPicture>

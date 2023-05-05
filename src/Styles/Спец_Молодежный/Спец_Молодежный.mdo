@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Style xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7f3dd8ab-087c-45bc-8cb1-ed19e4adb390">
+  <name>Спец_Молодежный</name>
+  <synonym>
+    <key>ru</key>
+    <value>Молодёжный</value>
+  </synonym>
+</mdclass:Style>

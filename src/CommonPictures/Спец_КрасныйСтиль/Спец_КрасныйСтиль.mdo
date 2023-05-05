@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3f44acb9-1e4a-40d9-8a95-bbeb6dfffdd5">
+  <name>Спец_КрасныйСтиль</name>
+  <synonym>
+    <key>ru</key>
+    <value>Красный</value>
+  </synonym>
+</mdclass:CommonPicture>

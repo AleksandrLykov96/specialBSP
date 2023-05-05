@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d045430b-7343-43b2-b5c7-4a57841145c4">
+  <name>Спец_МолодежныйСтиль</name>
+  <synonym>
+    <key>ru</key>
+    <value>Молодёжный</value>
+  </synonym>
+</mdclass:CommonPicture>

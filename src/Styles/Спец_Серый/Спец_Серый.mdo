@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Style xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1a0fb4d5-e010-4b3d-8ee8-8fd46f94ae87">
+  <name>Спец_Серый</name>
+  <synonym>
+    <key>ru</key>
+    <value>Серый</value>
+  </synonym>
+</mdclass:Style>

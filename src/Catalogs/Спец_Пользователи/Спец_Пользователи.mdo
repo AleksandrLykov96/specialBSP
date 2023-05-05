@@ -109,6 +109,24 @@
   <defaultObjectForm>Catalog.Спец_Пользователи.Form.ФормаЭлемента</defaultObjectForm>
   <defaultListForm>Catalog.Спец_Пользователи.Form.ФормаСписка</defaultListForm>
   <defaultChoiceForm>Catalog.Спец_Пользователи.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="2786cd26-e035-41f4-a405-172d103e119b">
+    <name>ОсновнойСтиль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основной стиль</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>256</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <attributes uuid="4783efd7-9913-4d78-abc7-064134d96f17">
     <name>РежимЗапуска</name>
     <synonym>
@@ -223,4 +241,22 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="e8386d64-a9ee-46f4-829d-31c58144e7bf">
+    <name>ФормаВыбораОсновногоСтиля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора основного стиля</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="04a74738-aad3-4f1f-ac2f-90404f8cee3d">
+    <name>ВыбратьОсновнойСтиль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбрать основной стиль</value>
+    </synonym>
+    <group>ActionsPanelTools</group>
+    <representation>Auto</representation>
+  </commands>
 </mdclass:Catalog>

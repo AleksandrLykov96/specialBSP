@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1f010693-a3df-467b-85e7-37fe4998bf0f">
+  <name>Спец_НежныйСтиль</name>
+  <synonym>
+    <key>ru</key>
+    <value>Нежный</value>
+  </synonym>
+  <availabilityForChoice>false</availabilityForChoice>
+  <availabilityForAppearance>false</availabilityForAppearance>
+</mdclass:CommonPicture>

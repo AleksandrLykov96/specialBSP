@@ -59,10 +59,39 @@
   <subsystems>Subsystem.Спец_РаботаСТорговымОборудованием</subsystems>
   <styleItems>StyleItem.Спец_СтильПодсказкиОшибки</styleItems>
   <styleItems>StyleItem.Спец_ШрифтВыделениеЖирным</styleItems>
+  <styles>Style.Спец_Античный</styles>
+  <styles>Style.Спец_Белый</styles>
+  <styles>Style.Спец_Зеленый</styles>
+  <styles>Style.Спец_Инфостарт</styles>
+  <styles>Style.Спец_Красный</styles>
+  <styles>Style.Спец_Малиновый</styles>
+  <styles>Style.Спец_Молодежный</styles>
+  <styles>Style.Спец_Нежный</styles>
+  <styles>Style.Спец_Розовый</styles>
+  <styles>Style.Спец_Серый</styles>
+  <styles>Style.Спец_Синий</styles>
+  <styles>Style.Спец_Телеграм</styles>
+  <styles>Style.Спец_Фиолетовый</styles>
+  <styles>Style.Спец_Черный</styles>
   <commonPictures>CommonPicture.Спец_PostgreSQL</commonPictures>
+  <commonPictures>CommonPicture.Спец_АнтичныйСтиль</commonPictures>
+  <commonPictures>CommonPicture.Спец_БелыйСтиль</commonPictures>
   <commonPictures>CommonPicture.Спец_ДлительнаяОперация</commonPictures>
+  <commonPictures>CommonPicture.Спец_ЗеленыйСтиль</commonPictures>
+  <commonPictures>CommonPicture.Спец_ИнфостартСтиль</commonPictures>
+  <commonPictures>CommonPicture.Спец_КрасныйСтиль</commonPictures>
+  <commonPictures>CommonPicture.Спец_МалиновыйСтиль</commonPictures>
+  <commonPictures>CommonPicture.Спец_МолодежныйСтиль</commonPictures>
+  <commonPictures>CommonPicture.Спец_НежныйСтиль</commonPictures>
   <commonPictures>CommonPicture.Спец_НижегородскаяАптечнаяСеть</commonPictures>
+  <commonPictures>CommonPicture.Спец_ОсновнойСтиль</commonPictures>
   <commonPictures>CommonPicture.Спец_РаботаСТорговымОборудованием</commonPictures>
+  <commonPictures>CommonPicture.Спец_РозовыйСтиль</commonPictures>
+  <commonPictures>CommonPicture.Спец_СерыйСтиль</commonPictures>
+  <commonPictures>CommonPicture.Спец_СинийСтиль</commonPictures>
+  <commonPictures>CommonPicture.Спец_ТелеграмСтиль</commonPictures>
+  <commonPictures>CommonPicture.Спец_ФиолетовыйСтиль</commonPictures>
+  <commonPictures>CommonPicture.Спец_ЧерныйСтиль</commonPictures>
   <sessionParameters>SessionParameter.РабочееМестоКлиента</sessionParameters>
   <sessionParameters>SessionParameter.Спец_ОбщиеЗначения</sessionParameters>
   <sessionParameters>SessionParameter.Спец_ТекущаяБаза</sessionParameters>
