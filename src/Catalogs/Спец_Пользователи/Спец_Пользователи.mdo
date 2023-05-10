@@ -168,12 +168,30 @@
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
+      <indexing>Index</indexing>
     </attributes>
     <attributes uuid="c2b1f84c-0e11-4d98-860f-493013b11228">
       <name>ИмяКомпьютераКлиента</name>
       <synonym>
         <key>ru</key>
         <value>Имя компьютера клиента</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>256</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="017fd088-2290-45b7-85ec-8b1239cae4a4">
+      <name>ИмяПользователяОС</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя пользователя ОС</value>
       </synonym>
       <type>
         <types>String</types>
