@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="02ed7643-56e5-409f-882c-731a6758bf78">
+  <producedTypes>
+    <containerType typeId="a30cdcd1-b3b6-455d-a56b-fd43c3b747a0" valueTypeId="f07db55b-a783-4b62-a26f-6f53d42e2249"/>
+  </producedTypes>
+  <name>Спец_UID</name>
+  <synonym>
+    <key>ru</key>
+    <value>UID (спец)</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>36</length>
+      <fixed>true</fixed>
+    </stringQualifiers>
+  </type>
+</mdclass:DefinedType>

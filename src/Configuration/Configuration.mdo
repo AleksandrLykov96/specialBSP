@@ -215,6 +215,8 @@
   <definedTypes>DefinedType.ОрганизацияБПО</definedTypes>
   <definedTypes>DefinedType.ОснованиеФискальнойОперацииБПО</definedTypes>
   <definedTypes>DefinedType.ПользовательБПО</definedTypes>
+  <definedTypes>DefinedType.Спец_UID</definedTypes>
+  <definedTypes>DefinedType.Спец_UnixTimestamp</definedTypes>
   <definedTypes>DefinedType.СубъектПерсональныхДанныхБПО</definedTypes>
   <definedTypes>DefinedType.ТорговыйОбъектБПО</definedTypes>
   <commonCommands>CommonCommand.ВыбратьРМТекущегоСеанса</commonCommands>

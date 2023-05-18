@@ -92,6 +92,8 @@
   <content>CommonPicture.Спец_ТелеграмСтиль</content>
   <content>CommonPicture.Спец_ФиолетовыйСтиль</content>
   <content>CommonPicture.Спец_ЧерныйСтиль</content>
+  <content>DefinedType.Спец_UnixTimestamp</content>
+  <content>DefinedType.Спец_UID</content>
   <subsystems>Спец_КомпонентаДополнительныеФункции</subsystems>
   <subsystems>Спец_РаботаСБазойДанных</subsystems>
   <subsystems>Спец_РаботаСФоновымиЗаданиями</subsystems>

@@ -902,11 +902,7 @@
       </synonym>
       <comment>Для ссылочных - ГУИД предопределённых данных, для перечислений - обычный ГУИД</comment>
       <type>
-        <types>String</types>
-        <stringQualifiers>
-          <length>36</length>
-          <fixed>true</fixed>
-        </stringQualifiers>
+        <types>DefinedType.Спец_UID</types>
       </type>
       <mask>hhhhhhhh-hhhh-hhhh-hhhh-hhhhhhhhhhhh</mask>
       <minValue xsi:type="core:UndefinedValue"/>
