@@ -18,7 +18,7 @@
   </listPresentation>
   <extendedListPresentation>
     <key>ru</key>
-    <value>Типы уведомлений пользователя</value>
+    <value>Типы уведомлений пользователя (спец)</value>
   </extendedListPresentation>
   <enumValues uuid="0d4e8a36-089f-40a0-b912-1978c5cea29f">
     <name>Оповещение1С</name>

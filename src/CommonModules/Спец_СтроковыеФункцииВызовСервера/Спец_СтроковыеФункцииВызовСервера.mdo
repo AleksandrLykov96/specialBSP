@@ -5,6 +5,7 @@
     <key>ru</key>
     <value>Строковые функции (вызов сервера, спец)</value>
   </synonym>
+  <comment>Модуль работы со строками</comment>
   <server>true</server>
   <serverCall>true</serverCall>
 </mdclass:CommonModule>

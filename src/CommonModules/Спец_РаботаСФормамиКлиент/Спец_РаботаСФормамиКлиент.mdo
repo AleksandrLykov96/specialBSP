@@ -5,6 +5,7 @@
     <key>ru</key>
     <value>Работа с формами (клиент, спец)</value>
   </synonym>
+  <comment>Модуль для работы с формами</comment>
   <clientManagedApplication>true</clientManagedApplication>
   <clientOrdinaryApplication>true</clientOrdinaryApplication>
 </mdclass:CommonModule>

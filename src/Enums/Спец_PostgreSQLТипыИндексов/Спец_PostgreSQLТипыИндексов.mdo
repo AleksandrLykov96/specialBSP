@@ -30,7 +30,7 @@
   </listPresentation>
   <extendedListPresentation>
     <key>ru</key>
-    <value>Типы индексов PostgreSQL</value>
+    <value>Типы индексов PostgreSQL (спец)</value>
   </extendedListPresentation>
   <enumValues uuid="ec050fa4-6965-4314-bfde-823b7be27e3b">
     <name>heap</name>

@@ -5,6 +5,7 @@
     <key>ru</key>
     <value>Ночной расчет (спец)</value>
   </synonym>
+  <comment>Регламентное задание ночного расчёта</comment>
   <methodName>CommonModule.Спец_МодульРегламентныхЗаданий.НочнойРасчет</methodName>
   <key>Спец_НочнойРасчет</key>
   <predefined>true</predefined>

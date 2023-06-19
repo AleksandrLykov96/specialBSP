@@ -5,6 +5,7 @@
     <key>ru</key>
     <value>Обработчики подписок на события (спец)</value>
   </synonym>
+  <comment>Модуль обработчиков подписок на события</comment>
   <server>true</server>
   <externalConnection>true</externalConnection>
   <clientOrdinaryApplication>true</clientOrdinaryApplication>

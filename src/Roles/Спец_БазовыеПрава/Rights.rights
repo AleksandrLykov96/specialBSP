@@ -168,13 +168,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Спец_ВнешниеОбработки.Attribute.ГУИД</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>InformationRegister.Спец_НастройкиНочногоРасчета.Resource.ВходныеПараметры</name>
 		<right>
 			<name>View</name>
@@ -1132,6 +1125,13 @@
 		<name>Catalog.Спец_Пользователи.Command.ВыбратьОсновнойСтиль</name>
 		<right>
 			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.Спец_РеестрGTIN</name>
+		<right>
+			<name>Read</name>
 			<value>true</value>
 		</right>
 	</object>

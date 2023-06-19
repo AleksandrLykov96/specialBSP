@@ -12,9 +12,9 @@
     <key>ru</key>
     <value>Группы баз для общих обменов (спец)</value>
   </synonym>
+  <comment>Содержит группы баз для сгруппированных обменов</comment>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.Спец_ГруппыБазДляОбщихОбменов.StandardAttribute.Description</inputByString>
-  <inputByString>Catalog.Спец_ГруппыБазДляОбщихОбменов.StandardAttribute.Code</inputByString>
   <searchStringModeOnInputByString>AnyPart</searchStringModeOnInputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <standardAttributes>
@@ -90,7 +90,7 @@
   </objectPresentation>
   <extendedObjectPresentation>
     <key>ru</key>
-    <value>Группа баз для общих обменов</value>
+    <value>Группа баз для общих обменов (спец)</value>
   </extendedObjectPresentation>
   <listPresentation>
     <key>ru</key>
@@ -98,22 +98,23 @@
   </listPresentation>
   <extendedListPresentation>
     <key>ru</key>
-    <value>Группы баз для общих обменов</value>
+    <value>Группы баз для общих обменов (спец)</value>
   </extendedListPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Содержит группы баз для сгруппированных обменов</value>
+  </explanation>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
-  <codeLength>9</codeLength>
   <descriptionLength>128</descriptionLength>
   <codeType>String</codeType>
   <codeAllowedLength>Variable</codeAllowedLength>
-  <checkUnique>true</checkUnique>
-  <autonumbering>true</autonumbering>
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>BothWays</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.Спец_ГруппыБазДляОбщихОбменов.Form.ФормаЭлемента</defaultObjectForm>
   <defaultListForm>Catalog.Спец_ГруппыБазДляОбщихОбменов.Form.ФормаСписка</defaultListForm>
-  <defaultChoiceForm>Catalog.Спец_ГруппыБазДляОбщихОбменов.Form.ФормаВыбора</defaultChoiceForm>
+  <defaultChoiceForm>Catalog.Спец_ГруппыБазДляОбщихОбменов.Form.ФормаСписка</defaultChoiceForm>
   <attributes uuid="ac9991ff-cb88-4f10-8cf2-eaae6471f70b">
     <name>БазаДляОбщихПараметровОбмена</name>
     <synonym>
@@ -187,15 +188,6 @@
     <synonym>
       <key>ru</key>
       <value>Форма списка</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
-  <forms uuid="1c8629cc-4cf8-4b86-b63f-58a8f07b0b95">
-    <name>ФормаВыбора</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма выбора</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

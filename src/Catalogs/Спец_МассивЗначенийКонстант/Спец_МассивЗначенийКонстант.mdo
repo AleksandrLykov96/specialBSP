@@ -12,8 +12,8 @@
     <key>ru</key>
     <value>Массив значений констант (спец)</value>
   </synonym>
+  <comment>Содержит массовые значения констант</comment>
   <inputByString>Catalog.Спец_МассивЗначенийКонстант.StandardAttribute.Description</inputByString>
-  <inputByString>Catalog.Спец_МассивЗначенийКонстант.StandardAttribute.Code</inputByString>
   <searchStringModeOnInputByString>AnyPart</searchStringModeOnInputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <standardAttributes>
@@ -86,7 +86,7 @@
   </objectPresentation>
   <extendedObjectPresentation>
     <key>ru</key>
-    <value>Массив значений константы</value>
+    <value>Массив значений константы (спец)</value>
   </extendedObjectPresentation>
   <listPresentation>
     <key>ru</key>
@@ -94,22 +94,24 @@
   </listPresentation>
   <extendedListPresentation>
     <key>ru</key>
-    <value>Массив значений констант</value>
+    <value>Массив значений констант (спец)</value>
   </extendedListPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Содержит массовые значения констант</value>
+  </explanation>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <owners>ChartOfCharacteristicTypes.Спец_Константы</owners>
-  <codeLength>20</codeLength>
-  <descriptionLength>100</descriptionLength>
+  <descriptionLength>150</descriptionLength>
   <codeType>String</codeType>
   <codeAllowedLength>Variable</codeAllowedLength>
-  <autonumbering>true</autonumbering>
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>BothWays</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.Спец_МассивЗначенийКонстант.Form.ФормаЭлемента</defaultObjectForm>
   <defaultListForm>Catalog.Спец_МассивЗначенийКонстант.Form.ФормаСписка</defaultListForm>
-  <defaultChoiceForm>Catalog.Спец_МассивЗначенийКонстант.Form.ФормаВыбора</defaultChoiceForm>
+  <defaultChoiceForm>Catalog.Спец_МассивЗначенийКонстант.Form.ФормаСписка</defaultChoiceForm>
   <tabularSections uuid="2a08ea0b-a67c-418a-ac8b-0445c1fdde0f">
     <producedTypes>
       <objectType typeId="e945059b-e158-4993-84a4-947cf9508a15" valueTypeId="526ce573-0416-42e2-b104-1b0fa7c11030"/>
@@ -157,15 +159,6 @@
     <synonym>
       <key>ru</key>
       <value>Форма списка</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
-  <forms uuid="1a27dc50-50c5-4581-ab17-058c7bc44141">
-    <name>ФормаВыбора</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма выбора</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

@@ -30,7 +30,7 @@
   </listPresentation>
   <extendedListPresentation>
     <key>ru</key>
-    <value>Типы составных полей базы данных</value>
+    <value>Типы составных полей базы данных (спец)</value>
   </extendedListPresentation>
   <enumValues uuid="f8d8564c-fc90-4122-a38e-e08bbc56fe09">
     <name>ТипТаблицы</name>

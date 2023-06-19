@@ -30,7 +30,7 @@
   </listPresentation>
   <extendedListPresentation>
     <key>ru</key>
-    <value>Типы данных базы данных</value>
+    <value>Типы данных базы данных (спец)</value>
   </extendedListPresentation>
   <enumValues uuid="04f6ccae-884d-442c-adfc-59e9b412fbf0">
     <name>NULL</name>

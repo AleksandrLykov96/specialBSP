@@ -5,6 +5,7 @@
     <key>ru</key>
     <value>Обмены с другими базами</value>
   </synonym>
+  <comment>Объекты для обменов с другими базами</comment>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Enum.Спец_ТипыОбменовСДругимиБазами</content>
   <content>Enum.Спец_ТипыПередачиОбъектовДляОбмена</content>

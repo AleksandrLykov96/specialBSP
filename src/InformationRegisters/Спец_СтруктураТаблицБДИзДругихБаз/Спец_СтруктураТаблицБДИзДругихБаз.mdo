@@ -14,6 +14,7 @@
     <key>ru</key>
     <value>Структура таблиц БД из других баз (спец)</value>
   </synonym>
+  <comment>Регистр для хранения информации по структуре таблиц БД из других баз</comment>
   <editType>BothWays</editType>
   <defaultRecordForm>InformationRegister.Спец_СтруктураТаблицБДИзДругихБаз.Form.ФормаЗаписи</defaultRecordForm>
   <defaultListForm>InformationRegister.Спец_СтруктураТаблицБДИзДругихБаз.Form.ФормаСписка</defaultListForm>
@@ -50,7 +51,7 @@
   </recordPresentation>
   <extendedRecordPresentation>
     <key>ru</key>
-    <value>Структура таблицы БД из другой базы</value>
+    <value>Структура таблицы БД из другой базы (спец)</value>
   </extendedRecordPresentation>
   <listPresentation>
     <key>ru</key>
@@ -58,8 +59,12 @@
   </listPresentation>
   <extendedListPresentation>
     <key>ru</key>
-    <value>Структура таблиц БД из других баз</value>
+    <value>Структура таблиц БД из других баз (спец)</value>
   </extendedListPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Регистр для хранения информации по структуре таблиц БД из других баз</value>
+  </explanation>
   <resources uuid="c883a4c2-6245-438b-a8ca-46093bf64a00">
     <name>ГУИДПеречисленияВБазеДанных</name>
     <synonym>
@@ -166,19 +171,14 @@
       <value>Имя объекта метаданных</value>
     </synonym>
     <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>256</length>
-      </stringQualifiers>
+      <types>DefinedType.Спец_ИмяОбъектаБазы</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
     <denyIncompleteValues>true</denyIncompleteValues>
     <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>
   <dimensions uuid="b984bf6b-4fec-4116-8011-9e07446aeca7">
@@ -188,17 +188,12 @@
       <value>Имя табличной части</value>
     </synonym>
     <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>256</length>
-      </stringQualifiers>
+      <types>DefinedType.Спец_ИмяОбъектаБазы</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>
   <dimensions uuid="0c4167c1-ae05-4ec4-8b47-a8db6409a6de">
@@ -208,17 +203,12 @@
       <value>Имя реквизита</value>
     </synonym>
     <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>256</length>
-      </stringQualifiers>
+      <types>DefinedType.Спец_ИмяОбъектаБазы</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>
   <dimensions uuid="f18ac524-6bdd-460f-b5e7-f22e7ee68bde">
@@ -228,19 +218,14 @@
       <value>Имя таблицы в БД</value>
     </synonym>
     <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>256</length>
-      </stringQualifiers>
+      <types>DefinedType.Спец_ИмяОбъектаБазы</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
     <denyIncompleteValues>true</denyIncompleteValues>
     <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>
   <dimensions uuid="2ca867af-917e-4865-be4e-4d50830a6263">
@@ -250,17 +235,12 @@
       <value>Имя столбца в БД</value>
     </synonym>
     <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>256</length>
-      </stringQualifiers>
+      <types>DefinedType.Спец_ИмяОбъектаБазы</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>
   <forms uuid="e77171aa-b7ee-45e9-a392-109eb6096c07">

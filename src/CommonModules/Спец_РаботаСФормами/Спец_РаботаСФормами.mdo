@@ -5,6 +5,7 @@
     <key>ru</key>
     <value>Работа с формами (спец)</value>
   </synonym>
+  <comment>Модуль для работы с формами</comment>
   <server>true</server>
   <externalConnection>true</externalConnection>
   <clientOrdinaryApplication>true</clientOrdinaryApplication>

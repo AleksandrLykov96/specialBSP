@@ -14,6 +14,7 @@
     <key>ru</key>
     <value>Зарегистрированные объекты для обмена (регистры, спец)</value>
   </synonym>
+  <comment>Зарегистрированные записи регистров для обменов с другими базами</comment>
   <editType>BothWays</editType>
   <defaultRecordForm>InformationRegister.Спец_ЗарегистрированныеОбъектыДляОбмена_Регистры.Form.ФормаЗаписи</defaultRecordForm>
   <defaultListForm>InformationRegister.Спец_ЗарегистрированныеОбъектыДляОбмена_Регистры.Form.ФормаСписка</defaultListForm>
@@ -50,7 +51,7 @@
   </recordPresentation>
   <extendedRecordPresentation>
     <key>ru</key>
-    <value>Зарегистрированный объект для обмена (регистр)</value>
+    <value>Зарегистрированный объект для обмена (регистр, спец)</value>
   </extendedRecordPresentation>
   <listPresentation>
     <key>ru</key>
@@ -58,8 +59,12 @@
   </listPresentation>
   <extendedListPresentation>
     <key>ru</key>
-    <value>Зарегистрированные объекты для обмена (регистры)</value>
+    <value>Зарегистрированные объекты для обмена (регистры, спец)</value>
   </extendedListPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Зарегистрированные записи регистров для обменов с другими базами</value>
+  </explanation>
   <resources uuid="fa278505-4aaa-4ff9-bb0f-870cdf1b849c">
     <name>ПолноеИмяОбъектаМетаданных</name>
     <synonym>
@@ -67,16 +72,11 @@
       <value>Полное имя объекта метаданных</value>
     </synonym>
     <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>256</length>
-      </stringQualifiers>
+      <types>DefinedType.Спец_ИмяОбъектаБазы</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
   <attributes uuid="a50899b5-cfb7-4977-8bbf-7de730d8ac8e">
     <name>Приоритет</name>
@@ -233,8 +233,6 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillChecking>ShowError</fillChecking>
-    <denyIncompleteValues>true</denyIncompleteValues>
     <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>

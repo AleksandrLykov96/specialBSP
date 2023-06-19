@@ -14,6 +14,7 @@
     <key>ru</key>
     <value>Объекты для логирования (спец)</value>
   </synonym>
+  <comment>Регистр для хранения параметров логирования</comment>
   <useStandardCommands>true</useStandardCommands>
   <editType>BothWays</editType>
   <defaultRecordForm>InformationRegister.Спец_ОбъектыДляЛогирования.Form.ФормаЗаписи</defaultRecordForm>
@@ -51,7 +52,7 @@
   </recordPresentation>
   <extendedRecordPresentation>
     <key>ru</key>
-    <value>Объект для логирования</value>
+    <value>Объект для логирования (спец)</value>
   </extendedRecordPresentation>
   <listPresentation>
     <key>ru</key>
@@ -59,8 +60,12 @@
   </listPresentation>
   <extendedListPresentation>
     <key>ru</key>
-    <value>Объекты для логирования</value>
+    <value>Объекты для логирования (спец)</value>
   </extendedListPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Регистр для хранения параметров логирования</value>
+  </explanation>
   <attributes uuid="160ffa5a-12c2-43a2-af86-b060c388ca6c">
     <name>ЭтоПользователь</name>
     <synonym>
@@ -83,19 +88,14 @@
       <value>Имя метаданных (или имя пользователя)</value>
     </synonym>
     <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>256</length>
-      </stringQualifiers>
+      <types>DefinedType.Спец_ИмяОбъектаБазы</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
     <denyIncompleteValues>true</denyIncompleteValues>
     <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>
   <forms uuid="b4dfbff5-5466-4916-823f-3b2bb8ac6a77">

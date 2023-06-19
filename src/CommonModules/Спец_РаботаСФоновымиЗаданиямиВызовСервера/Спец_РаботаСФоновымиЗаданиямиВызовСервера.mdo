@@ -5,6 +5,7 @@
     <key>ru</key>
     <value>Работа с фоновыми заданиями (вызов сервера, спец)</value>
   </synonym>
+  <comment>Модуль для работы с фоновыми заданиями</comment>
   <server>true</server>
   <serverCall>true</serverCall>
 </mdclass:CommonModule>

@@ -12,6 +12,7 @@
     <key>ru</key>
     <value>Структура таблиц базы данных (спец)</value>
   </synonym>
+  <comment>Содержит информацию по структуре таблиц БД по текущей базе</comment>
   <inputByString>Catalog.Спец_СтруктураТаблицБазыДанных.StandardAttribute.Description</inputByString>
   <inputByString>Catalog.Спец_СтруктураТаблицБазыДанных.StandardAttribute.Code</inputByString>
   <inputByString>Catalog.Спец_СтруктураТаблицБазыДанных.Attribute.НаименованиеВ1С</inputByString>
@@ -97,7 +98,7 @@
   </objectPresentation>
   <extendedObjectPresentation>
     <key>ru</key>
-    <value>Структура таблицы базы данных</value>
+    <value>Структура таблицы базы данных (спец)</value>
   </extendedObjectPresentation>
   <listPresentation>
     <key>ru</key>
@@ -105,8 +106,12 @@
   </listPresentation>
   <extendedListPresentation>
     <key>ru</key>
-    <value>Структура таблиц базы данных</value>
+    <value>Структура таблиц базы данных (спец)</value>
   </extendedListPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Содержит информацию по структуре таблиц БД по текущей базе</value>
+  </explanation>
   <hierarchical>true</hierarchical>
   <hierarchyType>HierarchyOfItems</hierarchyType>
   <limitLevelCount>true</limitLevelCount>
@@ -182,17 +187,12 @@
       <value>Метаданные</value>
     </synonym>
     <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>256</length>
-      </stringQualifiers>
+      <types>DefinedType.Спец_ИмяОбъектаБазы</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <createOnInput>DontUse</createOnInput>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </attributes>
   <attributes uuid="3f83314f-6eac-4bda-8db1-f36af3522329">
     <name>Назначение</name>
@@ -220,17 +220,12 @@
       <value>Наименование в 1С</value>
     </synonym>
     <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>256</length>
-      </stringQualifiers>
+      <types>DefinedType.Спец_ИмяОбъектаБазы</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <createOnInput>DontUse</createOnInput>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <indexing>Index</indexing>
     <fullTextSearch>Use</fullTextSearch>
   </attributes>
@@ -395,10 +390,7 @@
         <value>Имя столбца</value>
       </synonym>
       <type>
-        <types>String</types>
-        <stringQualifiers>
-          <length>128</length>
-        </stringQualifiers>
+        <types>DefinedType.Спец_ИмяОбъектаБазы</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -413,10 +405,7 @@
         <value>Имя столбца в 1С</value>
       </synonym>
       <type>
-        <types>String</types>
-        <stringQualifiers>
-          <length>128</length>
-        </stringQualifiers>
+        <types>DefinedType.Спец_ИмяОбъектаБазы</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -430,10 +419,7 @@
         <value>Метаданные</value>
       </synonym>
       <type>
-        <types>String</types>
-        <stringQualifiers>
-          <length>256</length>
-        </stringQualifiers>
+        <types>DefinedType.Спец_ИмяОбъектаБазы</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -535,10 +521,7 @@
         <value>Имя индекса</value>
       </synonym>
       <type>
-        <types>String</types>
-        <stringQualifiers>
-          <length>128</length>
-        </stringQualifiers>
+        <types>DefinedType.Спец_ИмяОбъектаБазы</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -715,10 +698,7 @@
         <value>Имя ограничения</value>
       </synonym>
       <type>
-        <types>String</types>
-        <stringQualifiers>
-          <length>128</length>
-        </stringQualifiers>
+        <types>DefinedType.Спец_ИмяОбъектаБазы</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -831,10 +811,7 @@
         <value>Имя триггера</value>
       </synonym>
       <type>
-        <types>String</types>
-        <stringQualifiers>
-          <length>128</length>
-        </stringQualifiers>
+        <types>DefinedType.Спец_ИмяОбъектаБазы</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -945,7 +922,7 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="01b095c3-d9b9-4415-b65b-b89bebfe6925">
+  <forms uuid="e56e92cf-9f26-4ada-856b-1c1a8e588e0b">
     <name>ФормаВыбора</name>
     <synonym>
       <key>ru</key>

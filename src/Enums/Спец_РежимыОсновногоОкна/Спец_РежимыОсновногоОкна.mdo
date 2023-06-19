@@ -18,7 +18,7 @@
   </listPresentation>
   <extendedListPresentation>
     <key>ru</key>
-    <value>Режимы основного окна</value>
+    <value>Режимы основного окна (спец)</value>
   </extendedListPresentation>
   <enumValues uuid="f0574c55-e1ac-4d48-ae81-a39c1f02a4d8">
     <name>ВстроенноеРабочееМесто</name>

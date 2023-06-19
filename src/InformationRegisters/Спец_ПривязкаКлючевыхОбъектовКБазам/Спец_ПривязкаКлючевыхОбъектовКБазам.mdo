@@ -14,6 +14,7 @@
     <key>ru</key>
     <value>Привязка ключевых объектов к базам (спец)</value>
   </synonym>
+  <comment>Регистр для хранения привязок объектов для обменов</comment>
   <useStandardCommands>true</useStandardCommands>
   <editType>BothWays</editType>
   <defaultRecordForm>InformationRegister.Спец_ПривязкаКлючевыхОбъектовКБазам.Form.ФормаЗаписи</defaultRecordForm>
@@ -51,7 +52,7 @@
   </recordPresentation>
   <extendedRecordPresentation>
     <key>ru</key>
-    <value>Привязка ключевого объекта к базе</value>
+    <value>Привязка ключевого объекта к базе (спец)</value>
   </extendedRecordPresentation>
   <listPresentation>
     <key>ru</key>
@@ -59,8 +60,12 @@
   </listPresentation>
   <extendedListPresentation>
     <key>ru</key>
-    <value>Привязка ключевых объектов к базам</value>
+    <value>Привязка ключевых объектов к базам (спец)</value>
   </extendedListPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Регистр для хранения привязок объектов для обменов</value>
+  </explanation>
   <dimensions uuid="ce04f06f-ec38-44f9-ba47-ee6b6cd895a8">
     <name>База</name>
     <synonym>

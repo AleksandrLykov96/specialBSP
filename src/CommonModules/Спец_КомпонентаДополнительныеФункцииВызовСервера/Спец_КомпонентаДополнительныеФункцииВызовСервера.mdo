@@ -5,6 +5,7 @@
     <key>ru</key>
     <value>Компонента дополнительные функции (вызов сервера, спец)</value>
   </synonym>
+  <comment>Модуль для работы с компонентами СПЕЦ</comment>
   <server>true</server>
   <serverCall>true</serverCall>
 </mdclass:CommonModule>

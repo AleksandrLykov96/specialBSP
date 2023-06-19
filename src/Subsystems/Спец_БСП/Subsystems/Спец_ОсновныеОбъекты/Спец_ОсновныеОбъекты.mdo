@@ -5,6 +5,7 @@
     <key>ru</key>
     <value>Основные объекты</value>
   </synonym>
+  <comment>Основные объекты подсистемы</comment>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>CommonModule.Спец_ОбщегоНазначения</content>
   <content>CommonModule.Спец_ОбщегоНазначенияПовтИсп</content>
@@ -62,7 +63,6 @@
   <content>CommonModule.Спец_ОбщегоНазначенияКлиентСерверПовтИсп</content>
   <content>DataProcessor.Спец_ГрупповоеИзменениеРеквизитов</content>
   <content>Enum.Спец_УровниЛогирования</content>
-  <content>CommonPicture.Спец_ОсновнойСтиль</content>
   <content>Style.Спец_Античный</content>
   <content>Style.Спец_Белый</content>
   <content>Style.Спец_Зеленый</content>
@@ -94,6 +94,9 @@
   <content>CommonPicture.Спец_ЧерныйСтиль</content>
   <content>DefinedType.Спец_UnixTimestamp</content>
   <content>DefinedType.Спец_UID</content>
+  <content>CommonModule.Спец_ИзменениеФорм</content>
+  <content>CommonModule.Спец_РаботаСФормамиКлиентСервер</content>
+  <content>DefinedType.Спец_ИмяОбъектаБазы</content>
   <subsystems>Спец_КомпонентаДополнительныеФункции</subsystems>
   <subsystems>Спец_РаботаСБазойДанных</subsystems>
   <subsystems>Спец_РаботаСФоновымиЗаданиями</subsystems>

@@ -146,8 +146,11 @@
   <commonModules>CommonModule.Спец_PostgreSQLКлиентСервер</commonModules>
   <commonModules>CommonModule.Спец_ВзаимодействияВызовСервераПовтИсп</commonModules>
   <commonModules>CommonModule.Спец_ВзаимодействияКлиентСервер</commonModules>
+  <commonModules>CommonModule.Спец_ГенерацияЧтениеШтрихКода</commonModules>
+  <commonModules>CommonModule.Спец_ГенерацияЧтениеШтрихКодаВызовСервера</commonModules>
   <commonModules>CommonModule.Спец_ГенерацияЧтениеШтрихКодаКлиентСервер</commonModules>
   <commonModules>CommonModule.Спец_ГенерацияЧтениеШтрихКодаКлиентСерверПовтИсп</commonModules>
+  <commonModules>CommonModule.Спец_ИзменениеФорм</commonModules>
   <commonModules>CommonModule.Спец_КлиентСерверГлобальный</commonModules>
   <commonModules>CommonModule.Спец_КомпонентаДополнительныеФункцииВызовСервера</commonModules>
   <commonModules>CommonModule.Спец_КомпонентаДополнительныеФункцииКлиент</commonModules>
@@ -189,6 +192,7 @@
   <commonModules>CommonModule.Спец_РаботаСФоновымиЗаданиямиКлиентСервер</commonModules>
   <commonModules>CommonModule.Спец_РаботаСФормами</commonModules>
   <commonModules>CommonModule.Спец_РаботаСФормамиКлиент</commonModules>
+  <commonModules>CommonModule.Спец_РаботаСФормамиКлиентСервер</commonModules>
   <commonModules>CommonModule.Спец_СтроковыеФункцииВызовСервера</commonModules>
   <commonModules>CommonModule.Спец_СтроковыеФункцииКлиентСервер</commonModules>
   <httpServices>HTTPService.Спец_Exchange</httpServices>
@@ -215,8 +219,10 @@
   <definedTypes>DefinedType.ОрганизацияБПО</definedTypes>
   <definedTypes>DefinedType.ОснованиеФискальнойОперацииБПО</definedTypes>
   <definedTypes>DefinedType.ПользовательБПО</definedTypes>
+  <definedTypes>DefinedType.Спец_GTIN</definedTypes>
   <definedTypes>DefinedType.Спец_UID</definedTypes>
   <definedTypes>DefinedType.Спец_UnixTimestamp</definedTypes>
+  <definedTypes>DefinedType.Спец_ИмяОбъектаБазы</definedTypes>
   <definedTypes>DefinedType.СубъектПерсональныхДанныхБПО</definedTypes>
   <definedTypes>DefinedType.ТорговыйОбъектБПО</definedTypes>
   <commonCommands>CommonCommand.ВыбратьРМТекущегоСеанса</commonCommands>
@@ -268,6 +274,7 @@
   <enums>Enum.Спец_РежимыОсновногоОкна</enums>
   <enums>Enum.Спец_ТипыБазыДанных</enums>
   <enums>Enum.Спец_ТипыДанныхБазыДанных</enums>
+  <enums>Enum.Спец_ТипыМаркируемогоТовара</enums>
   <enums>Enum.Спец_ТипыОбменовСДругимиБазами</enums>
   <enums>Enum.Спец_ТипыОбновленияТаблицыБазыДанных</enums>
   <enums>Enum.Спец_ТипыПередачиОбъектовДляОбмена</enums>
@@ -318,6 +325,7 @@
   <informationRegisters>InformationRegister.Спец_ПараметрыОбменовСДругимиБазами</informationRegisters>
   <informationRegisters>InformationRegister.Спец_ПривязкаКлючевыхОбъектовКБазам</informationRegisters>
   <informationRegisters>InformationRegister.Спец_РегистрОшибок</informationRegisters>
+  <informationRegisters>InformationRegister.Спец_РеестрGTIN</informationRegisters>
   <informationRegisters>InformationRegister.Спец_СоответствиеОбъектовДляОбмена</informationRegisters>
   <informationRegisters>InformationRegister.Спец_СтруктураТаблицБДИзДругихБаз</informationRegisters>
   <informationRegisters>InformationRegister.Спец_УведомленияДляПользователей</informationRegisters>

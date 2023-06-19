@@ -14,6 +14,7 @@
     <key>ru</key>
     <value>Зарегистрированные объекты для обмена (ссылочные объекты, спец)</value>
   </synonym>
+  <comment>Зарегистрированные ссылочные объекты для обменов с другими базами</comment>
   <editType>BothWays</editType>
   <defaultRecordForm>InformationRegister.Спец_ЗарегистрированныеОбъектыДляОбмена_Ссылки.Form.ФормаЗаписи</defaultRecordForm>
   <defaultListForm>InformationRegister.Спец_ЗарегистрированныеОбъектыДляОбмена_Ссылки.Form.ФормаСписка</defaultListForm>
@@ -50,7 +51,7 @@
   </recordPresentation>
   <extendedRecordPresentation>
     <key>ru</key>
-    <value>Зарегистрированный объект для обмена (ссылочный)</value>
+    <value>Зарегистрированный объект для обмена (ссылочный, спец)</value>
   </extendedRecordPresentation>
   <listPresentation>
     <key>ru</key>
@@ -58,7 +59,7 @@
   </listPresentation>
   <extendedListPresentation>
     <key>ru</key>
-    <value>Зарегистрированные объекты для обмена (ссылочные объекты)</value>
+    <value>Зарегистрированные объекты для обмена (ссылочные объекты, спец)</value>
   </extendedListPresentation>
   <resources uuid="3416ab8f-d1b6-40be-b031-65af3beebaa7">
     <name>ПолноеИмяОбъектаМетаданных</name>
@@ -67,16 +68,11 @@
       <value>Полное имя объекта метаданных</value>
     </synonym>
     <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>256</length>
-      </stringQualifiers>
+      <types>DefinedType.Спец_ИмяОбъектаБазы</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
   <attributes uuid="c37d4df2-53c5-4ece-bae2-0ee23830ded2">
     <name>Приоритет</name>
@@ -145,9 +141,6 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillChecking>ShowError</fillChecking>
-    <denyIncompleteValues>true</denyIncompleteValues>
-    <indexing>Index</indexing>
     <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>

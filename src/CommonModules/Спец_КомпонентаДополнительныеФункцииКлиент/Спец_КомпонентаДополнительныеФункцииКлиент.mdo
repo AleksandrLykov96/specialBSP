@@ -5,6 +5,7 @@
     <key>ru</key>
     <value>Компонента дополнительные функции (клиент, спец)</value>
   </synonym>
+  <comment>Модуль для работы с компонентами СПЕЦ</comment>
   <clientManagedApplication>true</clientManagedApplication>
   <clientOrdinaryApplication>true</clientOrdinaryApplication>
 </mdclass:CommonModule>

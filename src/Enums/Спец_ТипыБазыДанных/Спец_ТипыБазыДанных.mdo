@@ -18,7 +18,7 @@
   </listPresentation>
   <extendedListPresentation>
     <key>ru</key>
-    <value>Типы базы данных</value>
+    <value>Типы базы данных (спец)</value>
   </extendedListPresentation>
   <enumValues uuid="931fea6f-2578-4d66-ad54-003b65592348">
     <name>IBMDB2</name>

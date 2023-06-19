@@ -5,6 +5,7 @@
     <key>ru</key>
     <value>Генерация / чтение штрих-кода (клиент-сервер, спец)</value>
   </synonym>
+  <comment>Модуль для работы с штрих-кодами</comment>
   <clientManagedApplication>true</clientManagedApplication>
   <server>true</server>
   <externalConnection>true</externalConnection>

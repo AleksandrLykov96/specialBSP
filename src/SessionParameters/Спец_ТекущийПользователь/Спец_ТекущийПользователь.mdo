@@ -5,6 +5,7 @@
     <key>ru</key>
     <value>Текущий пользователь (спец)</value>
   </synonym>
+  <comment>Ссылка на текущего пользователя</comment>
   <type>
     <types>CatalogRef.Спец_Пользователи</types>
   </type>

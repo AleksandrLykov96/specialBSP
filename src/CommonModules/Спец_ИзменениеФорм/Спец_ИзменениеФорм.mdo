@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3a9d654e-a1cf-4f48-a26b-1ca0f8867a3b">
+  <name>Спец_ИзменениеФорм</name>
+  <synonym>
+    <key>ru</key>
+    <value>Изменение форм (спец)</value>
+  </synonym>
+  <comment>Модуль для программного изменения управляемых форм</comment>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

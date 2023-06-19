@@ -14,6 +14,7 @@
     <key>ru</key>
     <value>ГУИДы объектов других баз (спец)</value>
   </synonym>
+  <comment>Содержит ГУИДы объектов из других баз для обменов</comment>
   <editType>BothWays</editType>
   <defaultRecordForm>InformationRegister.Спец_ГУИДыОбъектовДругихБаз.Form.ФормаЗаписи</defaultRecordForm>
   <defaultListForm>InformationRegister.Спец_ГУИДыОбъектовДругихБаз.Form.ФормаСписка</defaultListForm>
@@ -50,7 +51,7 @@
   </recordPresentation>
   <extendedRecordPresentation>
     <key>ru</key>
-    <value>ГУИД объекта другой базы</value>
+    <value>ГУИД объекта другой базы (спец)</value>
   </extendedRecordPresentation>
   <listPresentation>
     <key>ru</key>
@@ -58,8 +59,12 @@
   </listPresentation>
   <extendedListPresentation>
     <key>ru</key>
-    <value>ГУИДы объектов других баз</value>
+    <value>ГУИДы объектов других баз (спец)</value>
   </extendedListPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Содержит ГУИДы объектов из других баз для обменов</value>
+  </explanation>
   <resources uuid="448cf413-109c-426b-b2d1-e51300ff6e39">
     <name>МетаданныеПолноеИмя</name>
     <synonym>
@@ -67,16 +72,11 @@
       <value>Метаданные полное имя</value>
     </synonym>
     <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>256</length>
-      </stringQualifiers>
+      <types>DefinedType.Спец_ИмяОбъектаБазы</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <indexing>Index</indexing>
   </resources>
   <resources uuid="5a17c11a-033a-434e-b9a6-2f927921b62e">

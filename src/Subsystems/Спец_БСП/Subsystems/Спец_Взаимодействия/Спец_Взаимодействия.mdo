@@ -5,6 +5,7 @@
     <key>ru</key>
     <value>Взаимодействия</value>
   </synonym>
+  <comment>Объекты для отправки EMAIL / SMS</comment>
   <content>CommonModule.Спец_ВзаимодействияВызовСервераПовтИсп</content>
   <content>CommonModule.Спец_ВзаимодействияКлиентСервер</content>
   <parentSubsystem>Subsystem.Спец_БСП</parentSubsystem>

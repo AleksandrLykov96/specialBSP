@@ -5,6 +5,7 @@
     <key>ru</key>
     <value>Переопределяемый (спец)</value>
   </synonym>
+  <comment>Переопределяемый модуль</comment>
   <server>true</server>
   <externalConnection>true</externalConnection>
   <clientOrdinaryApplication>true</clientOrdinaryApplication>

@@ -475,6 +475,14 @@
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
+  <handlers>
+    <event>OnClose</event>
+    <name>ПриЗакрытии</name>
+  </handlers>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>ПриСозданииНаСервере</name>
+  </handlers>
   <excludedCommands>CustomizeForm</excludedCommands>
   <excludedCommands>Help</excludedCommands>
   <autoTitle>true</autoTitle>

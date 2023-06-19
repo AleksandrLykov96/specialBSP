@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bf3c2692-debc-4cf5-9c25-34b9454cc9e3">
+  <name>Спец_ГенерацияЧтениеШтрихКодаВызовСервера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Генерация чтение штрих-кода (вызов сервера, спец)</value>
+  </synonym>
+  <comment>Модуль для работы с штрих-кодами</comment>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

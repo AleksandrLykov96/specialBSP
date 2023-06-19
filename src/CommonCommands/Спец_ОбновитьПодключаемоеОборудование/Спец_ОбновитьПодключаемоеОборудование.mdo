@@ -5,6 +5,7 @@
     <key>ru</key>
     <value>Обновить подключаемое оборудование (спец)</value>
   </synonym>
+  <comment>Команда для обновления подключаемого оборудования</comment>
   <group>ActionsPanelTools</group>
   <commandParameterType/>
   <representation>Auto</representation>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6a0fa334-838b-4691-8fad-88e9b23f896b">
+  <producedTypes>
+    <selectionType typeId="9e836ebf-7c8a-4614-b44b-c43df7d00ef5" valueTypeId="4e28a8c3-decf-44d1-883f-98bd0bde3979"/>
+    <listType typeId="2cf7fab2-52e1-4eed-a11e-bb0fbe3ed83d" valueTypeId="12c681eb-abc7-491f-b33a-bf7185fdb915"/>
+    <managerType typeId="1b0c4587-0cc7-46b4-ad3c-fd7d63776428" valueTypeId="d387959a-906a-4118-9c8b-7d7e850ca0c6"/>
+    <recordSetType typeId="acb3183d-de3e-4386-b468-554aaae3cc95" valueTypeId="ecbffad2-2a8a-4e1b-b484-3ac9c4b041ed"/>
+    <recordKeyType typeId="c6754eae-123a-42de-a95d-3c0e88770120" valueTypeId="ed2a7d54-640f-4d5c-baf4-b3da574bb742"/>
+    <recordType typeId="6385282f-84b9-436a-9c08-f6c6f01095b6" valueTypeId="135ccb30-6e90-49bb-9859-ca30df67aa88"/>
+    <recordManagerType typeId="f3ce8e3f-b641-4359-b5d4-7124fb4582ac" valueTypeId="f0c29056-404a-4f9d-b50e-8dd844629670"/>
+  </producedTypes>
+  <name>Спец_РеестрGTIN</name>
+  <synonym>
+    <key>ru</key>
+    <value>Реестр GTIN (спец)</value>
+  </synonym>
+  <comment>Регистр для хранения информации по типу сканируемого товара и GTIN</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.Спец_РеестрGTIN.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.Спец_РеестрGTIN.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Информация по GTIN</value>
+  </recordPresentation>
+  <extendedRecordPresentation>
+    <key>ru</key>
+    <value>Информация по GTIN (спец)</value>
+  </extendedRecordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Реестр GTIN</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Реестр GTIN (спец)</value>
+  </extendedListPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Регистр для хранения информации по типу сканируемого товара и GTIN</value>
+  </explanation>
+  <resources uuid="eda9ea62-2c46-4525-8045-a2ea48491fa0">
+    <name>ТипМаркировки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип маркировки</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Спец_ТипыМаркируемогоТовара</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="9f78ccef-90be-481c-a401-56c9a02fd947">
+    <name>ДатаОбновления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата обновления</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="0155e0bd-31a8-4ffd-8808-6b4fee6b1ae4">
+    <name>ДополнительнаяИнформация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительная информация</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="1f476921-4755-4448-8eef-34d7f23965d8">
+    <name>GTIN</name>
+    <synonym>
+      <key>ru</key>
+      <value>GTIN</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Спец_GTIN</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>IndexWithAdditionalOrder</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="abe711e4-427e-4234-a997-e4f6cf1c741c">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b17159f1-1eea-4d99-b194-0b0b9b506626">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

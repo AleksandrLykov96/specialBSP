@@ -12,6 +12,7 @@
     <key>ru</key>
     <value>Внешние обработки (спец)</value>
   </synonym>
+  <comment>Лёгкий справочник для внешних обработок</comment>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.Спец_ВнешниеОбработки.StandardAttribute.Description</inputByString>
   <searchStringModeOnInputByString>AnyPart</searchStringModeOnInputByString>
@@ -89,7 +90,7 @@
   </objectPresentation>
   <extendedObjectPresentation>
     <key>ru</key>
-    <value>Внешняя обработка</value>
+    <value>Внешняя обработка (спец)</value>
   </extendedObjectPresentation>
   <listPresentation>
     <key>ru</key>
@@ -97,8 +98,12 @@
   </listPresentation>
   <extendedListPresentation>
     <key>ru</key>
-    <value>Внешние обработки</value>
+    <value>Внешние обработки (спец)</value>
   </extendedListPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Лёгкий справочник для внешних обработок</value>
+  </explanation>
   <hierarchical>true</hierarchical>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
@@ -111,7 +116,7 @@
   <defaultObjectForm>Catalog.Спец_ВнешниеОбработки.Form.ФормаЭлемента</defaultObjectForm>
   <defaultFolderForm>Catalog.Спец_ВнешниеОбработки.Form.ФормаГруппы</defaultFolderForm>
   <defaultListForm>Catalog.Спец_ВнешниеОбработки.Form.ФормаСписка</defaultListForm>
-  <defaultChoiceForm>Catalog.Спец_ВнешниеОбработки.Form.ФормаВыбора</defaultChoiceForm>
+  <defaultChoiceForm>Catalog.Спец_ВнешниеОбработки.Form.ФормаСписка</defaultChoiceForm>
   <attributes uuid="c98dc23b-c6a6-4da2-85ce-6e8c23e1151c">
     <name>ХранилищеВнешнейОбработки</name>
     <synonym>
@@ -141,25 +146,6 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
   </attributes>
-  <attributes uuid="2e84876a-754a-4a42-b39c-f20079aa9318">
-    <name>ГУИД</name>
-    <synonym>
-      <key>ru</key>
-      <value>ГУИД</value>
-    </synonym>
-    <type>
-      <types>DefinedType.Спец_UID</types>
-    </type>
-    <mask>hhhhhhhh-hhhh-hhhh-hhhh-hhhhhhhhhhhh</mask>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <createOnInput>DontUse</createOnInput>
-    <fillValue xsi:type="core:StringValue">
-      <value>                                    </value>
-    </fillValue>
-    <indexing>Index</indexing>
-    <use>ForFolderAndItem</use>
-  </attributes>
   <forms uuid="53903dd7-f568-47ed-8cb6-187a948d3020">
     <name>ФормаЭлемента</name>
     <synonym>
@@ -169,29 +155,20 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="39b0fbde-916c-454c-a5de-b4e37fc4cd19">
-    <name>ФормаСписка</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма списка</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
-  <forms uuid="113b6a5d-10b6-4ae2-9fd8-5f8231a8a6ec">
-    <name>ФормаВыбора</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма выбора</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
   <forms uuid="7665ab7a-74b8-478d-a0b9-6b505e693e11">
     <name>ФормаГруппы</name>
     <synonym>
       <key>ru</key>
       <value>Форма группы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="39b0fbde-916c-454c-a5de-b4e37fc4cd19">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

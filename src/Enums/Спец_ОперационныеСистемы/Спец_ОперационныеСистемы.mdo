@@ -18,7 +18,7 @@
   </listPresentation>
   <extendedListPresentation>
     <key>ru</key>
-    <value>Операционные системы</value>
+    <value>Операционные системы (спец)</value>
   </extendedListPresentation>
   <enumValues uuid="338d8bff-5201-4b09-87db-4f4a96083c69">
     <name>UNIX</name>

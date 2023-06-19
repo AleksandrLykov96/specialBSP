@@ -5,6 +5,7 @@
     <key>ru</key>
     <value>Выполнить запрос к PostgreSQL (спец)</value>
   </synonym>
+  <comment>Форма для отображения при выполнении запроса к PostgreSQL</comment>
   <usePurposes>PersonalComputer</usePurposes>
   <usePurposes>MobileDevice</usePurposes>
   <useStandardCommands>true</useStandardCommands>

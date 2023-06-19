@@ -12,8 +12,9 @@
   <name>Спец_НастройкиНочногоРасчета</name>
   <synonym>
     <key>ru</key>
-    <value>Настройки ночного расчета (спец)</value>
+    <value>Настройки ночного расчёта (спец)</value>
   </synonym>
+  <comment>Регистр для хранения параметров ночного расчёта</comment>
   <editType>BothWays</editType>
   <defaultRecordForm>InformationRegister.Спец_НастройкиНочногоРасчета.Form.ФормаЗаписи</defaultRecordForm>
   <defaultListForm>InformationRegister.Спец_НастройкиНочногоРасчета.Form.ФормаСписка</defaultListForm>
@@ -49,20 +50,24 @@
   <dataLockControlMode>Managed</dataLockControlMode>
   <recordPresentation>
     <key>ru</key>
-    <value>Настройка ночного расчета</value>
+    <value>Настройка ночного расчёта</value>
   </recordPresentation>
   <extendedRecordPresentation>
     <key>ru</key>
-    <value>Настройка ночного расчета</value>
+    <value>Настройка ночного расчёта (спец)</value>
   </extendedRecordPresentation>
   <listPresentation>
     <key>ru</key>
-    <value>Настройки ночного расчета</value>
+    <value>Настройки ночного расчёта</value>
   </listPresentation>
   <extendedListPresentation>
     <key>ru</key>
-    <value>Настройки ночного расчета</value>
+    <value>Настройки ночного расчёта (спец)</value>
   </extendedListPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Регистр для хранения параметров ночного расчёта</value>
+  </explanation>
   <resources uuid="e1d41b17-c2da-4b37-90ea-546e62509ae1">
     <name>Запускать</name>
     <synonym>
@@ -152,17 +157,12 @@
       <value>Имя метаданных регламента</value>
     </synonym>
     <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>256</length>
-      </stringQualifiers>
+      <types>DefinedType.Спец_ИмяОбъектаБазы</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <createOnInput>DontUse</createOnInput>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>
   <forms uuid="02781098-7d0e-4488-af98-f7ce53cc2f92">

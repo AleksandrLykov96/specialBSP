@@ -14,6 +14,7 @@
     <key>ru</key>
     <value>Хранимые значения констант (спец)</value>
   </synonym>
+  <comment>Регистр для хранения текущих значений констант</comment>
   <editType>BothWays</editType>
   <defaultRecordForm>InformationRegister.Спец_ХранимыеЗначенияКонстант.Form.ФормаЗаписи</defaultRecordForm>
   <defaultListForm>InformationRegister.Спец_ХранимыеЗначенияКонстант.Form.ФормаСписка</defaultListForm>
@@ -55,7 +56,7 @@
   </recordPresentation>
   <extendedRecordPresentation>
     <key>ru</key>
-    <value>Хранимое значение константы</value>
+    <value>Хранимое значение константы (спец)</value>
   </extendedRecordPresentation>
   <listPresentation>
     <key>ru</key>
@@ -63,8 +64,12 @@
   </listPresentation>
   <extendedListPresentation>
     <key>ru</key>
-    <value>Хранимые значения констант</value>
+    <value>Хранимые значения констант (спец)</value>
   </extendedListPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Регистр для хранения текущих значений констант</value>
+  </explanation>
   <resources uuid="e0706688-5dcf-4cbc-95e7-e8a7c55ffaab">
     <name>ЗначениеКонстанты</name>
     <synonym>

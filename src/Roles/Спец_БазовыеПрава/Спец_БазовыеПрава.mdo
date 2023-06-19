@@ -5,4 +5,5 @@
     <key>ru</key>
     <value>Базовые права (спец)</value>
   </synonym>
+  <comment>Базовая роль для доступа к объектам данной подсистемы</comment>
 </mdclass:Role>

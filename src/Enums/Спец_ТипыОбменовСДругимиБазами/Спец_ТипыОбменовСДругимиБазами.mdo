@@ -34,7 +34,7 @@
   </listPresentation>
   <extendedListPresentation>
     <key>ru</key>
-    <value>Типы обменов с другими базами</value>
+    <value>Типы обменов с другими базами (спец)</value>
   </extendedListPresentation>
   <enumValues uuid="3b939441-f052-4319-ba51-b0481a2f7820">
     <name>ДвустороннийОбмен_ГлавнаяБазаОтправитель</name>

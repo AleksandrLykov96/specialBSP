@@ -34,7 +34,7 @@
   </listPresentation>
   <extendedListPresentation>
     <key>ru</key>
-    <value>Типы передачи объектов для обмена</value>
+    <value>Типы передачи объектов для обмена (спец)</value>
   </extendedListPresentation>
   <enumValues uuid="da1bbaff-ac39-4386-9702-4a05e4d2d4ac">
     <name>ГУИД</name>

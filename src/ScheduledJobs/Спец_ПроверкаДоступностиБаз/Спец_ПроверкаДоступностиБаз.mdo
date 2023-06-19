@@ -5,6 +5,7 @@
     <key>ru</key>
     <value>Проверка доступности баз (спец)</value>
   </synonym>
+  <comment>Регламентное задание для проверки доступности всех баз</comment>
   <methodName>CommonModule.Спец_ОбменСДругимиБазами.ПроверитьДоступностьБаз</methodName>
   <key>Спец_ПроверкаДоступностиБаз</key>
   <predefined>true</predefined>

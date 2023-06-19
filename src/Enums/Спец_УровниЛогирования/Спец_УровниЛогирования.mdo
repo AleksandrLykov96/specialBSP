@@ -12,6 +12,14 @@
   </synonym>
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Уровни логирования</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Уровни логирования (спец)</value>
+  </extendedListPresentation>
   <enumValues uuid="d94b4490-37cf-497e-986a-edf4b5950e95">
     <name>Информация</name>
     <synonym>

@@ -30,7 +30,7 @@
   </listPresentation>
   <extendedListPresentation>
     <key>ru</key>
-    <value>Типы обновления таблицы базы данных</value>
+    <value>Типы обновления таблицы базы данных (спец)</value>
   </extendedListPresentation>
   <enumValues uuid="ebd26824-0d5d-429a-adbb-6ec312ff11db">
     <name>НайтиНеОбновлятьНеСоздавать</name>

@@ -12,6 +12,7 @@
     <key>ru</key>
     <value>Базы (спец)</value>
   </synonym>
+  <comment>Содержит информацию по другим базам для обменов</comment>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.Спец_Базы.StandardAttribute.Description</inputByString>
   <searchStringModeOnInputByString>AnyPart</searchStringModeOnInputByString>
@@ -93,7 +94,7 @@
   </objectPresentation>
   <extendedObjectPresentation>
     <key>ru</key>
-    <value>База</value>
+    <value>База (спец)</value>
   </extendedObjectPresentation>
   <listPresentation>
     <key>ru</key>
@@ -101,8 +102,12 @@
   </listPresentation>
   <extendedListPresentation>
     <key>ru</key>
-    <value>Базы</value>
+    <value>Базы (спец)</value>
   </extendedListPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Содержит информацию по другим базам для обменов</value>
+  </explanation>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>50</codeLength>
@@ -193,7 +198,7 @@
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.Спец_Базы.Form.ФормаЭлемента</defaultObjectForm>
   <defaultListForm>Catalog.Спец_Базы.Form.ФормаСписка</defaultListForm>
-  <defaultChoiceForm>Catalog.Спец_Базы.Form.ФормаВыбора</defaultChoiceForm>
+  <defaultChoiceForm>Catalog.Спец_Базы.Form.ФормаСписка</defaultChoiceForm>
   <attributes uuid="c10cc10d-e11f-4d2c-83c4-47de7fb3c091">
     <name>АдресFTPДляОбменов</name>
     <synonym>
@@ -487,25 +492,6 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
   </attributes>
-  <attributes uuid="0bc69846-e8ea-4d60-89b3-5049f9ffa474">
-    <name>ГУИД</name>
-    <synonym>
-      <key>ru</key>
-      <value>ГУИД</value>
-    </synonym>
-    <type>
-      <types>DefinedType.Спец_UID</types>
-    </type>
-    <mask>hhhhhhhh-hhhh-hhhh-hhhh-hhhhhhhhhhhh</mask>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <createOnInput>DontUse</createOnInput>
-    <fillValue xsi:type="core:StringValue">
-      <value>                                    </value>
-    </fillValue>
-    <indexing>Index</indexing>
-    <use>ForFolderAndItem</use>
-  </attributes>
   <tabularSections uuid="62aa86bd-7399-43c1-a1ec-5db6aa48684f">
     <producedTypes>
       <objectType typeId="eb618cc9-1bcf-42a6-b936-aa23fb072e70" valueTypeId="e8ded02c-85fa-4b9b-9b90-171d50355962"/>
@@ -673,15 +659,6 @@
     <synonym>
       <key>ru</key>
       <value>Форма списка</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
-  <forms uuid="84ffea97-c557-4f47-adb7-0b4b5f485f10">
-    <name>ФормаВыбора</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма выбора</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

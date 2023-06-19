@@ -5,6 +5,7 @@
     <key>ru</key>
     <value>Логирование объектов (клиент, спец)</value>
   </synonym>
+  <comment>Модуль для логирования объектов</comment>
   <clientManagedApplication>true</clientManagedApplication>
   <clientOrdinaryApplication>true</clientOrdinaryApplication>
 </mdclass:CommonModule>

@@ -5,6 +5,7 @@
     <key>ru</key>
     <value>Обмен с другими базами (переопределяемый, спец)</value>
   </synonym>
+  <comment>Переопределяемый модуль для обмена с другими базами</comment>
   <server>true</server>
   <externalConnection>true</externalConnection>
   <clientOrdinaryApplication>true</clientOrdinaryApplication>

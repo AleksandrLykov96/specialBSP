@@ -9,6 +9,7 @@
     <key>ru</key>
     <value>Управление сеансами в кластере (спец)</value>
   </synonym>
+  <comment>Обработка для управления сеансами в кластере</comment>
   <defaultForm>DataProcessor.Спец_УправлениеСеансамиВКластере.Form.Форма</defaultForm>
   <extendedPresentation>
     <key>ru</key>

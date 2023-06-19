@@ -5,6 +5,7 @@
     <key>ru</key>
     <value>Константы (клиент-сервер, спец)</value>
   </synonym>
+  <comment>Модуль для хранения &lt;волшебных> чисел, строк, и т.п.</comment>
   <clientManagedApplication>true</clientManagedApplication>
   <server>true</server>
   <externalConnection>true</externalConnection>

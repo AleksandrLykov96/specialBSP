@@ -14,6 +14,7 @@
     <key>ru</key>
     <value>Кэш для фоновых заданий (спец)</value>
   </synonym>
+  <comment>Регистр для параметров для выполнения фонового задания</comment>
   <editType>BothWays</editType>
   <defaultRecordForm>InformationRegister.Спец_КэшДляФоновыхЗаданий.Form.ФормаЗаписи</defaultRecordForm>
   <defaultListForm>InformationRegister.Спец_КэшДляФоновыхЗаданий.Form.ФормаСписка</defaultListForm>
@@ -53,7 +54,7 @@
   </recordPresentation>
   <extendedRecordPresentation>
     <key>ru</key>
-    <value>Кэш для фонового задания</value>
+    <value>Кэш для фонового задания (спец)</value>
   </extendedRecordPresentation>
   <listPresentation>
     <key>ru</key>
@@ -61,8 +62,12 @@
   </listPresentation>
   <extendedListPresentation>
     <key>ru</key>
-    <value>Кэш для фоновых заданий</value>
+    <value>Кэш для фоновых заданий (спец)</value>
   </extendedListPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Регистр для параметров для выполнения фонового задания</value>
+  </explanation>
   <resources uuid="4e345f6e-2cb1-436d-bfd6-73145666f118">
     <name>ВходныеДанные</name>
     <synonym>

@@ -13,9 +13,9 @@
     <key>ru</key>
     <value>Константы (спец)</value>
   </synonym>
+  <comment>ПВХ для быстрых констант</comment>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>ChartOfCharacteristicTypes.Спец_Константы.StandardAttribute.Description</inputByString>
-  <inputByString>ChartOfCharacteristicTypes.Спец_Константы.StandardAttribute.Code</inputByString>
   <searchStringModeOnInputByString>AnyPart</searchStringModeOnInputByString>
   <standardAttributes>
     <name>PredefinedDataName</name>
@@ -119,9 +119,8 @@
   </type>
   <hierarchical>true</hierarchical>
   <foldersOnTop>true</foldersOnTop>
-  <codeLength>50</codeLength>
   <codeAllowedLength>Variable</codeAllowedLength>
-  <descriptionLength>128</descriptionLength>
+  <descriptionLength>150</descriptionLength>
   <codeSeries>WithinSubordination</codeSeries>
   <defaultPresentation>AsDescription</defaultPresentation>
   <predefined>
@@ -129,12 +128,12 @@
       <name>Telegram</name>
       <description>Telegram</description>
       <isFolder>true</isFolder>
-      <code>Telegram</code>
+      <code></code>
       <type/>
       <content id="b1d65979-03bf-400b-8439-1902ef656dad">
         <name>ИдентификаторБота</name>
         <description>Идентификатор бота</description>
-        <code>ИдентификаторБота</code>
+        <code></code>
         <type>
           <types>String</types>
           <stringQualifiers>
@@ -145,7 +144,7 @@
       <content id="59f4b265-4ad6-4c53-b21e-15ba69bb0520">
         <name>ИдентификаторыПолучателей</name>
         <description>Идентификаторы получателей</description>
-        <code>ИдентификаторыПолучателей</code>
+        <code></code>
         <type>
           <types>CatalogRef.Спец_МассивЗначенийКонстант</types>
         </type>
@@ -155,18 +154,18 @@
       <name>Взаимодействия</name>
       <description>Взаимодействия</description>
       <isFolder>true</isFolder>
-      <code>Взаимодействия</code>
+      <code></code>
       <type/>
       <content id="ec7ead92-50c0-4d8a-9021-fe582c73a636">
         <name>ОтправкаEMail</name>
         <description>Отправка EMail</description>
         <isFolder>true</isFolder>
-        <code>ОтправкаEMail</code>
+        <code></code>
         <type/>
         <content id="62754154-7f50-45bc-b606-ef2620cf1740">
           <name>АдресСервераPOP3</name>
           <description>Адрес сервера POP3</description>
-          <code>АдресСервераPOP3</code>
+          <code></code>
           <type>
             <types>String</types>
             <stringQualifiers>
@@ -177,7 +176,7 @@
         <content id="b7264e54-5eee-429e-9049-1864df209c8c">
           <name>АдресСервераSMTP</name>
           <description>Адрес сервера SMTP</description>
-          <code>АдресСервераSMTP</code>
+          <code></code>
           <type>
             <types>String</types>
             <stringQualifiers>
@@ -188,7 +187,7 @@
         <content id="a1af1ffb-fee1-4354-9689-65d0adac62c7">
           <name>ПарольEMail</name>
           <description>Пароль EMail</description>
-          <code>ПарольEMail</code>
+          <code></code>
           <type>
             <types>String</types>
             <stringQualifiers>
@@ -199,7 +198,7 @@
         <content id="077f559f-d738-43cc-b129-6ebad96272cf">
           <name>ПарольSMTP</name>
           <description>Пароль SMTP</description>
-          <code>ПарольSMTP</code>
+          <code></code>
           <type>
             <types>String</types>
             <stringQualifiers>
@@ -210,7 +209,7 @@
         <content id="62675c81-5528-4663-9b45-62ab82921e44">
           <name>ПодписьПисьмаEMail</name>
           <description>Подпись письма EMail</description>
-          <code>ПодписьПисьмаEMail</code>
+          <code></code>
           <type>
             <types>String</types>
             <stringQualifiers>
@@ -221,7 +220,7 @@
         <content id="ed06ce06-6638-4392-8070-740873affce2">
           <name>ПользовательEMail</name>
           <description>Пользователь EMail</description>
-          <code>ПользовательEMail</code>
+          <code></code>
           <type>
             <types>String</types>
             <stringQualifiers>
@@ -232,7 +231,7 @@
         <content id="ac868602-9831-48d8-a659-23e7f22ec698">
           <name>ПользовательSMTP</name>
           <description>Пользователь SMTP</description>
-          <code>ПользовательSMTP</code>
+          <code></code>
           <type>
             <types>String</types>
             <stringQualifiers>
@@ -243,7 +242,7 @@
         <content id="2141b6ba-c08a-426c-87bb-95df098d9c17">
           <name>ПортPOP3</name>
           <description>Порт POP3</description>
-          <code>ПортPOP3</code>
+          <code></code>
           <type>
             <types>Number</types>
             <numberQualifiers>
@@ -255,7 +254,7 @@
         <content id="1675353e-fbb2-4250-a017-a85f1326e559">
           <name>ПортSMTP</name>
           <description>Порт SMTP</description>
-          <code>ПортSMTP</code>
+          <code></code>
           <type>
             <types>Number</types>
             <numberQualifiers>
@@ -267,7 +266,7 @@
         <content id="5e03c463-a17a-4733-a305-d9fdcb5be4ef">
           <name>ТаймаутОтправкиEMail</name>
           <description>Таймаут отправки EMail (сек)</description>
-          <code>ТаймаутОтправкиEMail</code>
+          <code></code>
           <type>
             <types>Number</types>
             <numberQualifiers>
@@ -281,12 +280,12 @@
         <name>HTTPЗапросы</name>
         <description>HTTP запросы</description>
         <isFolder>true</isFolder>
-        <code>HTTPЗапросы</code>
+        <code></code>
         <type/>
         <content id="4a0f425d-f7eb-4935-be00-3d4f290da9a8">
           <name>ЧисловойУровеньБазы</name>
           <description>Числовой уровень базы</description>
-          <code>ЧисловойУровеньБазы</code>
+          <code></code>
           <type>
             <types>Number</types>
             <numberQualifiers>
@@ -298,7 +297,7 @@
         <content id="56b90231-9662-4b9c-9c0f-d6bad8654e1b">
           <name>РаботаетВБазеРайона</name>
           <description>Работает в базе района</description>
-          <code>РаботаетВБазеРайона</code>
+          <code></code>
           <type>
             <types>Boolean</types>
           </type>
@@ -306,7 +305,7 @@
         <content id="39ea508a-068d-4aa5-92d6-cd39f94b4170">
           <name>ГУИДТекущейБазы</name>
           <description>ГУИД текущей базы</description>
-          <code>ГУИДТекущейБазы</code>
+          <code></code>
           <type>
             <types>String</types>
             <stringQualifiers>
@@ -321,18 +320,18 @@
       <name>ОбщиеПараметры</name>
       <description>Общие параметры</description>
       <isFolder>true</isFolder>
-      <code>ОбщиеПараметры</code>
+      <code></code>
       <type/>
       <content id="23e82787-af91-43b6-9acb-029d72596d5a">
         <name>РаботаСБазойДанных</name>
         <description>Работа с базой данных</description>
         <isFolder>true</isFolder>
-        <code>РаботаСБазойДанных</code>
+        <code></code>
         <type/>
         <content id="83d2ea7a-d6ed-4257-9deb-22ad14dc0a49">
           <name>ДатаПоследнейКластеризации</name>
           <description>Дата последней кластеризации</description>
-          <code>ДатаПоследнейКластеризации</code>
+          <code></code>
           <type>
             <types>Date</types>
             <dateQualifiers>
@@ -343,7 +342,7 @@
         <content id="a3b340e3-fb92-404e-be62-8292ea9fb65c">
           <name>ДатаПоследнейРеиндексации</name>
           <description>Дата последней реиндексации</description>
-          <code>ДатаПоследнейРеиндексации</code>
+          <code></code>
           <type>
             <types>Date</types>
             <dateQualifiers>
@@ -354,7 +353,7 @@
         <content id="65bc69cc-f1ca-4107-8d6c-fc655abb1219">
           <name>ДатаСбросаСтатистики</name>
           <description>Дата сброса статистики</description>
-          <code>ДатаСбросаСтатистики</code>
+          <code></code>
           <type>
             <types>Date</types>
             <dateQualifiers>
@@ -365,7 +364,7 @@
         <content id="7ac54a44-b9dd-4c56-9f36-d79140bc9199">
           <name>КоличествоТаблицИзЧастоИспользуемыхВКэш</name>
           <description>Количество таблиц из часто используемых в кэш</description>
-          <code>КоличествоТаблицИзЧастоИспользуемыхВКэш</code>
+          <code></code>
           <type>
             <types>Number</types>
             <numberQualifiers>
@@ -378,7 +377,7 @@
       <content id="110d4673-7e5b-467e-b419-0b979b4646b2">
         <name>ИмяПользователяПоУмолчанию</name>
         <description>Имя пользователя по умолчанию</description>
-        <code>ИмяПользователяПоУмолчанию</code>
+        <code></code>
         <type>
           <types>String</types>
           <stringQualifiers>
@@ -389,7 +388,7 @@
       <content id="2439bc58-17aa-41fb-8433-e686633abbc3">
         <name>КоличествоПопытокБлокированияСсылочныхОбъектов</name>
         <description>Количество попыток блокирования ссылочных объектов</description>
-        <code>КоличествоПопытокБлокированияСсылочныхОбъектов</code>
+        <code></code>
         <type>
           <types>Number</types>
           <numberQualifiers>
@@ -401,7 +400,7 @@
       <content id="a484d2e4-de5e-4f59-8973-d281fd5a8d09">
         <name>ЛимитПамятиДляПотоков</name>
         <description>Лимит памяти для потоков</description>
-        <code>ЛимитПамятиДляПотоков</code>
+        <code></code>
         <type>
           <types>Number</types>
           <numberQualifiers>
@@ -413,7 +412,7 @@
       <content id="fc69bfd3-bf8a-40a3-bc20-f5776b0b851d">
         <name>ОбщийFTPКаталог</name>
         <description>Общий FTP каталог</description>
-        <code>ОбщийFTPКаталог</code>
+        <code></code>
         <type>
           <types>String</types>
           <stringQualifiers>
@@ -424,7 +423,7 @@
       <content id="fb46984b-cb6f-4234-b6b2-4b0185c6d2a3">
         <name>ПарольПользователяПоУмолчанию</name>
         <description>Пароль пользователя по умолчанию</description>
-        <code>ПарольПользователяПоУмолчанию</code>
+        <code></code>
         <type>
           <types>String</types>
           <stringQualifiers>
@@ -435,7 +434,7 @@
       <content id="3448bc41-c221-4cd2-bf0d-876468ffb05e">
         <name>ПервоначальноеЗаполнениеВыполнено</name>
         <description>Первоначальное заполнение выполнено</description>
-        <code>ПервоначальноеЗаполнениеВыполнено</code>
+        <code></code>
         <type>
           <types>Boolean</types>
         </type>
@@ -443,7 +442,7 @@
       <content id="ee744b1a-f699-470d-829d-117d258af914">
         <name>РазмерБуфераДляПотоков</name>
         <description>Размер буфера для потоков</description>
-        <code>РазмерБуфераДляПотоков</code>
+        <code></code>
         <type>
           <types>Number</types>
           <numberQualifiers>
@@ -455,7 +454,7 @@
       <content id="77ad7220-5a4d-4f3f-8f0c-5e457695effb">
         <name>МинимальныйУровеньЛогирования</name>
         <description>Минимальный уровень логирования</description>
-        <code>МинимальныйУровеньЛогирования</code>
+        <code></code>
         <type>
           <types>EnumRef.Спец_УровниЛогирования</types>
         </type>
@@ -464,12 +463,12 @@
         <name>ПараметрыЗаписиОбъектов</name>
         <description>Параметры записи объектов</description>
         <isFolder>true</isFolder>
-        <code>ПараметрыЗаписиОбъектов</code>
+        <code></code>
         <type/>
         <content id="70a75684-21e4-410a-96b7-649f9f548d1b">
           <name>ОбъектыДляКоторыхНеПроверятьМодифицированность</name>
           <description>Объекты, для которых не проверять модифицированность (приоритет 2)</description>
-          <code>ОбъектыДляКоторыхНеПроверятьМодифицированность</code>
+          <code></code>
           <type>
             <types>CatalogRef.Спец_МассивЗначенийКонстант</types>
           </type>
@@ -477,7 +476,7 @@
         <content id="243ea5aa-cfaf-404a-9c1f-8732d5e087d3">
           <name>ОбъектыДляКоторыхПроверятьМодифицированность</name>
           <description>Объекты, для которых проверять модифицированность (приоритет 1)</description>
-          <code>ОбъектыДляКоторыхПроверятьМодифицированность</code>
+          <code></code>
           <type>
             <types>CatalogRef.Спец_МассивЗначенийКонстант</types>
           </type>
@@ -487,12 +486,12 @@
         <name>ПараметрыЗапускаПриложения</name>
         <description>Параметры запуска приложения</description>
         <isFolder>true</isFolder>
-        <code>ПараметрыЗапускаПриложения</code>
+        <code></code>
         <type/>
         <content id="11bc3a3d-f5ad-40fa-89a4-326a20588132">
           <name>ВключитьУведомленияПользователей</name>
           <description>Включить уведомления пользователей</description>
-          <code>ВключитьУведомленияПользователей</code>
+          <code></code>
           <type>
             <types>Boolean</types>
           </type>
@@ -500,7 +499,7 @@
         <content id="4ccb9237-617a-49c3-bb4f-26de62b17a4b">
           <name>ПериодОбновленияНовыхУведомлений</name>
           <description>Период обновления новых уведомлений</description>
-          <code>ПериодОбновленияНовыхУведомлений</code>
+          <code></code>
           <type>
             <types>Number</types>
             <numberQualifiers>
@@ -512,7 +511,7 @@
         <content id="da41bb40-5c76-4b36-871a-2082cec26155">
           <name>ПодключатьОбработчикЗавершенияРаботыПользователей</name>
           <description>Подключать обработчик ожидания пользователей</description>
-          <code>ПодключатьОбработчикЗавершенияРаботыПользователей</code>
+          <code></code>
           <type>
             <types>Boolean</types>
           </type>
@@ -520,7 +519,7 @@
         <content id="2dd44f90-7401-477b-b249-031635a9deeb">
           <name>ПользователиКоторымНеНадоЗаканчивать</name>
           <description>Пользователи которым не надо заканчивать</description>
-          <code>ПользователиКоторымНеНадоЗаканчивать</code>
+          <code></code>
           <type>
             <types>CatalogRef.Спец_МассивЗначенийКонстант</types>
           </type>
@@ -528,7 +527,7 @@
         <content id="f3f72f85-ddca-4f91-894f-00b7a20936f6">
           <name>УстанавливатьЗаголовокБазы</name>
           <description>Устанавливать заголовок базы</description>
-          <code>УстанавливатьЗаголовокБазы</code>
+          <code></code>
           <type>
             <types>Boolean</types>
           </type>
@@ -538,12 +537,12 @@
         <name>ПараметрыУдаленияСтарыхДанных</name>
         <description>Параметры удаления старых данных</description>
         <isFolder>true</isFolder>
-        <code>ПараметрыУдаленияСтарыхДанных</code>
+        <code></code>
         <type/>
         <content id="59f39ec1-f289-41da-9b5c-c6134bd7d761">
           <name>КоличествоЧасовДляЧисткиTMP</name>
           <description>Количество часов для чистки TMP</description>
-          <code>КоличествоЧасовДляЧисткиTMP</code>
+          <code></code>
           <type>
             <types>Number</types>
             <numberQualifiers>
@@ -555,7 +554,7 @@
         <content id="140d8efe-2996-4ede-80db-06614c5589d6">
           <name>СрокХраненияЛогов</name>
           <description>Срок хранения логов (часов)</description>
-          <code>СрокХраненияЛогов</code>
+          <code></code>
           <type>
             <types>Number</types>
             <numberQualifiers>
@@ -567,7 +566,7 @@
         <content id="366e0fe9-0403-4524-8702-68638f226107">
           <name>СрокХраненияИсторииДанных</name>
           <description>Срок хранения истории данных (дней)</description>
-          <code>СрокХраненияИсторииДанных</code>
+          <code></code>
           <type>
             <types>Number</types>
             <numberQualifiers>
@@ -579,7 +578,7 @@
         <content id="2a5a7a57-4bbd-425e-946d-a15427a93f5c">
           <name>СрокХраненияОшибок</name>
           <description>Срок хранения ошибок (дней)</description>
-          <code>СрокХраненияОшибок</code>
+          <code></code>
           <type>
             <types>Number</types>
             <numberQualifiers>
@@ -591,7 +590,7 @@
         <content id="1c71c9f0-2182-48d7-9321-be733a888bec">
           <name>ДатаПоследнегоПересчетаИтогов</name>
           <description>Дата последнего пересчёта итогов</description>
-          <code>ДатаПоследнегоПересчетаИтогов</code>
+          <code></code>
           <type>
             <types>Date</types>
             <dateQualifiers>
@@ -604,12 +603,12 @@
         <name>ПараметрыФоновыхЗаданий</name>
         <description>Параметры фоновых заданий</description>
         <isFolder>true</isFolder>
-        <code>ПараметрыФоновыхЗаданий</code>
+        <code></code>
         <type/>
         <content id="2d5fc5fb-517b-4b14-b0d6-700e0ba30287">
           <name>КоличествоЗаданийОграничение</name>
           <description>Количество заданий ограничение</description>
-          <code>КоличествоЗаданийОграничение</code>
+          <code></code>
           <type>
             <types>Number</types>
             <numberQualifiers>
@@ -621,7 +620,7 @@
         <content id="b170b913-24ee-4912-a75a-4f563b0cf6d9">
           <name>ОбщееКоличествоЗаданийОграничение</name>
           <description>Общее количество заданий ограничение</description>
-          <code>ОбщееКоличествоЗаданийОграничение</code>
+          <code></code>
           <type>
             <types>Number</types>
             <numberQualifiers>
@@ -636,12 +635,12 @@
       <name>ПараметрыОбменовСДругимиБазами</name>
       <description>Параметры обменов с другими базами</description>
       <isFolder>true</isFolder>
-      <code>ПараметрыОбменовСДругимиБазами</code>
+      <code></code>
       <type/>
       <content id="b9bf90a0-f516-4df2-becd-e6af1e7d13b4">
         <name>ДатаПоследнейУстановкиГУИДов</name>
         <description>Дата последней установки ГУИДов</description>
-        <code>ДатаПоследнейУстановкиГУИДов</code>
+        <code></code>
         <type>
           <types>Date</types>
           <dateQualifiers>
@@ -652,7 +651,7 @@
       <content id="0d835c83-e476-4287-b59f-e1f2a65988cc">
         <name>ТаймаутФоновыхЗаданий</name>
         <description>Таймаут фоновых заданий</description>
-        <code>ТаймаутФоновыхЗаданий</code>
+        <code></code>
         <type>
           <types>Number</types>
           <numberQualifiers>
@@ -668,31 +667,21 @@
   <defaultObjectForm>ChartOfCharacteristicTypes.Спец_Константы.Form.ФормаЭлемента</defaultObjectForm>
   <defaultFolderForm>ChartOfCharacteristicTypes.Спец_Константы.Form.ФормаГруппы</defaultFolderForm>
   <defaultListForm>ChartOfCharacteristicTypes.Спец_Константы.Form.ФормаСписка</defaultListForm>
-  <defaultChoiceForm>ChartOfCharacteristicTypes.Спец_Константы.Form.ФормаВыбора</defaultChoiceForm>
-  <attributes uuid="4ce3b11f-c639-4940-b4de-076670ea8db9">
-    <name>ГУИД</name>
-    <synonym>
-      <key>ru</key>
-      <value>ГУИД</value>
-    </synonym>
-    <type>
-      <types>DefinedType.Спец_UID</types>
-    </type>
-    <mask>hhhhhhhh-hhhh-hhhh-hhhh-hhhhhhhhhhhh</mask>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <createOnInput>DontUse</createOnInput>
-    <fillValue xsi:type="core:StringValue">
-      <value>                                    </value>
-    </fillValue>
-    <indexing>Index</indexing>
-    <use>ForFolderAndItem</use>
-  </attributes>
+  <defaultChoiceForm>ChartOfCharacteristicTypes.Спец_Константы.Form.ФормаСписка</defaultChoiceForm>
   <forms uuid="23b6a4b0-c23f-4878-9d6c-85a80b59c68d">
     <name>ФормаЭлемента</name>
     <synonym>
       <key>ru</key>
       <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="fe887646-d847-4df0-add9-9836bc70c946">
+    <name>ФормаГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
@@ -706,29 +695,11 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="98b50f07-54dd-4166-b39a-8b65514e1934">
-    <name>ФормаВыбора</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма выбора</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
   <forms uuid="568fa160-7328-4d0e-85a9-a2bf609b6a96">
     <name>ФормаНастроекКонстант</name>
     <synonym>
       <key>ru</key>
       <value>Форма настроек констант</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
-  <forms uuid="fe887646-d847-4df0-add9-9836bc70c946">
-    <name>ФормаГруппы</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма группы</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

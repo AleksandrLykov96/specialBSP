@@ -5,6 +5,7 @@
     <key>ru</key>
     <value>Выполнить обработку обновления конфигурации</value>
   </synonym>
+  <comment>Команда для обновления конфигурации</comment>
   <group>ActionsPanelTools</group>
   <commandParameterType/>
   <representation>Auto</representation>

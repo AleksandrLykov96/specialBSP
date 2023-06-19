@@ -5,6 +5,7 @@
     <key>ru</key>
     <value>Общего назначения (спец)</value>
   </synonym>
+  <comment>Модуль общего назначения</comment>
   <server>true</server>
   <externalConnection>true</externalConnection>
   <clientOrdinaryApplication>true</clientOrdinaryApplication>

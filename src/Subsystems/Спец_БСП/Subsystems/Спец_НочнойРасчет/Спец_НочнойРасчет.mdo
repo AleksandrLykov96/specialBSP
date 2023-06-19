@@ -5,6 +5,7 @@
     <key>ru</key>
     <value>Ночной расчёт</value>
   </synonym>
+  <comment>Объекты для ночного расчёта</comment>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>CommonModule.Спец_МодульРегламентныхЗаданий</content>
   <content>InformationRegister.Спец_НастройкиНочногоРасчета</content>

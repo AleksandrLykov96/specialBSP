@@ -18,7 +18,7 @@
   </listPresentation>
   <extendedListPresentation>
     <key>ru</key>
-    <value>Периоды обмена для объектов</value>
+    <value>Периоды обмена для объектов (спец)</value>
   </extendedListPresentation>
   <enumValues uuid="5f81d9ba-c9ce-4a93-a8d2-91dccf2cd620">
     <name>ПоследнийЧас</name>

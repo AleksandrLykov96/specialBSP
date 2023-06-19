@@ -5,6 +5,7 @@
     <key>ru</key>
     <value>Логирование объектов (спец)</value>
   </synonym>
+  <comment>Модуль для логирования объектов</comment>
   <server>true</server>
   <externalConnection>true</externalConnection>
   <clientOrdinaryApplication>true</clientOrdinaryApplication>

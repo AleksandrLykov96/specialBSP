@@ -5,6 +5,7 @@
     <key>ru</key>
     <value>Общего назначения (клиент, спец)</value>
   </synonym>
+  <comment>Модуль общего назначения</comment>
   <clientManagedApplication>true</clientManagedApplication>
   <clientOrdinaryApplication>true</clientOrdinaryApplication>
 </mdclass:CommonModule>

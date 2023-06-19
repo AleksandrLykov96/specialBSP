@@ -14,6 +14,7 @@
     <key>ru</key>
     <value>Параметры обменов с другими базами (спец)</value>
   </synonym>
+  <comment>Регистр для хранения параметров обмена с другими базами</comment>
   <editType>BothWays</editType>
   <defaultRecordForm>InformationRegister.Спец_ПараметрыОбменовСДругимиБазами.Form.ФормаЗаписи</defaultRecordForm>
   <defaultListForm>InformationRegister.Спец_ПараметрыОбменовСДругимиБазами.Form.ФормаСписка</defaultListForm>
@@ -50,7 +51,7 @@
   </recordPresentation>
   <extendedRecordPresentation>
     <key>ru</key>
-    <value>Параметры обмена с другой базой</value>
+    <value>Параметры обмена с другой базой (спец)</value>
   </extendedRecordPresentation>
   <listPresentation>
     <key>ru</key>
@@ -58,8 +59,12 @@
   </listPresentation>
   <extendedListPresentation>
     <key>ru</key>
-    <value>Параметры обменов с другими базами</value>
+    <value>Параметры обменов с другими базами (спец)</value>
   </extendedListPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Регистр для хранения параметров обмена с другими базами</value>
+  </explanation>
   <resources uuid="95c5e1f4-d2b2-4a2f-9f62-2dff93e11e36">
     <name>ОбменВключен</name>
     <synonym>
@@ -80,17 +85,12 @@
       <value>Полное имя объекта метаданных (приёмник)</value>
     </synonym>
     <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>256</length>
-      </stringQualifiers>
+      <types>DefinedType.Спец_ИмяОбъектаБазы</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
   <resources uuid="3b5907cf-c934-4897-b455-20451c437cd1">
     <name>ВызыватьЗаписьПринудительно</name>
@@ -455,19 +455,14 @@
       <value>Полное имя объекта метаданных (источник)</value>
     </synonym>
     <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>256</length>
-      </stringQualifiers>
+      <types>DefinedType.Спец_ИмяОбъектаБазы</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
     <denyIncompleteValues>true</denyIncompleteValues>
     <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>
   <forms uuid="0fd5c4b5-5dae-4d26-aab8-6857f81cb7fa">

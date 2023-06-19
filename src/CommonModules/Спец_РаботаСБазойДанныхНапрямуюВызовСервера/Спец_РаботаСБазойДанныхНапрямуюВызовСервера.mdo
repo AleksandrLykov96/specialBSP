@@ -5,6 +5,7 @@
     <key>ru</key>
     <value>Работа с базой данных напрямую (вызов сервера, спец)</value>
   </synonym>
+  <comment>Модуль для работы с базой напрямую</comment>
   <server>true</server>
   <serverCall>true</serverCall>
 </mdclass:CommonModule>

@@ -5,6 +5,7 @@
     <key>ru</key>
     <value>Взаимодействия (повторное использование, спец)</value>
   </synonym>
+  <comment>Модуль для отправки EMAIL / SMS</comment>
   <server>true</server>
   <serverCall>true</serverCall>
   <returnValuesReuse>DuringSession</returnValuesReuse>

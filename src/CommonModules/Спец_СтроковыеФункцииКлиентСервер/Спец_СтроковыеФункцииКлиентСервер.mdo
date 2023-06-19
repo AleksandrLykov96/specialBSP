@@ -5,6 +5,7 @@
     <key>ru</key>
     <value>Строковые функции (клиент-сервер, спец)</value>
   </synonym>
+  <comment>Модуль работы со строками</comment>
   <clientManagedApplication>true</clientManagedApplication>
   <server>true</server>
   <externalConnection>true</externalConnection>

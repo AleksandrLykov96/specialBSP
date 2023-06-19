@@ -5,6 +5,7 @@
     <key>ru</key>
     <value>Работа с фоновыми заданиями (клиент-сервер, спец)</value>
   </synonym>
+  <comment>Модуль для работы с фоновыми заданиями</comment>
   <clientManagedApplication>true</clientManagedApplication>
   <server>true</server>
   <externalConnection>true</externalConnection>

@@ -5,6 +5,7 @@
     <key>ru</key>
     <value>БСП (спец)</value>
   </synonym>
+  <comment>Основная подсистема БСП</comment>
   <includeInCommandInterface>true</includeInCommandInterface>
   <picture xsi:type="core:PictureRef">
     <picture>CommonPicture.Спец_НижегородскаяАптечнаяСеть</picture>

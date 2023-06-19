@@ -5,6 +5,7 @@
     <key>ru</key>
     <value>Работа с коллекциями (клиент-сервер, спец)</value>
   </synonym>
+  <comment>Модуль для работы с базой напрямую</comment>
   <clientManagedApplication>true</clientManagedApplication>
   <server>true</server>
   <externalConnection>true</externalConnection>

@@ -5,6 +5,7 @@
     <key>ru</key>
     <value>Обмен с другими базами (спец)</value>
   </synonym>
+  <comment>Модуль для обмена с другими базами</comment>
   <server>true</server>
   <externalConnection>true</externalConnection>
   <clientOrdinaryApplication>true</clientOrdinaryApplication>

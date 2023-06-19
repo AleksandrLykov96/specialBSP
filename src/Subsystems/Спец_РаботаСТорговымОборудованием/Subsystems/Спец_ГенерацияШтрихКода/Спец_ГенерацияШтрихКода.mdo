@@ -12,5 +12,10 @@
   <content>CommonModule.МенеджерОборудованияМаркировкаКлиентСерверПовтИсп</content>
   <content>CommonModule.МенеджерОборудованияМаркировкаВызовСервера</content>
   <content>Enum.ТипыИдентификаторовТовараККТ</content>
+  <content>Enum.Спец_ТипыМаркируемогоТовара</content>
+  <content>DefinedType.Спец_GTIN</content>
+  <content>InformationRegister.Спец_РеестрGTIN</content>
+  <content>CommonModule.Спец_ГенерацияЧтениеШтрихКодаВызовСервера</content>
+  <content>CommonModule.Спец_ГенерацияЧтениеШтрихКода</content>
   <parentSubsystem>Subsystem.Спец_РаботаСТорговымОборудованием</parentSubsystem>
 </mdclass:Subsystem>

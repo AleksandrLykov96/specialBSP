@@ -5,6 +5,7 @@
     <key>ru</key>
     <value>PostgreSQL (клиент-сервер, спец)</value>
   </synonym>
+  <comment>Модуль для работы с PostgreSQL</comment>
   <clientManagedApplication>true</clientManagedApplication>
   <server>true</server>
   <externalConnection>true</externalConnection>

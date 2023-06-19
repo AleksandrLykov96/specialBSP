@@ -5,6 +5,7 @@
     <key>ru</key>
     <value>Логирование объектов</value>
   </synonym>
+  <comment>Объекты для логирования</comment>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>InformationRegister.Спец_ЛогиПоОбъектам</content>
   <content>InformationRegister.Спец_ОбъектыДляЛогирования</content>

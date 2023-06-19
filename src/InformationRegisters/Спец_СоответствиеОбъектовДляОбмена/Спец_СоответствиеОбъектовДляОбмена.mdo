@@ -14,6 +14,7 @@
     <key>ru</key>
     <value>Соответствие объектов для обмена (спец)</value>
   </synonym>
+  <comment>Регистр для хранения параметров обмена с другими базами</comment>
   <editType>BothWays</editType>
   <defaultRecordForm>InformationRegister.Спец_СоответствиеОбъектовДляОбмена.Form.ФормаЗаписи</defaultRecordForm>
   <defaultListForm>InformationRegister.Спец_СоответствиеОбъектовДляОбмена.Form.ФормаСписка</defaultListForm>
@@ -50,7 +51,7 @@
   </recordPresentation>
   <extendedRecordPresentation>
     <key>ru</key>
-    <value>Соответствие объекта для обмена</value>
+    <value>Соответствие объекта для обмена (спец)</value>
   </extendedRecordPresentation>
   <listPresentation>
     <key>ru</key>
@@ -58,8 +59,12 @@
   </listPresentation>
   <extendedListPresentation>
     <key>ru</key>
-    <value>Соответствие объектов для обменов</value>
+    <value>Соответствие объектов для обменов (спец)</value>
   </extendedListPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Регистр для хранения параметров обмена с другими базами</value>
+  </explanation>
   <resources uuid="20d9746a-0c8d-4fb9-8898-2436444f252c">
     <name>ТипПередачи</name>
     <synonym>
@@ -84,16 +89,11 @@
       <value>Имя объекта метаданных (приёмник)</value>
     </synonym>
     <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>256</length>
-      </stringQualifiers>
+      <types>DefinedType.Спец_ИмяОбъектаБазы</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
   <resources uuid="a627df76-3b57-41da-9d09-93fe1d6ababc">
     <name>ИмяТабличнойЧастиПриемник</name>
@@ -102,16 +102,11 @@
       <value>Имя табличной части (приёмник)</value>
     </synonym>
     <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>256</length>
-      </stringQualifiers>
+      <types>DefinedType.Спец_ИмяОбъектаБазы</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
   <resources uuid="be6bea4f-720b-4bac-a18a-66e1a4fa2f0e">
     <name>ИмяРеквизитаПриемник</name>
@@ -120,16 +115,11 @@
       <value>Имя реквизита (приёмник)</value>
     </synonym>
     <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>256</length>
-      </stringQualifiers>
+      <types>DefinedType.Спец_ИмяОбъектаБазы</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
   <attributes uuid="adc8f48a-a191-44a5-afc2-60e591b772e8">
     <name>ПолноеИмяТипаОбъектаМетаданныхИсточник</name>
@@ -138,16 +128,11 @@
       <value>Полное имя типа объекта метаданных (источник)</value>
     </synonym>
     <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>256</length>
-      </stringQualifiers>
+      <types>DefinedType.Спец_ИмяОбъектаБазы</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </attributes>
   <attributes uuid="2ae35439-9055-4548-bb4a-cf150e5d1b15">
     <name>ПолноеИмяТипаОбъектаМетаданныхПриемник</name>
@@ -156,16 +141,11 @@
       <value>Полное имя типа объекта метаданных (приёмник)</value>
     </synonym>
     <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>256</length>
-      </stringQualifiers>
+      <types>DefinedType.Спец_ИмяОбъектаБазы</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </attributes>
   <dimensions uuid="3402d7e7-f687-4650-a23c-f71c01167a44">
     <name>База</name>
@@ -192,19 +172,14 @@
       <value>Имя объекта метаданных (источник)</value>
     </synonym>
     <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>256</length>
-      </stringQualifiers>
+      <types>DefinedType.Спец_ИмяОбъектаБазы</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
     <denyIncompleteValues>true</denyIncompleteValues>
     <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>
   <dimensions uuid="7e3c7b89-5e7b-406b-9f82-cc8e1f00da95">
@@ -214,17 +189,12 @@
       <value>Имя табличной части (источник)</value>
     </synonym>
     <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>256</length>
-      </stringQualifiers>
+      <types>DefinedType.Спец_ИмяОбъектаБазы</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>
   <dimensions uuid="841bdfeb-2ef7-438d-ac40-903d00729172">
@@ -234,19 +204,14 @@
       <value>Имя реквизита (источник)</value>
     </synonym>
     <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>256</length>
-      </stringQualifiers>
+      <types>DefinedType.Спец_ИмяОбъектаБазы</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
     <denyIncompleteValues>true</denyIncompleteValues>
     <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>
   <forms uuid="c0400419-33cf-4a95-be23-899f45eec1ce">

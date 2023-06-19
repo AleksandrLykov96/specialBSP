@@ -3,8 +3,9 @@
   <name>Спец_ЛогированиеОбъектовКлиентСерверПовтИсп</name>
   <synonym>
     <key>ru</key>
-    <value>Спец логирование объектов клиент сервер повт исп</value>
+    <value>Логирование объектов клиент сервер повт исп</value>
   </synonym>
+  <comment>Модуль для логирования объектов</comment>
   <clientManagedApplication>true</clientManagedApplication>
   <server>true</server>
   <externalConnection>true</externalConnection>

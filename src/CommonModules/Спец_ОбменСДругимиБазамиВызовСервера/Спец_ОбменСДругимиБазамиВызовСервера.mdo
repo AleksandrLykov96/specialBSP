@@ -5,6 +5,7 @@
     <key>ru</key>
     <value>Обмен с другими базами (вызов сервера, спец)</value>
   </synonym>
+  <comment>Модуль для обмена с другими базами</comment>
   <server>true</server>
   <serverCall>true</serverCall>
 </mdclass:CommonModule>

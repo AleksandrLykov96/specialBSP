@@ -5,6 +5,7 @@
     <key>ru</key>
     <value>Работа с базой данных напрямую (спец)</value>
   </synonym>
+  <comment>Модуль для работы с базой напрямую</comment>
   <server>true</server>
   <externalConnection>true</externalConnection>
   <clientOrdinaryApplication>true</clientOrdinaryApplication>

@@ -14,6 +14,7 @@
     <key>ru</key>
     <value>Логи по объектам (спец)</value>
   </synonym>
+  <comment>Регистр для хранения логов</comment>
   <useStandardCommands>true</useStandardCommands>
   <editType>BothWays</editType>
   <defaultRecordForm>InformationRegister.Спец_ЛогиПоОбъектам.Form.ФормаЗаписи</defaultRecordForm>
@@ -51,7 +52,7 @@
   </recordPresentation>
   <extendedRecordPresentation>
     <key>ru</key>
-    <value>Лог по объекту</value>
+    <value>Лог по объекту (спец)</value>
   </extendedRecordPresentation>
   <listPresentation>
     <key>ru</key>
@@ -59,8 +60,30 @@
   </listPresentation>
   <extendedListPresentation>
     <key>ru</key>
-    <value>Логи по объектам</value>
+    <value>Логи по объектам (спец)</value>
   </extendedListPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Регистр для хранения логов</value>
+  </explanation>
+  <resources uuid="2c49b9fb-3f3b-4bef-a620-e2640e6b1972">
+    <name>НомерСеанса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер сеанса</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>IndexWithAdditionalOrder</indexing>
+  </resources>
   <resources uuid="87e44e06-246e-49fc-aea4-c962f221cee4">
     <name>УровеньЛога</name>
     <synonym>
@@ -269,8 +292,6 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillChecking>ShowError</fillChecking>
-    <denyIncompleteValues>true</denyIncompleteValues>
     <indexing>IndexWithAdditionalOrder</indexing>
     <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>

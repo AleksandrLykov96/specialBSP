@@ -5,6 +5,7 @@
     <key>ru</key>
     <value>Exchange (спец)</value>
   </synonym>
+  <comment>HTTP сервис для обменов с другими базами</comment>
   <rootURL>specialExchange</rootURL>
   <urlTemplates uuid="835b524e-25d4-4bf9-b182-9017ba555c74">
     <name>changes</name>

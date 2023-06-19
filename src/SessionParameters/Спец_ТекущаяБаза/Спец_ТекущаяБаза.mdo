@@ -5,6 +5,7 @@
     <key>ru</key>
     <value>Текущая база (спец)</value>
   </synonym>
+  <comment>Ссылка на текущую базу</comment>
   <type>
     <types>CatalogRef.Спец_Базы</types>
   </type>

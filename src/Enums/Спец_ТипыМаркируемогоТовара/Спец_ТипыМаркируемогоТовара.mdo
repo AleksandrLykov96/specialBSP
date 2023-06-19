@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="35c42380-b184-477a-b9f9-c7e7be5c0595">
+  <producedTypes>
+    <refType typeId="7dbccbd2-e271-4b83-9182-e956efc4f25f" valueTypeId="af86118c-9746-428a-8529-261c2157006d"/>
+    <listType typeId="d772ecb8-78f2-45b8-928a-c14e0fd6196e" valueTypeId="a2ac2be5-9239-46b5-af82-dd4f6def2dfc"/>
+    <managerType typeId="9c2245b6-0aa7-47d4-9b01-1c0e228e79d4" valueTypeId="70a22ad6-75d9-4400-8c21-8fa6122357b5"/>
+  </producedTypes>
+  <name>Спец_ТипыМаркируемогоТовара</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы маркируемого товара (спец)</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Типы маркируемого товара</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Типы маркируемого товара (спец)</value>
+  </extendedListPresentation>
+  <enumValues uuid="5480865b-d624-4556-92c4-503edde4ce27">
+    <name>Духи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Духи и туалетная вода</value>
+    </synonym>
+    <comment>perfumery</comment>
+  </enumValues>
+  <enumValues uuid="891d2b0a-d2e1-48d0-8cae-ca881913b494">
+    <name>ЛекарственныеПрепараты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лекарственные препараты</value>
+    </synonym>
+    <comment>MDLP</comment>
+  </enumValues>
+  <enumValues uuid="917c780c-c474-4076-85fd-4db6893f6e7f">
+    <name>АльтернативнаяТабачнаяПродукция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Альтернативная табачная продукция</value>
+    </synonym>
+    <comment>otp</comment>
+  </enumValues>
+  <enumValues uuid="71d25998-b41a-449d-b5b9-fd5d88a1118b">
+    <name>Антисептики</name>
+    <synonym>
+      <key>ru</key>
+      <value>Антисептики и дезинфицирующие средства</value>
+    </synonym>
+    <comment>antiseptic</comment>
+  </enumValues>
+  <enumValues uuid="cce5a8b8-fc57-4216-a574-9464e555813c">
+    <name>БАДы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Биологически активные добавки к пище</value>
+    </synonym>
+    <comment>bio</comment>
+  </enumValues>
+  <enumValues uuid="1a05df7e-bc56-45a6-b61f-5ff5f77f4936">
+    <name>БезалкогольноеПиво</name>
+    <synonym>
+      <key>ru</key>
+      <value>Безалкогольное пиво</value>
+    </synonym>
+    <comment>nabeer</comment>
+  </enumValues>
+  <enumValues uuid="62416292-7a84-4d66-b518-749a88e50ad1">
+    <name>Велосипеды</name>
+    <synonym>
+      <key>ru</key>
+      <value>Велосипеды и велосипедные рамы</value>
+    </synonym>
+    <comment>bicycle</comment>
+  </enumValues>
+  <enumValues uuid="bb538ef3-1a25-42c2-bd72-16b322eed24b">
+    <name>ЛегкаяПромышленность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лёгкая промышленность (предметы одежды, бельё постельное, столовое, туалетное и кухонное)</value>
+    </synonym>
+    <comment>lp</comment>
+  </enumValues>
+  <enumValues uuid="12423e9d-eff8-4d1f-9ccb-7bba92e40e40">
+    <name>МедицинскиеИзделия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Медицинские изделия</value>
+    </synonym>
+    <comment>wheelchairs</comment>
+  </enumValues>
+  <enumValues uuid="58de0ec6-2db2-4e0f-bc05-7e8b57ee53c2">
+    <name>МолочнаяПродукция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Молочная продукция</value>
+    </synonym>
+    <comment>milk</comment>
+  </enumValues>
+  <enumValues uuid="e901c39e-a37b-4084-8dec-4a2f8b8c086c">
+    <name>НикотиносодержащаяПродукция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Никотиносодержащая продукция</value>
+    </synonym>
+    <comment>ncp</comment>
+  </enumValues>
+  <enumValues uuid="3405427e-a89d-43d6-a962-7b2528f0c0b6">
+    <name>Обувь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обувные товары</value>
+    </synonym>
+    <comment>shoes</comment>
+  </enumValues>
+  <enumValues uuid="c60ef5e3-a5a1-412b-b830-e276f055989c">
+    <name>Пиво</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пиво, напитки, изготавливаемые на основе пива, слабоалкогольные напитки</value>
+    </synonym>
+    <comment>beer</comment>
+  </enumValues>
+  <enumValues uuid="860708a4-1bde-43e9-8709-6fe4e7d770c2">
+    <name>СоковаяПродукция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Соковая продукция и безалкогольные напитки</value>
+    </synonym>
+    <comment>softdrinks</comment>
+  </enumValues>
+  <enumValues uuid="1e05f084-9bf9-44be-87ee-07babeaa769d">
+    <name>Табак</name>
+    <synonym>
+      <key>ru</key>
+      <value>Табачная продукция</value>
+    </synonym>
+    <comment>tobacco</comment>
+  </enumValues>
+  <enumValues uuid="0fc51785-61b7-44da-b5a2-155935b9e491">
+    <name>ТоварыИзНатуральногоМеха</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товары из натурального меха</value>
+    </synonym>
+    <comment>furs</comment>
+  </enumValues>
+  <enumValues uuid="1d3abc8d-7420-4b53-a4bf-579e8097f360">
+    <name>УпакованнаяВода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Упакованная вода</value>
+    </synonym>
+    <comment>water</comment>
+  </enumValues>
+  <enumValues uuid="b4ed0b30-0d4e-46b5-8ad8-bb5e8de3ae9a">
+    <name>Фотоаппараты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фотокамеры (кроме кинокамер), фотовспышки и лампывспышки</value>
+    </synonym>
+    <comment>electronics</comment>
+  </enumValues>
+  <enumValues uuid="be89484c-429e-4eb7-8d80-af5106679f37">
+    <name>Шины</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шины и покрышки пневматические резиновые новые</value>
+    </synonym>
+    <comment>tires</comment>
+  </enumValues>
+</mdclass:Enum>

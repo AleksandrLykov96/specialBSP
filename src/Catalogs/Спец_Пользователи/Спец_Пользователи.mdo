@@ -12,6 +12,7 @@
     <key>ru</key>
     <value>Пользователи (спец)</value>
   </synonym>
+  <comment>Лёгкий справочник, содержащий информацию по пользователям</comment>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.Спец_Пользователи.StandardAttribute.Description</inputByString>
   <searchStringModeOnInputByString>AnyPart</searchStringModeOnInputByString>
@@ -88,7 +89,7 @@
   </objectPresentation>
   <extendedObjectPresentation>
     <key>ru</key>
-    <value>Пользователь</value>
+    <value>Пользователь (спец)</value>
   </extendedObjectPresentation>
   <listPresentation>
     <key>ru</key>
@@ -96,8 +97,12 @@
   </listPresentation>
   <extendedListPresentation>
     <key>ru</key>
-    <value>Пользователи</value>
+    <value>Пользователи (спец)</value>
   </extendedListPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Лёгкий справочник, содержащий информацию по пользователям</value>
+  </explanation>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <descriptionLength>150</descriptionLength>
@@ -108,7 +113,7 @@
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.Спец_Пользователи.Form.ФормаЭлемента</defaultObjectForm>
   <defaultListForm>Catalog.Спец_Пользователи.Form.ФормаСписка</defaultListForm>
-  <defaultChoiceForm>Catalog.Спец_Пользователи.Form.ФормаВыбора</defaultChoiceForm>
+  <defaultChoiceForm>Catalog.Спец_Пользователи.Form.ФормаСписка</defaultChoiceForm>
   <attributes uuid="2786cd26-e035-41f4-a405-172d103e119b">
     <name>ОсновнойСтиль</name>
     <synonym>
@@ -184,8 +189,6 @@
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="017fd088-2290-45b7-85ec-8b1239cae4a4">
       <name>ИмяПользователяОС</name>
@@ -201,8 +204,6 @@
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="0a567b95-a7e7-4f3e-9376-b0d730ded4dd">
       <name>КомпонентаНеРаботает</name>
@@ -246,15 +247,6 @@
     <synonym>
       <key>ru</key>
       <value>Форма списка</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
-  <forms uuid="90341d89-6dd9-4918-8e9e-8418707a187b">
-    <name>ФормаВыбора</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма выбора</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

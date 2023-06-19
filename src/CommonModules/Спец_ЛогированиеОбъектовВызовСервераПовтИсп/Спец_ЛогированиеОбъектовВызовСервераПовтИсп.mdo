@@ -5,6 +5,7 @@
     <key>ru</key>
     <value>Логирование объектов (вызов сервера, повторное использование, спец)</value>
   </synonym>
+  <comment>Модуль для логирования объектов</comment>
   <server>true</server>
   <serverCall>true</serverCall>
   <returnValuesReuse>DuringSession</returnValuesReuse>

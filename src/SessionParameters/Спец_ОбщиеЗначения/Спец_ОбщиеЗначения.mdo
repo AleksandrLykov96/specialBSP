@@ -5,6 +5,7 @@
     <key>ru</key>
     <value>Общие значения (спец)</value>
   </synonym>
+  <comment>Для кэширования параметров текущего сеанса</comment>
   <type>
     <types>FixedMap</types>
   </type>

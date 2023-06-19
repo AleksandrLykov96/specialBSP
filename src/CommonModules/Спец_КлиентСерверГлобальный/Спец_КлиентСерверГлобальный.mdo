@@ -5,6 +5,7 @@
     <key>ru</key>
     <value>Глобальный (спец)</value>
   </synonym>
+  <comment>Глобальный модуль</comment>
   <global>true</global>
   <clientManagedApplication>true</clientManagedApplication>
   <server>true</server>

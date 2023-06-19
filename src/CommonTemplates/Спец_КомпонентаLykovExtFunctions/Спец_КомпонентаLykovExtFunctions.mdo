@@ -5,5 +5,6 @@
     <key>ru</key>
     <value>Компонента: Lykov (extension functions, спец)</value>
   </synonym>
+  <comment>Компонента, содержащая базовые методы для работы</comment>
   <templateType>AddIn</templateType>
 </mdclass:CommonTemplate>

@@ -5,6 +5,7 @@
     <key>ru</key>
     <value>Форма фонового задания (спец)</value>
   </synonym>
+  <comment>Форма для отображения при выполнении фонового задания</comment>
   <usePurposes>PersonalComputer</usePurposes>
   <usePurposes>MobileDevice</usePurposes>
   <extendedPresentation>

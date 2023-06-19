@@ -14,6 +14,7 @@
     <key>ru</key>
     <value>Уведомления для пользователей (спец)</value>
   </synonym>
+  <comment>Регистр для хранения новых уведомлений для отправки пользователям</comment>
   <editType>BothWays</editType>
   <defaultRecordForm>InformationRegister.Спец_УведомленияДляПользователей.Form.ФормаЗаписи</defaultRecordForm>
   <defaultListForm>InformationRegister.Спец_УведомленияДляПользователей.Form.ФормаСписка</defaultListForm>
@@ -51,7 +52,7 @@
   </recordPresentation>
   <extendedRecordPresentation>
     <key>ru</key>
-    <value>Уведомление для пользователя</value>
+    <value>Уведомление для пользователя (спец)</value>
   </extendedRecordPresentation>
   <listPresentation>
     <key>ru</key>
@@ -59,8 +60,12 @@
   </listPresentation>
   <extendedListPresentation>
     <key>ru</key>
-    <value>Уведомления для пользователей</value>
+    <value>Уведомления для пользователей (спец)</value>
   </extendedListPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Регистр для хранения новых уведомлений для отправки пользователям</value>
+  </explanation>
   <resources uuid="b6333943-b566-490c-9d68-dd011917c250">
     <name>Отправитель</name>
     <synonym>
