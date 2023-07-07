@@ -17,5 +17,6 @@
   <content>InformationRegister.Спец_РеестрGTIN</content>
   <content>CommonModule.Спец_ГенерацияЧтениеШтрихКодаВызовСервера</content>
   <content>CommonModule.Спец_ГенерацияЧтениеШтрихКода</content>
+  <content>Enum.Спец_ТипыУпаковок</content>
   <parentSubsystem>Subsystem.Спец_РаботаСТорговымОборудованием</parentSubsystem>
 </mdclass:Subsystem>

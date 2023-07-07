@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e9d0fc3a-4917-4a68-92dd-d51cd674714b">
+  <producedTypes>
+    <refType typeId="154a1ebe-d591-4b78-b150-4c038b7dfffc" valueTypeId="afd273f3-8fea-405d-a472-cf1a8ab3d2ff"/>
+    <listType typeId="83bbc780-acc5-4379-bd60-5ecb101d415c" valueTypeId="477607bf-4f1a-4d71-989a-234158f0c80e"/>
+    <managerType typeId="81087788-9362-4e7c-9771-1a7ddac438f1" valueTypeId="946aa446-15c1-4aec-984c-e884adaec88d"/>
+  </producedTypes>
+  <name>Спец_ТипыУпаковок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы упаковок (спец)</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Типы упаковок</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Типы упаковок (спец)</value>
+  </extendedListPresentation>
+  <enumValues uuid="8fe65cd1-1ae3-4ca3-b366-4975afdab0f6">
+    <name>ЕдиницаТовара</name>
+    <synonym>
+      <key>ru</key>
+      <value>Единица товара</value>
+    </synonym>
+    <comment>UNIT</comment>
+  </enumValues>
+  <enumValues uuid="a6888ae3-7b27-426e-afda-e74aa2b6f643">
+    <name>ГрупповаяУпаковка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Групповая упаковка</value>
+    </synonym>
+    <comment>GROUP</comment>
+  </enumValues>
+  <enumValues uuid="8992216f-29cd-404a-9a9d-5453e05c8ea9">
+    <name>Упаковка1Уровня</name>
+    <synonym>
+      <key>ru</key>
+      <value>Групповая упаковка (блок)</value>
+    </synonym>
+    <comment>LEVEL1</comment>
+  </enumValues>
+  <enumValues uuid="863febcb-a6e8-4c06-8ca5-e9fba81a40b5">
+    <name>Упаковка2Уровня</name>
+    <synonym>
+      <key>ru</key>
+      <value>Транспортная упаковка (короб)</value>
+    </synonym>
+    <comment>LEVEL2</comment>
+  </enumValues>
+  <enumValues uuid="b2881f4e-f0c5-4923-9294-8954010f2d35">
+    <name>Упаковка3Уровня</name>
+    <synonym>
+      <key>ru</key>
+      <value>Транспортная упаковка (палета)</value>
+    </synonym>
+    <comment>LEVEL3</comment>
+  </enumValues>
+  <enumValues uuid="4ac4b9f8-7498-49a1-b198-cfb4265755bb">
+    <name>Упаковка4Уровня</name>
+    <synonym>
+      <key>ru</key>
+      <value>Упаковка 4 уровня</value>
+    </synonym>
+    <comment>LEVEL4</comment>
+  </enumValues>
+  <enumValues uuid="e4f1d906-aa59-4762-b518-803b4af7b915">
+    <name>Упаковка5Уровня</name>
+    <synonym>
+      <key>ru</key>
+      <value>Упаковка 5 уровня</value>
+    </synonym>
+    <comment>LEVEL5</comment>
+  </enumValues>
+  <enumValues uuid="91b5c86c-2c2f-4b40-8af8-a328e60ce3fa">
+    <name>Комплект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комплект</value>
+    </synonym>
+    <comment>BUNDLE</comment>
+  </enumValues>
+  <enumValues uuid="36de896a-5bd4-431e-83d1-2923a119d7f9">
+    <name>АгрегированныйТаможенныйКод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Агрегированный таможенный код</value>
+    </synonym>
+    <comment>АТК</comment>
+  </enumValues>
+  <enumValues uuid="a5d8e8cc-8325-4e30-be39-455121f1c291">
+    <name>Набор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Набор</value>
+    </synonym>
+    <comment>SET</comment>
+  </enumValues>
+</mdclass:Enum>

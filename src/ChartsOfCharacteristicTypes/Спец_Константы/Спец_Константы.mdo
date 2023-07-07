@@ -668,6 +668,21 @@
   <defaultFolderForm>ChartOfCharacteristicTypes.Спец_Константы.Form.ФормаГруппы</defaultFolderForm>
   <defaultListForm>ChartOfCharacteristicTypes.Спец_Константы.Form.ФормаСписка</defaultListForm>
   <defaultChoiceForm>ChartOfCharacteristicTypes.Спец_Константы.Form.ФормаСписка</defaultChoiceForm>
+  <attributes uuid="4ce3b11f-c639-4940-b4de-076670ea8db9">
+    <name>ГУИД</name>
+    <synonym>
+      <key>ru</key>
+      <value>ГУИД</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Спец_UID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <use>ForFolderAndItem</use>
+  </attributes>
   <forms uuid="23b6a4b0-c23f-4878-9d6c-85a80b59c68d">
     <name>ФормаЭлемента</name>
     <synonym>
