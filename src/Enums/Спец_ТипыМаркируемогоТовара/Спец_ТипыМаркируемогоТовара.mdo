@@ -20,14 +20,6 @@
     <key>ru</key>
     <value>Типы маркируемого товара (спец)</value>
   </extendedListPresentation>
-  <enumValues uuid="5480865b-d624-4556-92c4-503edde4ce27">
-    <name>Духи</name>
-    <synonym>
-      <key>ru</key>
-      <value>Духи и туалетная вода</value>
-    </synonym>
-    <comment>perfumery</comment>
-  </enumValues>
   <enumValues uuid="891d2b0a-d2e1-48d0-8cae-ca881913b494">
     <name>ЛекарственныеПрепараты</name>
     <synonym>
@@ -75,6 +67,14 @@
       <value>Велосипеды и велосипедные рамы</value>
     </synonym>
     <comment>bicycle</comment>
+  </enumValues>
+  <enumValues uuid="5480865b-d624-4556-92c4-503edde4ce27">
+    <name>Духи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Духи и туалетная вода</value>
+    </synonym>
+    <comment>perfumery</comment>
   </enumValues>
   <enumValues uuid="bb538ef3-1a25-42c2-bd72-16b322eed24b">
     <name>ЛегкаяПромышленность</name>
