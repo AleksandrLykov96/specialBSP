@@ -2773,7 +2773,7 @@
 //
 Функция ПолучитьМассивИменЧастоИспользуемыхТаблицPostgreSQL(Знач КоличествоТаблиц, Знач ТекстыОшибок, Знач Кэш)
 
-	ТекстЗапроса = "SELECT DISTINCT relname
+	ТекстЗапроса = "SELECT relname
 				   |FROM pg_stat_user_tables
 				   |WHERE schemaname='public'
 				   |ORDER BY
