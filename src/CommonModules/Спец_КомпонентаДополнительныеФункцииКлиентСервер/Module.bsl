@@ -921,31 +921,330 @@
 	
 КонецПроцедуры
 
+// Удаляет все дополнительные функции, добавленные с префиксом lykov_ в базе PostgreSQL.
+//
+// Параметры:
+//  Кэш - см. Спец_КлиентСерверГлобальный.Спец_ПолучитьКэш
+//
+Процедура PostgreSQLУдалитьВсеДополнительноИнициализированныеФункции(Кэш = Неопределено) Экспорт
+	
+	Спец_Проверить(PostgreSQLСоединениеУспешноУстановлено(Кэш), "Не удалось подключить внешнюю компоненту PostgreSQL");
+	
+	ТекстЗапроса =
+	
+	"SELECT format('%I(%s)', p.proname, oidvectortypes(p.proargtypes)) AS nameFunction
+	|FROM pg_proc p INNER JOIN pg_namespace ns ON (p.pronamespace = ns.oid)
+	|WHERE p.proname LIKE 'lykov_%'";
+	
+	СтруктураРезультат = PostgreSQLВыполнитьЗапрос(ТекстЗапроса, -1, "", Кэш);
+	Спец_Проверить(СтруктураРезультат.Успешно, СтруктураРезультат.ТекстОшибки);
+	
+	PostgreSQLНачатьТранзакцию(Кэш);
+	
+	Для Каждого СтруктураСтроки Из СтруктураРезультат.РезультатЗапроса Цикл
+		
+		//@skip-check property-return-type
+		ТекстЗапроса = СтрШаблон("DROP FUNCTION IF EXISTS %1 CASCADE", СтруктураСтроки.nameFunction);
+		
+		ЛокальныйТекстОшибки = "";
+		Если Не PostgreSQLВыполнитьЗапросБезРезультата(ТекстЗапроса, ЛокальныйТекстОшибки, Кэш) Тогда
+			
+			PostgreSQLОтменитьТранзакцию(Кэш);
+			ВызватьИсключение ЛокальныйТекстОшибки;
+			
+		КонецЕсли;
+		
+	КонецЦикла;
+	
+	PostgreSQLЗафиксироватьТранзакцию(Кэш);
+	Спец_Проверить(ПустаяСтрока(Кэш.КомпонентаPostgreSQL.ТекстПоследнейОшибки), Кэш.КомпонентаPostgreSQL.ТекстПоследнейОшибки);
+	
+КонецПроцедуры
+
 // Инициализирует дополнительные функции в базе PostgreSQL (для работы с 1С).
-// Добавляет следующие функции:
-//  - lykov_HexToInt - преобразует число HEX to INT
-//  - lykov_RRefToUID - преобразует ссылку в формате PostgreSQL в УникальныйИдентификатор ссылки.
-//  - lykov_UIDToRRef - преобразует УникальныйИдентификатор ссылки в формат PostgreSQL
-//  - lykov_TypeToBytea - преобразует номер типа таблицы из числа в формат PostgreSQL
-//  - lykov_ByteaToType - преобразует тип таблицы из формата PostgreSQL в число
-//  - lykov_DDToBytea - преобразует строку из XMLСтрока (ДвоичныеДанные, ХранилищеЗначения) в формат PostgreSQL
-//  - lykov_ByteaToDD - преобразует ДвоичныеДанные, ХранилищеЗначения из формата PostgreSQL в формат XMLЗначение
-//  - lykov_DDToText - пытается преобразовать ДвоичныеДанные, ХранилищеЗначения, и т.д. в текстовый формат.
-//  - lykov_RTRefToBytea - преобразует числовой номер таблицы в формат PostgreSQL
-//  - lykov_RTRefToInteger - преобразует номер таблицы в формате PostgreSQL в число
-//  - lykov_VersionToInteger - преобразует поле "Версия" из 1С-го формата в формат PostgreSQL
-//  - lykov_VersionTo1C - преобразует поле "Версия" из формата PostgreSQL в формат 1С
-//  - lykov_KeyFieldToBytea - преобразует поле "НомерСтроки" из формата 1С в формат PostgreSQL
-//  - lykov_KeyFieldToInteger - преобразует поле "НомерСтроки" из формата PostgreSQL в формат 1С
+// Должно быть установлено и скомпилировано расширение 'libLykovExtPostgreSQL' и должно быть установлено расширение 'uuid-ossp'
+// Данный метод выполняет следующее: активирует расширение uuid-ossp и добавляет следующие функции в PostgreSQL:
+//	
+//	* lykov_TypeToBytea(integer or numeric) - преобразует номер типа таблицы 1С из числа в формат PostgreSQL
+//	* lykov_KeyFieldToBytea(integer or numeric) - преобразует системное поле "_keyfield" из формата 1С в формат PostgreSQL
+//	* lykov_RTRefToBytea(integer or numeric) - преобразует числовой номер таблицы в формат PostgreSQL
+//	* lykov_VersionToInteger(integer or bigint or numeric) - преобразует поле "Версия" из 1С-го формата в формат PostgreSQL
+//	
+//	* lykov_ByteaToType(bytea) - преобразует тип таблицы из формата PostgreSQL в число
+//	* lykov_KeyFieldToInteger(bytea) - преобразует системное поле "_keyfield" из формата PostgreSQL в формат 1С
+//	* lykov_RTRefToInteger(bytea) - преобразует номер таблицы в формате PostgreSQL в число
+//	* lykov_RrefToUID(bytea) - преобразует ссылку в формате PostgreSQL в УникальныйИдентификатор ссылки.
+//	* lykov_ByteaToDD(bytea) - преобразует ДвоичныеДанные, ХранилищеЗначения из формата PostgreSQL в формат XMLЗначение
+//	* lykov_DDToText(bytea) - пытается преобразовать ДвоичныеДанные, ХранилищеЗначения, и т.д. в текстовый формат (аналогично как при XmlСтрока)
+//		Работает только с теми данными, которые не были сжаты (т.е. Новый ХранилищеЗначения БЕЗ Новый АлгоритмСжатияДанных())
+//	
+//	* lykov_VersionToInteger(text or mvarchar or mchar) - преобразует поле "ВерсияДанных" из 1С-го формата в формат PostgreSQL
+//	* lykov_UIDToRref(text or mvarchar or mchar) - преобразует УникальныйИдентификатор ссылки в формат PostgreSQL
+//	* lykov_DDToBytea(text or mvarchar or mchar) - преобразует строку из XMLСтрока (ДвоичныеДанные, ХранилищеЗначения) в формат PostgreSQL
 //
 // Параметры:
 //  Кэш - см. Спец_КлиентСерверГлобальный.Спец_ПолучитьКэш
 //
 Процедура PostgreSQLИнициализироватьДополнительныеФункцииДляРаботыС1С(Кэш = Неопределено) Экспорт
+	// https://postgrespro.ru/docs/postgresql/15/runtime-config-query#GUC-CPU-OPERATOR-COST
 	
 	Спец_Проверить(PostgreSQLСоединениеУспешноУстановлено(Кэш), "Не удалось подключить внешнюю компоненту PostgreSQL");
-	Кэш.КомпонентаPostgreSQL.ИнициализироватьФункцииДля1С();
-	Спец_Проверить(ПустаяСтрока(Кэш.КомпонентаPostgreSQL.ТекстПоследнейОшибки), Кэш.КомпонентаPostgreSQL.ТекстПоследнейОшибки);
+	
+	БазоваяСтоимостьОперации = ПолучитьБазовуюСтоимостьОперацииИзPostgreSQL(Кэш);
+	Если БазоваяСтоимостьОперации <= 0 Тогда
+		БазоваяСтоимостьОперации = 0.0025;
+	КонецЕсли;
+	
+	#Область ТекстИнициализации
+	
+	ТекстИнициализации =
+	
+	"CREATE EXTENSION IF NOT EXISTS ""uuid-ossp"";
+	|
+	|
+	|--------------- SMALLINT, INTEGER, BIGINT ---------------
+	|DROP FUNCTION IF EXISTS lykov_TypeToBytea(integer);
+	|CREATE FUNCTION lykov_TypeToBytea(integer)
+	|	RETURNS bytea
+	|	LANGUAGE C
+	|	IMMUTABLE LEAKPROOF PARALLEL SAFE
+	|	COST [Стоимость_lykov_TypeToBytea_integer]
+	|AS '$libdir/libLykovExtPostgreSQL', 'integerTypeToBytea';
+	|
+	|DROP FUNCTION IF EXISTS lykov_KeyFieldToBytea(integer);
+	|CREATE FUNCTION lykov_KeyFieldToBytea(integer)
+	|	RETURNS bytea
+	|	LANGUAGE C
+	|	IMMUTABLE LEAKPROOF PARALLEL SAFE
+	|	COST [Стоимость_lykov_KeyFieldToBytea_integer]
+	|AS '$libdir/libLykovExtPostgreSQL', 'integerKeyfieldToBytea';
+	|
+	|DROP FUNCTION IF EXISTS lykov_RTRefToBytea(integer);
+	|CREATE FUNCTION lykov_RTRefToBytea(integer)
+	|	RETURNS bytea
+	|	LANGUAGE C
+	|	IMMUTABLE LEAKPROOF PARALLEL SAFE
+	|	COST [Стоимость_lykov_RTRefToBytea_integer]
+	|AS '$libdir/libLykovExtPostgreSQL', 'integerRTRefToBytea';
+	|
+	|DROP FUNCTION IF EXISTS lykov_VersionTo1C(integer);
+	|CREATE FUNCTION lykov_VersionTo1C(integer)
+	|	RETURNS text
+	|	LANGUAGE C
+	|	IMMUTABLE LEAKPROOF PARALLEL SAFE
+	|	COST [Стоимость_lykov_VersionTo1C_integer]
+	|AS '$libdir/libLykovExtPostgreSQL', 'bigintVersionToText';
+	|
+	|DROP FUNCTION IF EXISTS lykov_VersionTo1C(bigint);
+	|CREATE FUNCTION lykov_VersionTo1C(bigint)
+	|	RETURNS text
+	|	LANGUAGE C
+	|	IMMUTABLE LEAKPROOF PARALLEL SAFE
+	|	COST [Стоимость_lykov_VersionTo1C_integer]
+	|AS '$libdir/libLykovExtPostgreSQL', 'bigintVersionToText';
+	|--------------- SMALLINT, INTEGER, BIGINT ---------------
+	|
+	|
+	|--------------- NUMERIC ---------------
+	|DROP FUNCTION IF EXISTS lykov_TypeToBytea(numeric);
+	|CREATE FUNCTION lykov_TypeToBytea(numeric)
+	|	RETURNS bytea
+	|	LANGUAGE C
+	|	IMMUTABLE LEAKPROOF PARALLEL SAFE
+	|	COST [Стоимость_lykov_TypeToBytea_numeric]
+	|AS '$libdir/libLykovExtPostgreSQL', 'numericTypeToBytea';
+	|
+	|DROP FUNCTION IF EXISTS lykov_KeyFieldToBytea(numeric);
+	|CREATE FUNCTION lykov_KeyFieldToBytea(numeric)
+	|	RETURNS bytea
+	|	LANGUAGE C
+	|	IMMUTABLE LEAKPROOF PARALLEL SAFE
+	|	COST [Стоимость_lykov_KeyFieldToBytea_numeric]
+	|AS '$libdir/libLykovExtPostgreSQL', 'numericKeyfieldToBytea';
+	|
+	|DROP FUNCTION IF EXISTS lykov_RTRefToBytea(numeric);
+	|CREATE FUNCTION lykov_RTRefToBytea(numeric)
+	|	RETURNS bytea
+	|	LANGUAGE C
+	|	IMMUTABLE LEAKPROOF PARALLEL SAFE
+	|	COST [Стоимость_lykov_RTRefToBytea_numeric]
+	|AS '$libdir/libLykovExtPostgreSQL', 'numericRTRefToBytea';
+	|
+	|DROP FUNCTION IF EXISTS lykov_VersionTo1C(numeric);
+	|CREATE FUNCTION lykov_VersionTo1C(numeric)
+	|	RETURNS text
+	|	LANGUAGE C
+	|	IMMUTABLE LEAKPROOF PARALLEL SAFE
+	|	COST [Стоимость_lykov_VersionTo1C_numeric]
+	|AS '$libdir/libLykovExtPostgreSQL', 'numericVersionToText';
+	|--------------- NUMERIC ---------------
+	|
+	|
+	|--------------- BYTEA ---------------
+	|DROP FUNCTION IF EXISTS lykov_ByteaToType(bytea);
+	|CREATE FUNCTION lykov_ByteaToType(bytea)
+	|	RETURNS smallint
+	|	LANGUAGE C
+	|	IMMUTABLE LEAKPROOF PARALLEL SAFE
+	|	COST [Стоимость_lykov_ByteaToType_bytea]
+	|AS '$libdir/libLykovExtPostgreSQL', 'byteaTypeToShort';
+	|
+	|DROP FUNCTION IF EXISTS lykov_KeyFieldToInteger(bytea);
+	|CREATE FUNCTION lykov_KeyFieldToInteger(bytea)
+	|	RETURNS integer
+	|	LANGUAGE C
+	|	IMMUTABLE LEAKPROOF PARALLEL SAFE
+	|	COST [Стоимость_lykov_KeyFieldToInteger_bytea]
+	|AS '$libdir/libLykovExtPostgreSQL', 'byteaKeyfieldToInteger';
+	|
+	|DROP FUNCTION IF EXISTS lykov_RTRefToInteger(bytea);
+	|CREATE FUNCTION lykov_RTRefToInteger(bytea)
+	|	RETURNS integer
+	|	LANGUAGE C
+	|	IMMUTABLE LEAKPROOF PARALLEL SAFE
+	|	COST [Стоимость_lykov_RTRefToInteger_bytea]
+	|AS '$libdir/libLykovExtPostgreSQL', 'byteaRTRefToInteger';
+	|
+	|DROP FUNCTION IF EXISTS lykov_RrefToUID(bytea);
+	|CREATE FUNCTION lykov_RrefToUID(bytea)
+	|	RETURNS text
+	|	LANGUAGE C
+	|	IMMUTABLE LEAKPROOF PARALLEL SAFE
+	|	COST [Стоимость_lykov_RrefToUID_bytea]
+	|AS '$libdir/libLykovExtPostgreSQL', 'byteaRrefToUID';
+	|
+	|DROP FUNCTION IF EXISTS lykov_ByteaToDD(bytea);
+	|CREATE FUNCTION lykov_ByteaToDD(bytea)
+	|	RETURNS text
+	|	LANGUAGE C
+	|	IMMUTABLE LEAKPROOF PARALLEL SAFE
+	|	COST [Стоимость_lykov_ByteaToDD_bytea]
+	|AS '$libdir/libLykovExtPostgreSQL', 'byteaToDD';
+	|
+	|DROP FUNCTION IF EXISTS lykov_DDToText(bytea);
+	|CREATE FUNCTION lykov_DDToText(bytea)
+	|	RETURNS text
+	|	LANGUAGE C
+	|	IMMUTABLE PARALLEL SAFE
+	|	COST [Стоимость_lykov_DDToText_bytea]
+	|AS '$libdir/libLykovExtPostgreSQL', 'convertByteaDDToText';
+	|--------------- BYTEA ---------------
+	|
+	|
+	|--------------- TEXT ---------------
+	|DROP FUNCTION IF EXISTS lykov_VersionToInteger(text);
+	|CREATE FUNCTION lykov_VersionToInteger(text)
+	|	RETURNS bigint
+	|	LANGUAGE C
+	|	IMMUTABLE LEAKPROOF PARALLEL SAFE
+	|	COST [Стоимость_lykov_VersionToInteger_text]
+	|AS '$libdir/libLykovExtPostgreSQL', 'textVersionToInteger';
+	|
+	|DROP FUNCTION IF EXISTS lykov_UIDToRref(text);
+	|CREATE FUNCTION lykov_UIDToRref(text)
+	|	RETURNS bytea
+	|	LANGUAGE C
+	|	IMMUTABLE LEAKPROOF PARALLEL SAFE
+	|	COST [Стоимость_lykov_UIDToRref_text]
+	|AS '$libdir/libLykovExtPostgreSQL', 'textUIDToRref';
+	|
+	|DROP FUNCTION IF EXISTS lykov_DDToBytea(text);
+	|CREATE FUNCTION lykov_DDToBytea(text)
+	|	RETURNS bytea
+	|	LANGUAGE C
+	|	IMMUTABLE LEAKPROOF PARALLEL SAFE
+	|	COST [Стоимость_lykov_DDToBytea_text]
+	|AS '$libdir/libLykovExtPostgreSQL', 'textDDToBytea';
+	|--------------- TEXT ---------------
+	|
+	|
+	|--------------- MVARCHAR ---------------
+	|DROP FUNCTION IF EXISTS lykov_VersionToInteger(mvarchar);
+	|CREATE FUNCTION lykov_VersionToInteger(mvarchar)
+	|	RETURNS integer
+	|	LANGUAGE C
+	|	IMMUTABLE LEAKPROOF PARALLEL SAFE
+	|	COST [Стоимость_lykov_VersionToInteger_mvarchar]
+	|AS '$libdir/libLykovExtPostgreSQL', 'mvarcharVersionToInteger';
+	|
+	|DROP FUNCTION IF EXISTS lykov_UIDToRref(mvarchar);
+	|CREATE FUNCTION lykov_UIDToRref(mvarchar)
+	|	RETURNS bytea
+	|	LANGUAGE C
+	|	IMMUTABLE LEAKPROOF PARALLEL SAFE
+	|	COST [Стоимость_lykov_UIDToRref_mvarchar]
+	|AS '$libdir/libLykovExtPostgreSQL', 'mvarcharUIDToRref';
+	|
+	|DROP FUNCTION IF EXISTS lykov_DDToBytea(mvarchar);
+	|CREATE FUNCTION lykov_DDToBytea(mvarchar)
+	|	RETURNS bytea
+	|	LANGUAGE C
+	|	IMMUTABLE LEAKPROOF PARALLEL SAFE
+	|	COST [Стоимость_lykov_DDToBytea_mvarchar]
+	|AS '$libdir/libLykovExtPostgreSQL', 'mvarcharDDToBytea';
+	|--------------- MVARCHAR ---------------
+	|
+	|
+	|--------------- MCHAR ---------------
+	|DROP FUNCTION IF EXISTS lykov_VersionToInteger(mchar);
+	|CREATE FUNCTION lykov_VersionToInteger(mchar)
+	|	RETURNS integer
+	|	LANGUAGE C
+	|	IMMUTABLE LEAKPROOF PARALLEL SAFE
+	|	COST [Стоимость_lykov_VersionToInteger_mvarchar]
+	|AS '$libdir/libLykovExtPostgreSQL', 'mcharVersionToInteger';
+	|
+	|DROP FUNCTION IF EXISTS lykov_UIDToRref(mchar);
+	|CREATE FUNCTION lykov_UIDToRref(mchar)
+	|	RETURNS bytea
+	|	LANGUAGE C
+	|	IMMUTABLE LEAKPROOF PARALLEL SAFE
+	|	COST [Стоимость_lykov_UIDToRref_mvarchar]
+	|AS '$libdir/libLykovExtPostgreSQL', 'mcharUIDToRref';
+	|
+	|DROP FUNCTION IF EXISTS lykov_DDToBytea(mchar);
+	|CREATE FUNCTION lykov_DDToBytea(mchar)
+	|	RETURNS bytea
+	|	LANGUAGE C
+	|	IMMUTABLE LEAKPROOF PARALLEL SAFE
+	|	COST [Стоимость_lykov_DDToBytea_mvarchar]
+	|AS '$libdir/libLykovExtPostgreSQL', 'mcharDDToBytea';
+	|--------------- MCHAR ---------------";
+	
+	#КонецОбласти
+	
+	ТекстИнициализации = СтрЗаменить(ТекстИнициализации, "[Стоимость_lykov_TypeToBytea_integer]"     , Формат(БазоваяСтоимостьОперации * 1.91, "ЧДЦ=5; ЧРД=.; ЧН=0; ЧГ="));
+	ТекстИнициализации = СтрЗаменить(ТекстИнициализации, "[Стоимость_lykov_KeyFieldToBytea_integer]" , Формат(БазоваяСтоимостьОперации * 1.99, "ЧДЦ=5; ЧРД=.; ЧН=0; ЧГ="));
+	ТекстИнициализации = СтрЗаменить(ТекстИнициализации, "[Стоимость_lykov_RTRefToBytea_integer]"    , Формат(БазоваяСтоимостьОперации * 1.99, "ЧДЦ=5; ЧРД=.; ЧН=0; ЧГ="));
+	ТекстИнициализации = СтрЗаменить(ТекстИнициализации, "[Стоимость_lykov_VersionTo1C_integer]"     , Формат(БазоваяСтоимостьОперации * 2.55, "ЧДЦ=5; ЧРД=.; ЧН=0; ЧГ="));
+	
+	ТекстИнициализации = СтрЗаменить(ТекстИнициализации, "[Стоимость_lykov_TypeToBytea_numeric]"     , Формат(БазоваяСтоимостьОперации * 2.07, "ЧДЦ=5; ЧРД=.; ЧН=0; ЧГ="));
+	ТекстИнициализации = СтрЗаменить(ТекстИнициализации, "[Стоимость_lykov_KeyFieldToBytea_numeric]" , Формат(БазоваяСтоимостьОперации * 2.19, "ЧДЦ=5; ЧРД=.; ЧН=0; ЧГ="));
+	ТекстИнициализации = СтрЗаменить(ТекстИнициализации, "[Стоимость_lykov_RTRefToBytea_numeric]"    , Формат(БазоваяСтоимостьОперации * 2.19, "ЧДЦ=5; ЧРД=.; ЧН=0; ЧГ="));
+	ТекстИнициализации = СтрЗаменить(ТекстИнициализации, "[Стоимость_lykov_VersionTo1C_numeric]"     , Формат(БазоваяСтоимостьОперации * 2.71, "ЧДЦ=5; ЧРД=.; ЧН=0; ЧГ="));
+	
+	ТекстИнициализации = СтрЗаменить(ТекстИнициализации, "[Стоимость_lykov_ByteaToType_bytea]"       , Формат(БазоваяСтоимостьОперации * 1.02, "ЧДЦ=5; ЧРД=.; ЧН=0; ЧГ="));
+	ТекстИнициализации = СтрЗаменить(ТекстИнициализации, "[Стоимость_lykov_KeyFieldToInteger_bytea]" , Формат(БазоваяСтоимостьОперации * 1.02, "ЧДЦ=5; ЧРД=.; ЧН=0; ЧГ="));
+	ТекстИнициализации = СтрЗаменить(ТекстИнициализации, "[Стоимость_lykov_RTRefToInteger_bytea]"    , Формат(БазоваяСтоимостьОперации * 1.02, "ЧДЦ=5; ЧРД=.; ЧН=0; ЧГ="));
+	ТекстИнициализации = СтрЗаменить(ТекстИнициализации, "[Стоимость_lykov_RrefToUID_bytea]"         , Формат(БазоваяСтоимостьОперации * 3.46, "ЧДЦ=5; ЧРД=.; ЧН=0; ЧГ="));
+	ТекстИнициализации = СтрЗаменить(ТекстИнициализации, "[Стоимость_lykov_ByteaToDD_bytea]"         , Формат(БазоваяСтоимостьОперации * 5.61, "ЧДЦ=5; ЧРД=.; ЧН=0; ЧГ="));
+	ТекстИнициализации = СтрЗаменить(ТекстИнициализации, "[Стоимость_lykov_DDToText_bytea]"          , Формат(БазоваяСтоимостьОперации * 10.87, "ЧДЦ=5; ЧРД=.; ЧН=0; ЧГ="));
+	
+	ТекстИнициализации = СтрЗаменить(ТекстИнициализации, "[Стоимость_lykov_VersionToInteger_text]" , Формат(БазоваяСтоимостьОперации * 1.63, "ЧДЦ=5; ЧРД=.; ЧН=0; ЧГ="));
+	ТекстИнициализации = СтрЗаменить(ТекстИнициализации, "[Стоимость_lykov_UIDToRref_text]"        , Формат(БазоваяСтоимостьОперации * 4.41, "ЧДЦ=5; ЧРД=.; ЧН=0; ЧГ="));
+	ТекстИнициализации = СтрЗаменить(ТекстИнициализации, "[Стоимость_lykov_DDToBytea_text]"        , Формат(БазоваяСтоимостьОперации * 6.84, "ЧДЦ=5; ЧРД=.; ЧН=0; ЧГ="));
+	
+	ТекстИнициализации = СтрЗаменить(ТекстИнициализации, "[Стоимость_lykov_VersionToInteger_mvarchar]" , Формат(БазоваяСтоимостьОперации * 3.62, "ЧДЦ=5; ЧРД=.; ЧН=0; ЧГ="));
+	ТекстИнициализации = СтрЗаменить(ТекстИнициализации, "[Стоимость_lykov_UIDToRref_mvarchar]"        , Формат(БазоваяСтоимостьОперации * 8.43, "ЧДЦ=5; ЧРД=.; ЧН=0; ЧГ="));
+	ТекстИнициализации = СтрЗаменить(ТекстИнициализации, "[Стоимость_lykov_DDToBytea_mvarchar]"        , Формат(БазоваяСтоимостьОперации * 13.44, "ЧДЦ=5; ЧРД=.; ЧН=0; ЧГ="));
+	
+	Если Не PostgreSQLВыполнитьЗапросБезРезультата(ТекстИнициализации, "", Кэш) Тогда
+		// Инициализируем старые алгоритмы
+		
+		Кэш.КомпонентаPostgreSQL.ИнициализироватьФункцииДля1С();
+		Спец_Проверить(ПустаяСтрока(Кэш.КомпонентаPostgreSQL.ТекстПоследнейОшибки), Кэш.КомпонентаPostgreSQL.ТекстПоследнейОшибки);
+		
+	КонецЕсли;
 	
 КонецПроцедуры
 
@@ -1248,10 +1547,6 @@
 	
 КонецФункции
 
-#КонецОбласти
-
-#Область СлужебныеПроцедурыИФункции
-
 // Параметры:
 //  ИсходнаяСтрока - см. ТолькоБуквыВСтроку.ИсходнаяСтрока
 //  СимволыКоторыеНеТрогать - см. ТолькоБуквыВСтроку.СимволыКоторыеНеТрогать
@@ -1326,6 +1621,10 @@
 	
 КонецПроцедуры
 
+#КонецОбласти
+
+#Область СлужебныеПроцедурыИФункции
+
 // Параметры:
 //  ИсточникВызова - Строка
 //  ОбъектКомпоненты - ОбъектВнешнейКомпоненты:
@@ -1385,6 +1684,31 @@
 		Возврат ВходныеДанные;
 		
 	КонецЕсли;
+	
+КонецФункции
+
+// Параметры:
+//  Кэш - см. Спец_КлиентСерверГлобальный.Спец_ПолучитьКэш
+// 
+// Возвращаемое значение:
+//  Число
+//
+Функция ПолучитьБазовуюСтоимостьОперацииИзPostgreSQL(Знач Кэш)
+	
+	ТекстЗапроса =
+	
+	"SELECT setting::numeric AS value
+	|FROM pg_settings 
+	|WHERE NAME = 'cpu_operator_cost'
+	|LIMIT 1";
+	
+	СтруктураРезультат = PostgreSQLВыполнитьЗапрос(ТекстЗапроса, -1, "", Кэш);
+	
+	Спец_Проверить(СтруктураРезультат.Успешно, СтруктураРезультат.ТекстОшибки);
+	Спец_Проверить(СтруктураРезультат.РезультатЗапроса.Количество() = 1, "Не удалось получить параметр 'cpu_operator_cost' из PostgreSQL!");
+	
+	//@skip-check property-return-type
+	Возврат СтруктураРезультат.РезультатЗапроса.Получить(0).value;
 	
 КонецФункции
 
