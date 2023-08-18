@@ -8,4 +8,5 @@
   <comment>Модуль для программного изменения управляемых форм</comment>
   <server>true</server>
   <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
 </mdclass:CommonModule>
