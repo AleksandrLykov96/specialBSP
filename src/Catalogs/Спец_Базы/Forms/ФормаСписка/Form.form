@@ -316,6 +316,56 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
+      <name>Магазин</name>
+      <id>42</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.Магазин</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>МагазинРасширеннаяПодсказка</name>
+        <id>44</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>МагазинКонтекстноеМеню</name>
+        <id>43</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>InputField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:InputFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <wrap>true</wrap>
+        <chooseType>true</chooseType>
+        <typeDomainEnabled>true</typeDomainEnabled>
+        <textEdit>true</textEdit>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
       <name>ВидБазы</name>
       <id>22</id>
       <visible>true</visible>
@@ -606,6 +656,7 @@
 	СправочникБазы.Наименование КАК Наименование,
 	СправочникБазы.АдресСервераИБ КАК АдресСервераИБ,
 	СправочникБазы.Код КАК Код,
+	СправочникБазы.Магазин КАК Магазин,
 	СправочникБазы.ВидБазы КАК ВидБазы
 	// ++ Спец_БСП.ОбменСДругимиБазами_ЕстьМодульОтправителя
 	,МАКСИМУМ(СправочникБазы.ИмяПредопределенныхДанных &lt;> &quot;&quot;
@@ -652,24 +703,8 @@
         <field>ВключитьОбмен</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>ЗапускатьОбменыИзБазыПолучателя</dataPath>
-        <field>ЗапускатьОбменыИзБазыПолучателя</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>АдресFTPДляОбменов</dataPath>
-        <field>АдресFTPДляОбменов</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>ПометкаУдаления</dataPath>
-        <field>ПометкаУдаления</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>Код</dataPath>
         <field>Код</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>СтрокаПодключенияКБазеДанных</dataPath>
-        <field>СтрокаПодключенияКБазеДанных</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>Наименование</dataPath>
@@ -680,6 +715,22 @@
         <field>АдресСервераИБ</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ЭтоКлючеваяБаза</dataPath>
+        <field>ЭтоКлючеваяБаза</field>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Это ключевая база</value>
+            </content>
+          </localValue>
+        </title>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>АдресFTPДляОбменов</dataPath>
+        <field>АдресFTPДляОбменов</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>ВнутреннийПутьКаталогаFTP</dataPath>
         <field>ВнутреннийПутьКаталогаFTP</field>
       </fields>
@@ -688,12 +739,12 @@
         <field>ЗаписыватьНапрямуюПриОбменах</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>ХранитьГУИДыВОтдельномРегистре</dataPath>
-        <field>ХранитьГУИДыВОтдельномРегистре</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>ЗапускатьОбменыИзБазыОтправителя</dataPath>
         <field>ЗапускатьОбменыИзБазыОтправителя</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ЗапускатьОбменыИзБазыПолучателя</dataPath>
+        <field>ЗапускатьОбменыИзБазыПолучателя</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>ЗапускатьПолноеОбновлениеТаблиц</dataPath>
@@ -704,16 +755,16 @@
         <field>КоличествоБольшихОбъектовДляОбработкиОбменов</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>ОбменыЧерезФоновыеЗадания</dataPath>
-        <field>ОбменыЧерезФоновыеЗадания</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>ЛимитОбъектовДляОбмена</dataPath>
         <field>ЛимитОбъектовДляОбмена</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>ОбмениватьЧерезFTP</dataPath>
         <field>ОбмениватьЧерезFTP</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ОбменыЧерезФоновыеЗадания</dataPath>
+        <field>ОбменыЧерезФоновыеЗадания</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>ПортКластераИБ</dataPath>
@@ -728,12 +779,24 @@
         <field>ПутьФайловВеб</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>СтрокаПодключенияКБазеДанных</dataPath>
+        <field>СтрокаПодключенияКБазеДанных</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>ТипБазыДанных</dataPath>
         <field>ТипБазыДанных</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ХранитьГУИДыВОтдельномРегистре</dataPath>
+        <field>ХранитьГУИДыВОтдельномРегистре</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>ГУИД</dataPath>
         <field>ГУИД</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>HTTP</dataPath>
+        <field>HTTP</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>Предопределенный</dataPath>
@@ -744,20 +807,12 @@
         <field>ИмяПредопределенныхДанных</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>HTTP</dataPath>
-        <field>HTTP</field>
+        <dataPath>ПометкаУдаления</dataPath>
+        <field>ПометкаУдаления</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>ЭтоКлючеваяБаза</dataPath>
-        <field>ЭтоКлючеваяБаза</field>
-        <title>
-          <localValue>
-            <content>
-              <key>ru</key>
-              <value>Это ключевая база</value>
-            </content>
-          </localValue>
-        </title>
+        <dataPath>Магазин</dataPath>
+        <field>Магазин</field>
       </fields>
       <parameters>
         <name>ТекущаяБаза</name>

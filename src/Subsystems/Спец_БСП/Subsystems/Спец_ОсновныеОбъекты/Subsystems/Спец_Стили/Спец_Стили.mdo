@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="389569c4-f81a-45f0-bd62-ddf4a015edf5">
+  <name>Спец_Стили</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стили</value>
+  </synonym>
+  <comment>Подсистема, содержащая дополнительные стили</comment>
+  <content>CommonPicture.Спец_АнтичныйСтиль</content>
+  <content>CommonPicture.Спец_БелыйСтиль</content>
+  <content>CommonPicture.Спец_ЗеленыйСтиль</content>
+  <content>CommonPicture.Спец_ИнфостартСтиль</content>
+  <content>CommonPicture.Спец_КрасныйСтиль</content>
+  <content>CommonPicture.Спец_МалиновыйСтиль</content>
+  <content>CommonPicture.Спец_МолодежныйСтиль</content>
+  <content>CommonPicture.Спец_НежныйСтиль</content>
+  <content>CommonPicture.Спец_ОсновнойСтиль</content>
+  <content>CommonPicture.Спец_РозовыйСтиль</content>
+  <content>CommonPicture.Спец_СерыйСтиль</content>
+  <content>CommonPicture.Спец_СинийСтиль</content>
+  <content>CommonPicture.Спец_ТелеграмСтиль</content>
+  <content>CommonPicture.Спец_ФиолетовыйСтиль</content>
+  <content>CommonPicture.Спец_ЧерныйСтиль</content>
+  <content>Style.Спец_Античный</content>
+  <content>Style.Спец_Белый</content>
+  <content>Style.Спец_Зеленый</content>
+  <content>Style.Спец_Инфостарт</content>
+  <content>Style.Спец_Красный</content>
+  <content>Style.Спец_Малиновый</content>
+  <content>Style.Спец_Молодежный</content>
+  <content>Style.Спец_Розовый</content>
+  <content>Style.Спец_Нежный</content>
+  <content>Style.Спец_Серый</content>
+  <content>Style.Спец_Синий</content>
+  <content>Style.Спец_Телеграм</content>
+  <content>Style.Спец_Фиолетовый</content>
+  <content>Style.Спец_Черный</content>
+  <content>Catalog.Спец_Пользователи</content>
+  <parentSubsystem>Subsystem.Спец_БСП.Subsystem.Спец_ОсновныеОбъекты</parentSubsystem>
+</mdclass:Subsystem>

@@ -297,7 +297,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
   </attributes>
-  <attributes uuid="c7255b28-0207-434f-9b69-8120fd91d2a6">
+  <attributes uuid="f0e0d846-76ab-432a-9bae-39bdd05eb1f7">
     <name>ЗапускатьОбменыИзБазыОтправителя</name>
     <synonym>
       <key>ru</key>
@@ -369,6 +369,19 @@
         <precision>15</precision>
         <nonNegative>true</nonNegative>
       </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5194baf7-0e63-4264-9afe-f710981d4569">
+    <name>Магазин</name>
+    <synonym>
+      <key>ru</key>
+      <value>Магазин</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Спец_Магазин</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

@@ -276,45 +276,6 @@
           </type>
         </content>
       </content>
-      <content id="5a8d37d8-0440-4f4d-992f-3b4af6d323e1">
-        <name>HTTPЗапросы</name>
-        <description>HTTP запросы</description>
-        <isFolder>true</isFolder>
-        <code></code>
-        <type/>
-        <content id="4a0f425d-f7eb-4935-be00-3d4f290da9a8">
-          <name>ЧисловойУровеньБазы</name>
-          <description>Числовой уровень базы</description>
-          <code></code>
-          <type>
-            <types>Number</types>
-            <numberQualifiers>
-              <precision>10</precision>
-              <nonNegative>true</nonNegative>
-            </numberQualifiers>
-          </type>
-        </content>
-        <content id="56b90231-9662-4b9c-9c0f-d6bad8654e1b">
-          <name>РаботаетВБазеРайона</name>
-          <description>Работает в базе района</description>
-          <code></code>
-          <type>
-            <types>Boolean</types>
-          </type>
-        </content>
-        <content id="39ea508a-068d-4aa5-92d6-cd39f94b4170">
-          <name>ГУИДТекущейБазы</name>
-          <description>ГУИД текущей базы</description>
-          <code></code>
-          <type>
-            <types>String</types>
-            <stringQualifiers>
-              <length>36</length>
-              <fixed>true</fixed>
-            </stringQualifiers>
-          </type>
-        </content>
-      </content>
     </items>
     <items id="6a9f6558-25be-4551-a83d-98a35fd5e03e">
       <name>ОбщиеПараметры</name>

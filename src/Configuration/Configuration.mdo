@@ -223,6 +223,7 @@
   <definedTypes>DefinedType.Спец_UID</definedTypes>
   <definedTypes>DefinedType.Спец_UnixTimestamp</definedTypes>
   <definedTypes>DefinedType.Спец_ИмяОбъектаБазы</definedTypes>
+  <definedTypes>DefinedType.Спец_Магазин</definedTypes>
   <definedTypes>DefinedType.СубъектПерсональныхДанныхБПО</definedTypes>
   <definedTypes>DefinedType.ТорговыйОбъектБПО</definedTypes>
   <commonCommands>CommonCommand.ВыбратьРМТекущегоСеанса</commonCommands>

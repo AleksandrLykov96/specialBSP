@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a1888466-8bca-4a39-ba92-0b47be2dbf0f">
+  <producedTypes>
+    <containerType typeId="a034d1d1-bc30-4129-b985-cd14bea00dfe" valueTypeId="216db4ed-093f-4674-a72d-e33662641d31"/>
+  </producedTypes>
+  <name>Спец_Магазин</name>
+  <synonym>
+    <key>ru</key>
+    <value>Магазин (спец)</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Спец_Базы</types>
+  </type>
+</mdclass:DefinedType>
