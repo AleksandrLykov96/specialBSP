@@ -1773,6 +1773,7 @@
 КонецФункции
 
 //@skip-check structure-consructor-too-many-keys
+//@skip-check constructor-function-return-section
 #Область Типизация
 
 // Возвращаемое значение:
