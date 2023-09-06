@@ -118,6 +118,25 @@
     <createOnInput>DontUse</createOnInput>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
+  <resources uuid="0e22aa43-5cad-4213-ac7d-17831e94a7cc">
+    <name>ДействиеПриНажатииДляОповещения1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Действие при нажатии для оповещения 1С</value>
+    </synonym>
+    <comment>Навигационная ссылка</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>256</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
   <dimensions uuid="e60991bf-432e-444f-9391-de60e4b0052d">
     <name>ИмяПользователя</name>
     <synonym>
@@ -125,10 +144,7 @@
       <value>Имя пользователя</value>
     </synonym>
     <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>128</length>
-      </stringQualifiers>
+      <types>DefinedType.Спец_ИмяОбъектаБазы</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -137,9 +153,7 @@
     <denyIncompleteValues>true</denyIncompleteValues>
     <indexing>Index</indexing>
     <fillFromFillingValue>true</fillFromFillingValue>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>
   <forms uuid="d5105355-3846-48ee-ad65-a108f7419327">
