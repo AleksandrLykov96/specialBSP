@@ -603,6 +603,56 @@
         <autoMaxHeight>true</autoMaxHeight>
       </extInfo>
     </items>
+    <items xsi:type="form:FormField">
+      <name>ПредставлениеВремяПоследнейОчистки</name>
+      <id>82</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.ПредставлениеВремяПоследнейОчистки</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>ПредставлениеВремяПоследнейОчисткиРасширеннаяПодсказка</name>
+        <id>84</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ПредставлениеВремяПоследнейОчисткиКонтекстноеМеню</name>
+        <id>83</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>InputField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:InputFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <wrap>true</wrap>
+        <chooseType>true</chooseType>
+        <typeDomainEnabled>true</typeDomainEnabled>
+        <textEdit>true</textEdit>
+      </extInfo>
+    </items>
     <commandBarLocation>None</commandBarLocation>
     <autoCommandBar>
       <name>СписокКоманднаяПанель</name>
@@ -989,12 +1039,32 @@
           <condition>true</condition>
           <group>true</group>
         </useRestriction>
-        <presentationExpression>Спец_ОбщегоНазначенияКлиентСервер.ПеревестиРазмерИзБайтовВЧитемыйВид(ОбщийРазмерТаблицы)</presentationExpression>
+        <presentationExpression>Спец_СтроковыеФункцииКлиентСервер.ПеревестиРазмерИзБайтовВЧитемыйВид(ОбщийРазмерТаблицы)</presentationExpression>
         <valueType>
           <types>Number</types>
           <numberQualifiers>
             <precision>15</precision>
           </numberQualifiers>
+        </valueType>
+      </calculatedFields>
+      <calculatedFields>
+        <dataPath>ПредставлениеВремяПоследнейОчистки</dataPath>
+        <expression>ВремяПоследнейОчистки</expression>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Время последней очистки</value>
+            </content>
+          </localValue>
+        </title>
+        <useRestriction>
+          <condition>true</condition>
+          <group>true</group>
+        </useRestriction>
+        <presentationExpression>Спец_СтроковыеФункцииКлиентСервер.ПеревестиСекундыВЧитемыйВид(ВремяПоследнейОчистки)</presentationExpression>
+        <valueType>
+          <types>DefinedType.Спец_UnixTimestamp</types>
         </valueType>
       </calculatedFields>
     </extInfo>

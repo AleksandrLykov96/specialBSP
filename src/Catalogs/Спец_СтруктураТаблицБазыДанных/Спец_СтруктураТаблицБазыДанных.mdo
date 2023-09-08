@@ -154,12 +154,7 @@
       <value>Время последней очистки (сек)</value>
     </synonym>
     <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>15</precision>
-        <scale>9</scale>
-        <nonNegative>true</nonNegative>
-      </numberQualifiers>
+      <types>DefinedType.Спец_UnixTimestamp</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
