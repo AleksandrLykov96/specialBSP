@@ -215,9 +215,9 @@
     </dataPath>
     <defaultItem>true</defaultItem>
     <titleLocation>None</titleLocation>
-    <excludedCommands>Change</excludedCommands>
-    <excludedCommands>Copy</excludedCommands>
     <excludedCommands>Create</excludedCommands>
+    <excludedCommands>Copy</excludedCommands>
+    <excludedCommands>Change</excludedCommands>
     <excludedCommands>SetDeletionMark</excludedCommands>
     <items xsi:type="form:FormField">
       <name>Ссылка</name>
@@ -981,13 +981,13 @@
     <event>OnClose</event>
     <name>ПриЗакрытии</name>
   </handlers>
-  <excludedCommands>Copy</excludedCommands>
   <excludedCommands>Create</excludedCommands>
   <excludedCommands>CustomizeForm</excludedCommands>
   <excludedCommands>Help</excludedCommands>
   <excludedCommands>OpenFromMainServer</excludedCommands>
   <excludedCommands>OpenFromStandaloneServer</excludedCommands>
   <excludedCommands>SetDeletionMark</excludedCommands>
+  <excludedCommands>Copy</excludedCommands>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
