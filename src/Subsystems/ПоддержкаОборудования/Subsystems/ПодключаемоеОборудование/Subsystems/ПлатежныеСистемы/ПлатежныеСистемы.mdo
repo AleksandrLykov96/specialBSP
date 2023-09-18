@@ -36,5 +36,6 @@
   <content>CommonModule.МенеджерОборудованияПовтИсп</content>
   <content>CommonCommand.РегистрПлатежныхОпераций</content>
   <content>Constant.СрокХраненияПлатежныхОпераций</content>
+  <content>CommonTemplate.Драйвер1СЭквайринговыеТерминалыСбербанк</content>
   <parentSubsystem>Subsystem.ПоддержкаОборудования.Subsystem.ПодключаемоеОборудование</parentSubsystem>
 </mdclass:Subsystem>

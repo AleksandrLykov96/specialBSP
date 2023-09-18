@@ -99,9 +99,12 @@
   <roles>Role.ПолныеПрава</roles>
   <roles>Role.Спец_БазовыеПрава</roles>
   <commonTemplates>CommonTemplate.Драйвер1СУстройстваВводаNative</commonTemplates>
+  <commonTemplates>CommonTemplate.Драйвер1СЭквайринговыеТерминалыСбербанк</commonTemplates>
   <commonTemplates>CommonTemplate.Драйвер1СЭквайринговыеТерминалыСбербанк2х</commonTemplates>
   <commonTemplates>CommonTemplate.ДрайверАТОЛККТ54ФЗ10XФФД12</commonTemplates>
+  <commonTemplates>CommonTemplate.ДрайверШтрихМККТ54ФЗ4ФФД12</commonTemplates>
   <commonTemplates>CommonTemplate.ДрайверШтрихМККТ54ФЗ4ФФД12_517</commonTemplates>
+  <commonTemplates>CommonTemplate.ДрайверШтрихМККТ54ФЗ4ФФД12NG</commonTemplates>
   <commonTemplates>CommonTemplate.Спец_ДрайверККТШтрихМ</commonTemplates>
   <commonTemplates>CommonTemplate.Спец_КомпонентаLykovExtFunctions</commonTemplates>
   <commonTemplates>CommonTemplate.Спец_КомпонентаLykovHTTPClient</commonTemplates>

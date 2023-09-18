@@ -1045,6 +1045,13 @@
         <value>0</value>
       </code>
     </items>
+    <items id="bc925278-38cf-4fa2-96e3-c525ec9ca752">
+      <name>ДрайверШтрихМККТ54ФЗ4ФФД12NG</name>
+      <description>ШТРИХ-М:ККТ с передачей данных в ОФД (ФФД 1.2) NG</description>
+      <code xsi:type="core:NumberValue">
+        <value>0</value>
+      </code>
+    </items>
   </predefined>
   <predefinedDataUpdate>DontAutoUpdate</predefinedDataUpdate>
   <editType>InDialog</editType>

@@ -71,6 +71,8 @@
   <content>ScheduledJob.ОчисткаИсторииОперацийОчередиЧеков</content>
   <content>ScheduledJob.ОчисткаИсторииФискальныхОпераций</content>
   <content>CommonTemplate.ДрайверШтрихМККТ54ФЗ4ФФД12_517</content>
+  <content>CommonTemplate.ДрайверШтрихМККТ54ФЗ4ФФД12</content>
+  <content>CommonTemplate.ДрайверШтрихМККТ54ФЗ4ФФД12NG</content>
   <subsystems>КассоваяСмена</subsystems>
   <subsystems>АвтономнаяККТ</subsystems>
   <parentSubsystem>Subsystem.ПоддержкаОборудования.Subsystem.ПодключаемоеОборудование</parentSubsystem>

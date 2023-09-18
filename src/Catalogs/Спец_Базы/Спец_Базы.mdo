@@ -465,7 +465,25 @@
     <name>СтрокаПодключенияКБазеДанных</name>
     <synonym>
       <key>ru</key>
-      <value>Строка подключения к базе данных (напрямую)</value>
+      <value>Строка подключения к базе данных (внешний)</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1024</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="47be0639-b421-4162-a595-f2e7a72d7e06">
+    <name>СтрокаПодключенияКБазеДанныхНаСервере</name>
+    <synonym>
+      <key>ru</key>
+      <value>Строка подключения к базе данных (на сервере)</value>
     </synonym>
     <type>
       <types>String</types>

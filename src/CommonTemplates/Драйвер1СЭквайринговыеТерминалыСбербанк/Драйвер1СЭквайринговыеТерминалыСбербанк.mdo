@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="42aada79-8969-4762-9a04-46970bf05527">
+  <name>Драйвер1СЭквайринговыеТерминалыСбербанк</name>
+  <synonym>
+    <key>ru</key>
+    <value>Драйвер &quot;1С:Эквайринговые терминалы Сбербанк&quot;</value>
+  </synonym>
+  <templateType>AddIn</templateType>
+</mdclass:CommonTemplate>
