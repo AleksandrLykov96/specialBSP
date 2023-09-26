@@ -69,6 +69,7 @@
   <content>CommonModule.Спец_РаботаСФормамиКлиентСервер</content>
   <content>DefinedType.Спец_ИмяОбъектаБазы</content>
   <content>DefinedType.Спец_Магазин</content>
+  <content>CommonPicture.Спец_КартинкаКрасивойПанелиОтборов</content>
   <subsystems>Спец_КомпонентаДополнительныеФункции</subsystems>
   <subsystems>Спец_РаботаСБазойДанных</subsystems>
   <subsystems>Спец_РаботаСФоновымиЗаданиями</subsystems>
