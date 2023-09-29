@@ -591,6 +591,14 @@
           </type>
         </content>
       </content>
+      <content id="439467e8-eeb1-49c3-af1e-501cdb46aeaa">
+        <name>ОтключитьИспользованиеКомпонент</name>
+        <description>Отключить использование компонент</description>
+        <code></code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
     </items>
     <items id="dd5f805b-4a1d-47aa-8fdf-fb53ae67e98f">
       <name>ПараметрыОбменовСДругимиБазами</name>
