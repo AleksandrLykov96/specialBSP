@@ -67,9 +67,11 @@
   <content>DefinedType.Спец_UID</content>
   <content>CommonModule.Спец_ИзменениеФорм</content>
   <content>CommonModule.Спец_РаботаСФормамиКлиентСервер</content>
-  <content>DefinedType.Спец_ИмяОбъектаБазы</content>
+  <content>DefinedType.Спец_ПолноеИмяОбъектаМетаданныхВ1С</content>
   <content>DefinedType.Спец_Магазин</content>
   <content>CommonPicture.Спец_КартинкаКрасивойПанелиОтборов</content>
+  <content>DefinedType.Спец_МаксимальнаяИндексируемаяСтрока</content>
+  <content>DefinedType.Спец_ИмяОбъектаВ1С</content>
   <subsystems>Спец_КомпонентаДополнительныеФункции</subsystems>
   <subsystems>Спец_РаботаСБазойДанных</subsystems>
   <subsystems>Спец_РаботаСФоновымиЗаданиями</subsystems>

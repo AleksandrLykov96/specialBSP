@@ -14,6 +14,7 @@
   <content>CommonModule.Спец_РаботаСБазойДанныхНапрямуюВызовСервераПовтИсп</content>
   <content>CommonModule.Спец_РаботаСБазойДанныхНапрямую</content>
   <content>CommonModule.Спец_РаботаСБазойДанныхНапрямуюВызовСервера</content>
+  <content>DefinedType.Спец_ИмяОбъектаВБД</content>
   <subsystems>Спец_PostgreSQL</subsystems>
   <parentSubsystem>Subsystem.Спец_БСП.Subsystem.Спец_ОсновныеОбъекты</parentSubsystem>
 </mdclass:Subsystem>

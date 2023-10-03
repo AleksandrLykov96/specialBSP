@@ -89,7 +89,7 @@
       <value>Имя объекта метаданных (приёмник)</value>
     </synonym>
     <type>
-      <types>DefinedType.Спец_ИмяОбъектаБазы</types>
+      <types>DefinedType.Спец_ПолноеИмяОбъектаМетаданныхВ1С</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -102,7 +102,7 @@
       <value>Имя табличной части (приёмник)</value>
     </synonym>
     <type>
-      <types>DefinedType.Спец_ИмяОбъектаБазы</types>
+      <types>DefinedType.Спец_ИмяОбъектаВ1С</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -115,7 +115,7 @@
       <value>Имя реквизита (приёмник)</value>
     </synonym>
     <type>
-      <types>DefinedType.Спец_ИмяОбъектаБазы</types>
+      <types>DefinedType.Спец_ИмяОбъектаВ1С</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -128,7 +128,7 @@
       <value>Полное имя типа объекта метаданных (источник)</value>
     </synonym>
     <type>
-      <types>DefinedType.Спец_ИмяОбъектаБазы</types>
+      <types>DefinedType.Спец_ПолноеИмяОбъектаМетаданныхВ1С</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -141,7 +141,7 @@
       <value>Полное имя типа объекта метаданных (приёмник)</value>
     </synonym>
     <type>
-      <types>DefinedType.Спец_ИмяОбъектаБазы</types>
+      <types>DefinedType.Спец_ПолноеИмяОбъектаМетаданныхВ1С</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -172,7 +172,7 @@
       <value>Имя объекта метаданных (источник)</value>
     </synonym>
     <type>
-      <types>DefinedType.Спец_ИмяОбъектаБазы</types>
+      <types>DefinedType.Спец_ПолноеИмяОбъектаМетаданныхВ1С</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -189,7 +189,7 @@
       <value>Имя табличной части (источник)</value>
     </synonym>
     <type>
-      <types>DefinedType.Спец_ИмяОбъектаБазы</types>
+      <types>DefinedType.Спец_ИмяОбъектаВ1С</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -204,7 +204,7 @@
       <value>Имя реквизита (источник)</value>
     </synonym>
     <type>
-      <types>DefinedType.Спец_ИмяОбъектаБазы</types>
+      <types>DefinedType.Спец_ИмяОбъектаВ1С</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

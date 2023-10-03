@@ -107,7 +107,7 @@
     <type>
       <types>String</types>
       <stringQualifiers>
-        <length>256</length>
+        <length>1024</length>
       </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
@@ -125,7 +125,7 @@
     <type>
       <types>String</types>
       <stringQualifiers>
-        <length>64</length>
+        <length>16</length>
       </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
@@ -143,7 +143,7 @@
     <type>
       <types>String</types>
       <stringQualifiers>
-        <length>128</length>
+        <length>64</length>
       </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
@@ -175,7 +175,7 @@
     <type>
       <types>String</types>
       <stringQualifiers>
-        <length>128</length>
+        <length>64</length>
       </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
@@ -303,10 +303,7 @@
       <value>Источник</value>
     </synonym>
     <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>1024</length>
-      </stringQualifiers>
+      <types>DefinedType.Спец_МаксимальнаяИндексируемаяСтрока</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

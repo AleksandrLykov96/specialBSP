@@ -213,9 +213,7 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </attributes>
   <attributes uuid="6ff5ef15-f610-48c1-9996-7d8b262c7e67">
     <name>АдресСервераИБ</name>
@@ -226,14 +224,12 @@
     <type>
       <types>String</types>
       <stringQualifiers>
-        <length>256</length>
+        <length>1024</length>
       </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </attributes>
   <attributes uuid="4e6234cd-3eba-4e9d-a84d-d42d1c9d1d7f">
     <name>ВидБазы</name>
@@ -577,7 +573,7 @@
       <type>
         <types>String</types>
         <stringQualifiers>
-          <length>256</length>
+          <length>1024</length>
         </stringQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
@@ -608,7 +604,7 @@
       <type>
         <types>String</types>
         <stringQualifiers>
-          <length>256</length>
+          <length>1024</length>
         </stringQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
@@ -623,7 +619,7 @@
       <type>
         <types>String</types>
         <stringQualifiers>
-          <length>256</length>
+          <length>1024</length>
         </stringQualifiers>
       </type>
       <passwordMode>true</passwordMode>
@@ -682,10 +678,7 @@
         <value>Общее наименование публикации</value>
       </synonym>
       <type>
-        <types>String</types>
-        <stringQualifiers>
-          <length>256</length>
-        </stringQualifiers>
+        <types>DefinedType.Спец_ИмяОбъектаВ1С</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>

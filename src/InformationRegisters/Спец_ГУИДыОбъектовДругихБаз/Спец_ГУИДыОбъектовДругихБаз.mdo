@@ -72,7 +72,7 @@
       <value>Метаданные полное имя</value>
     </synonym>
     <type>
-      <types>DefinedType.Спец_ИмяОбъектаБазы</types>
+      <types>DefinedType.Спец_ПолноеИмяОбъектаМетаданныхВ1С</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

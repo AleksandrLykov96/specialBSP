@@ -124,10 +124,7 @@
       <value>Источник</value>
     </synonym>
     <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>128</length>
-      </stringQualifiers>
+      <types>DefinedType.Спец_МаксимальнаяИндексируемаяСтрока</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

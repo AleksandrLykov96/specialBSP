@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a82f301b-c955-45e1-a3d1-e93a7409ee4d">
+  <producedTypes>
+    <containerType typeId="a7db43e8-50fe-4df4-955f-595dbfd917fe" valueTypeId="d39de69e-efee-4c9d-84da-8013568e48c3"/>
+  </producedTypes>
+  <name>Спец_ИмяОбъектаВБД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Имя объекта в БД</value>
+  </synonym>
+  <comment>Для PostgreSQL - 63, для MSSQL 128</comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>63</length>
+    </stringQualifiers>
+  </type>
+</mdclass:DefinedType>

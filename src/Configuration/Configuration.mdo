@@ -44,7 +44,7 @@
     <value>LYKOV</value>
   </configurationInformationAddress>
   <dataLockControlMode>Managed</dataLockControlMode>
-  <compatibilityMode>8.3.21</compatibilityMode>
+  
   <defaultReportAppearanceTemplate>Arctic</defaultReportAppearanceTemplate>
   <languages uuid="e09d2861-0500-4260-b4ee-cb8d50a8a592">
     <name>Русский</name>
@@ -226,8 +226,11 @@
   <definedTypes>DefinedType.Спец_GTIN</definedTypes>
   <definedTypes>DefinedType.Спец_UID</definedTypes>
   <definedTypes>DefinedType.Спец_UnixTimestamp</definedTypes>
-  <definedTypes>DefinedType.Спец_ИмяОбъектаБазы</definedTypes>
+  <definedTypes>DefinedType.Спец_ИмяОбъектаВ1С</definedTypes>
+  <definedTypes>DefinedType.Спец_ИмяОбъектаВБД</definedTypes>
   <definedTypes>DefinedType.Спец_Магазин</definedTypes>
+  <definedTypes>DefinedType.Спец_ПолноеИмяОбъектаМетаданныхВ1С</definedTypes>
+  <definedTypes>DefinedType.Спец_МаксимальнаяИндексируемаяСтрока</definedTypes>
   <definedTypes>DefinedType.СубъектПерсональныхДанныхБПО</definedTypes>
   <definedTypes>DefinedType.ТорговыйОбъектБПО</definedTypes>
   <commonCommands>CommonCommand.ВыбратьРМТекущегоСеанса</commonCommands>

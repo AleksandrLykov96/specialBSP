@@ -62,13 +62,11 @@
     <type>
       <types>String</types>
       <stringQualifiers>
-        <length>128</length>
+        <length>256</length>
       </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
   <resources uuid="9f78ccef-90be-481c-a401-56c9a02fd947">

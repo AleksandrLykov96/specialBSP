@@ -135,19 +135,14 @@
       <value>Имя процедуры выполнения</value>
     </synonym>
     <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>256</length>
-      </stringQualifiers>
+      <types>DefinedType.Спец_МаксимальнаяИндексируемаяСтрока</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
     <createOnInput>DontUse</createOnInput>
     <indexing>Index</indexing>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>
   <dimensions uuid="8250f179-4c44-4d83-b47f-8d380ffeaca2">
@@ -157,7 +152,7 @@
       <value>Имя метаданных регламента</value>
     </synonym>
     <type>
-      <types>DefinedType.Спец_ИмяОбъектаБазы</types>
+      <types>DefinedType.Спец_ПолноеИмяОбъектаМетаданныхВ1С</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

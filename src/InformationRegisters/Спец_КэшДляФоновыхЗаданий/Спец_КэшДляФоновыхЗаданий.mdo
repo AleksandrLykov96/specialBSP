@@ -119,15 +119,13 @@
     <type>
       <types>String</types>
       <stringQualifiers>
-        <length>512</length>
+        <length>1024</length>
       </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <createOnInput>DontUse</createOnInput>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </attributes>
   <attributes uuid="bbfd92d9-0390-4885-80a6-436afd433ea1">
     <name>Прогресс</name>
@@ -157,15 +155,13 @@
     <type>
       <types>String</types>
       <stringQualifiers>
-        <length>128</length>
+        <length>1024</length>
       </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <createOnInput>DontUse</createOnInput>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </attributes>
   <dimensions uuid="acbc6221-7884-41b0-add2-25f713311dd1">
     <name>ИдентификаторЗадания</name>
@@ -174,10 +170,7 @@
       <value>Идентификатор задания</value>
     </synonym>
     <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>128</length>
-      </stringQualifiers>
+      <types>DefinedType.Спец_МаксимальнаяИндексируемаяСтрока</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -186,9 +179,7 @@
     <denyIncompleteValues>true</denyIncompleteValues>
     <indexing>Index</indexing>
     <fillFromFillingValue>true</fillFromFillingValue>
-    <fillValue xsi:type="core:StringValue">
-      <value>                                    </value>
-    </fillValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>
   <forms uuid="53511822-aede-483d-bf64-6b6171da0bfe">

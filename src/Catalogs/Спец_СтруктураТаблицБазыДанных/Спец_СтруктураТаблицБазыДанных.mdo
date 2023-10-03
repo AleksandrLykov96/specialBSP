@@ -182,7 +182,7 @@
       <value>Метаданные</value>
     </synonym>
     <type>
-      <types>DefinedType.Спец_ИмяОбъектаБазы</types>
+      <types>DefinedType.Спец_ПолноеИмяОбъектаМетаданныхВ1С</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -215,7 +215,7 @@
       <value>Наименование в 1С</value>
     </synonym>
     <type>
-      <types>DefinedType.Спец_ИмяОбъектаБазы</types>
+      <types>DefinedType.Спец_ПолноеИмяОбъектаМетаданныхВ1С</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -317,17 +317,12 @@
       <value>Табличное пространство</value>
     </synonym>
     <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>128</length>
-      </stringQualifiers>
+      <types>DefinedType.Спец_ИмяОбъектаВБД</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <createOnInput>DontUse</createOnInput>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </attributes>
   <attributes uuid="9e2fa327-ca85-4c20-aacb-11c2736b47f8">
     <name>ТекстЗапросаДляСозданияКопииВременнойТаблицы</name>
@@ -385,7 +380,7 @@
         <value>Имя столбца</value>
       </synonym>
       <type>
-        <types>DefinedType.Спец_ИмяОбъектаБазы</types>
+        <types>DefinedType.Спец_ИмяОбъектаВБД</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -400,7 +395,7 @@
         <value>Имя столбца в 1С</value>
       </synonym>
       <type>
-        <types>DefinedType.Спец_ИмяОбъектаБазы</types>
+        <types>DefinedType.Спец_ИмяОбъектаВ1С</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -414,7 +409,7 @@
         <value>Метаданные</value>
       </synonym>
       <type>
-        <types>DefinedType.Спец_ИмяОбъектаБазы</types>
+        <types>DefinedType.Спец_ПолноеИмяОбъектаМетаданныхВ1С</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -454,10 +449,7 @@
         <value>Имя типа данных для PostgreSQL</value>
       </synonym>
       <type>
-        <types>String</types>
-        <stringQualifiers>
-          <length>128</length>
-        </stringQualifiers>
+        <types>DefinedType.Спец_ИмяОбъектаВБД</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -516,7 +508,7 @@
         <value>Имя индекса</value>
       </synonym>
       <type>
-        <types>DefinedType.Спец_ИмяОбъектаБазы</types>
+        <types>DefinedType.Спец_ИмяОбъектаВБД</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -590,10 +582,7 @@
         <value>Табличное пространство</value>
       </synonym>
       <type>
-        <types>String</types>
-        <stringQualifiers>
-          <length>128</length>
-        </stringQualifiers>
+        <types>DefinedType.Спец_ИмяОбъектаВБД</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -693,7 +682,7 @@
         <value>Имя ограничения</value>
       </synonym>
       <type>
-        <types>DefinedType.Спец_ИмяОбъектаБазы</types>
+        <types>DefinedType.Спец_ИмяОбъектаВБД</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -726,10 +715,7 @@
         <value>Табличное пространство</value>
       </synonym>
       <type>
-        <types>String</types>
-        <stringQualifiers>
-          <length>128</length>
-        </stringQualifiers>
+        <types>DefinedType.Спец_ИмяОбъектаВБД</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -806,7 +792,7 @@
         <value>Имя триггера</value>
       </synonym>
       <type>
-        <types>DefinedType.Спец_ИмяОбъектаБазы</types>
+        <types>DefinedType.Спец_ИмяОбъектаВБД</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -890,10 +876,7 @@
         <value>XML представление объекта</value>
       </synonym>
       <type>
-        <types>String</types>
-        <stringQualifiers>
-          <length>256</length>
-        </stringQualifiers>
+        <types>DefinedType.Спец_ПолноеИмяОбъектаМетаданныхВ1С</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>

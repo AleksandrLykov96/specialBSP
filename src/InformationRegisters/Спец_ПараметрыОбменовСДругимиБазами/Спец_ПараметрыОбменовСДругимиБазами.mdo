@@ -85,7 +85,7 @@
       <value>Полное имя объекта метаданных (приёмник)</value>
     </synonym>
     <type>
-      <types>DefinedType.Спец_ИмяОбъектаБазы</types>
+      <types>DefinedType.Спец_ПолноеИмяОбъектаМетаданныхВ1С</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -112,16 +112,11 @@
       <value>Имя реквизита для проверки в ключевых объектах</value>
     </synonym>
     <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>256</length>
-      </stringQualifiers>
+      <types>DefinedType.Спец_ИмяОбъектаВ1С</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
   <resources uuid="8a358c01-eb85-4051-af37-e3065d0b272b">
     <name>ИскатьОбъектыБезУчетаПустогоГУИДа</name>
@@ -455,7 +450,7 @@
       <value>Полное имя объекта метаданных (источник)</value>
     </synonym>
     <type>
-      <types>DefinedType.Спец_ИмяОбъектаБазы</types>
+      <types>DefinedType.Спец_ПолноеИмяОбъектаМетаданныхВ1С</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

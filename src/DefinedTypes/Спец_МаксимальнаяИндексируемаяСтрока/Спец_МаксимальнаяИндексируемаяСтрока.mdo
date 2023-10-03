@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="da20992f-7543-4d40-a215-1aecf4d50ec6">
+  <producedTypes>
+    <containerType typeId="03970c8f-67da-42c5-abc2-cc6e319dc2f0" valueTypeId="71163ccb-2ae7-4418-8368-d7311e6169cc"/>
+  </producedTypes>
+  <name>Спец_МаксимальнаяИндексируемаяСтрока</name>
+  <synonym>
+    <key>ru</key>
+    <value>Максимальная инедексируемая строка (спец)</value>
+  </synonym>
+  <comment>Для файловой тут ставить 125, для клиент-серверно ставить 1024 (общее для файловой 639, для СУБД 1024+)</comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>1024</length>
+    </stringQualifiers>
+  </type>
+</mdclass:DefinedType>

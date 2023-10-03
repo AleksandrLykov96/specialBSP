@@ -72,7 +72,7 @@
       <value>Полное имя объекта метаданных</value>
     </synonym>
     <type>
-      <types>DefinedType.Спец_ИмяОбъектаБазы</types>
+      <types>DefinedType.Спец_ПолноеИмяОбъектаМетаданныхВ1С</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -121,10 +121,7 @@
       <value>Объект 1</value>
     </synonym>
     <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>1024</length>
-      </stringQualifiers>
+      <types>DefinedType.Спец_МаксимальнаяИндексируемаяСтрока</types>
     </type>
     <multiLine>true</multiLine>
     <extendedEdit>true</extendedEdit>
@@ -145,10 +142,7 @@
       <value>Объект 2</value>
     </synonym>
     <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>1024</length>
-      </stringQualifiers>
+      <types>DefinedType.Спец_МаксимальнаяИндексируемаяСтрока</types>
     </type>
     <multiLine>true</multiLine>
     <extendedEdit>true</extendedEdit>
@@ -166,10 +160,7 @@
       <value>Объект 3</value>
     </synonym>
     <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>1024</length>
-      </stringQualifiers>
+      <types>DefinedType.Спец_МаксимальнаяИндексируемаяСтрока</types>
     </type>
     <multiLine>true</multiLine>
     <extendedEdit>true</extendedEdit>
@@ -187,10 +178,7 @@
       <value>Объект 4</value>
     </synonym>
     <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>1024</length>
-      </stringQualifiers>
+      <types>DefinedType.Спец_ИмяОбъектаВ1С</types>
     </type>
     <multiLine>true</multiLine>
     <extendedEdit>true</extendedEdit>
@@ -208,10 +196,7 @@
       <value>Объект 5</value>
     </synonym>
     <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>1024</length>
-      </stringQualifiers>
+      <types>DefinedType.Спец_ИмяОбъектаВ1С</types>
     </type>
     <multiLine>true</multiLine>
     <extendedEdit>true</extendedEdit>
