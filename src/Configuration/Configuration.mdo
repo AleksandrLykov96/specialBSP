@@ -44,7 +44,7 @@
     <value>LYKOV</value>
   </configurationInformationAddress>
   <dataLockControlMode>Managed</dataLockControlMode>
-  
+  <compatibilityMode>8.3.23</compatibilityMode>
   <defaultReportAppearanceTemplate>Arctic</defaultReportAppearanceTemplate>
   <languages uuid="e09d2861-0500-4260-b4ee-cb8d50a8a592">
     <name>Русский</name>
@@ -189,6 +189,7 @@
   <commonModules>CommonModule.Спец_РаботаСБазойДанныхНапрямую</commonModules>
   <commonModules>CommonModule.Спец_РаботаСБазойДанныхНапрямуюВызовСервера</commonModules>
   <commonModules>CommonModule.Спец_РаботаСБазойДанныхНапрямуюВызовСервераПовтИсп</commonModules>
+  <commonModules>CommonModule.Спец_РаботаСБазойДанныхНапрямуюКлиент</commonModules>
   <commonModules>CommonModule.Спец_РаботаСБазойДанныхНапрямуюКлиентСервер</commonModules>
   <commonModules>CommonModule.Спец_РаботаСКоллекциямиКлиентСервер</commonModules>
   <commonModules>CommonModule.Спец_РаботаСФоновымиЗаданиями</commonModules>

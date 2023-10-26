@@ -3796,8 +3796,8 @@
       </title>
       <id>6</id>
       <valueType>
-        <types>String</types>
-        <stringQualifiers/>
+        <types>Date</types>
+        <dateQualifiers/>
       </valueType>
       <view>
         <common>true</common>
@@ -3814,8 +3814,8 @@
       </title>
       <id>7</id>
       <valueType>
-        <types>String</types>
-        <stringQualifiers/>
+        <types>Date</types>
+        <dateQualifiers/>
       </valueType>
       <view>
         <common>true</common>

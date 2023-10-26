@@ -907,10 +907,6 @@
     <name>ПриОткрытии</name>
   </handlers>
   <handlers>
-    <event>BeforeClose</event>
-    <name>ПередЗакрытием</name>
-  </handlers>
-  <handlers>
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
@@ -928,7 +924,6 @@
   <excludedCommands>SaveValues</excludedCommands>
   <excludedCommands>Yes</excludedCommands>
   <width>80</width>
-  <height>20</height>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
