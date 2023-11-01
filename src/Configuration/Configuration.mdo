@@ -46,7 +46,7 @@
   <dataLockControlMode>Managed</dataLockControlMode>
   <modalityUseMode>DontUse</modalityUseMode>
   <synchronousPlatformExtensionAndAddInCallUseMode>UseWithWarnings</synchronousPlatformExtensionAndAddInCallUseMode>
-  <compatibilityMode>8.3.23</compatibilityMode>
+  <compatibilityMode>8.3.22</compatibilityMode>
   <defaultReportAppearanceTemplate>Arctic</defaultReportAppearanceTemplate>
   <languages uuid="e09d2861-0500-4260-b4ee-cb8d50a8a592">
     <name>Русский</name>
