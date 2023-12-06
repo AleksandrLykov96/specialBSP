@@ -694,6 +694,7 @@
 ИЗ
 	РегистрСведений.Спец_ЛогиПоОбъектам КАК Спец_ЛогиПоОбъектам</queryText>
       <mainTable>InformationRegister.Спец_ЛогиПоОбъектам</mainTable>
+      <dynamicDataRead>true</dynamicDataRead>
       <autoFillAvailableFields>true</autoFillAvailableFields>
       <customQuery>true</customQuery>
       <autoSaveUserSettings>true</autoSaveUserSettings>
