@@ -83,19 +83,6 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
-  <resources uuid="0155e0bd-31a8-4ffd-8808-6b4fee6b1ae4">
-    <name>ДополнительнаяИнформация</name>
-    <synonym>
-      <key>ru</key>
-      <value>Дополнительная информация</value>
-    </synonym>
-    <type>
-      <types>ValueStorage</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-  </resources>
   <dimensions uuid="1f476921-4755-4448-8eef-34d7f23965d8">
     <name>GTIN</name>
     <synonym>

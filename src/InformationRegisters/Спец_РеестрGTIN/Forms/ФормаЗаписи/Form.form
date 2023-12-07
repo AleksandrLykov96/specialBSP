@@ -148,55 +148,6 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
-    <name>ДополнительнаяИнформация</name>
-    <id>10</id>
-    <visible>true</visible>
-    <enabled>true</enabled>
-    <userVisible>
-      <common>true</common>
-    </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>ДополнительнаяИнформация</segments>
-    </dataPath>
-    <extendedTooltip>
-      <name>ДополнительнаяИнформацияРасширеннаяПодсказка</name>
-      <id>12</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <type>Label</type>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <extInfo xsi:type="form:LabelDecorationExtInfo">
-        <horizontalAlign>Left</horizontalAlign>
-      </extInfo>
-    </extendedTooltip>
-    <contextMenu>
-      <name>ДополнительнаяИнформацияКонтекстноеМеню</name>
-      <id>11</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <autoFill>true</autoFill>
-    </contextMenu>
-    <type>InputField</type>
-    <editMode>Enter</editMode>
-    <showInHeader>true</showInHeader>
-    <headerHorizontalAlign>Left</headerHorizontalAlign>
-    <showInFooter>true</showInFooter>
-    <extInfo xsi:type="form:InputFieldExtInfo">
-      <wrap>true</wrap>
-      <multiLine>true</multiLine>
-      <chooseType>true</chooseType>
-      <typeDomainEnabled>true</typeDomainEnabled>
-      <textEdit>true</textEdit>
-    </extInfo>
-  </items>
-  <items xsi:type="form:FormField">
     <name>ДатаОбновления</name>
     <id>7</id>
     <visible>true</visible>
@@ -294,32 +245,9 @@
     <main>true</main>
     <savedData>true</savedData>
   </attributes>
-  <attributes>
-    <name>ДополнительнаяИнформация</name>
-    <title>
-      <key>ru</key>
-      <value>Дополнительная информация</value>
-    </title>
-    <id>2</id>
-    <valueType>
-      <types>String</types>
-      <stringQualifiers/>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>
   </commandInterface>
-  <extInfo xsi:type="form:InformationRegisterManagerFormExtInfo">
-    <handlers>
-      <event>OnReadAtServer</event>
-      <name>ПриЧтенииНаСервере</name>
-    </handlers>
-  </extInfo>
+  <extInfo xsi:type="form:InformationRegisterManagerFormExtInfo"/>
 </form:Form>
